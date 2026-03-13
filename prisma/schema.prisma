@@ -1,0 +1,374 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ---------------------------
+// SIAM TREASURES - COMMERCE MODEL
+// ---------------------------
+model Amulet {
+  id           String    @id @default(uuid())
+  
+  // Real i18n
+  nameZh       String    @default("")
+  nameEn       String    @default("")
+  nameTh       String    @default("")
+  
+  descZh       String    @default("")
+  descEn       String    @default("")
+  descTh       String    @default("")
+  
+  materialZh   String    @default("")
+  materialEn   String    @default("")
+  
+  monkOrTemple String    @default("")
+  year         String    @default("")
+  
+  imageUrl     String    @default("/images/siam_treasure_placeholder.png")
+  price        Float     @default(88.00)
+   wholesalePrice Float?  // Phase 7: B2B Pricing
+  moq          Int       @default(1) // Phase 7: Minimum Order Quantity
+  stock        Int       @default(1)
+  isB2bOnly    Boolean   @default(false) // Phase 8: B2B Exclusive Catalog
+  
+  // Relations
+  comments     Comment[]
+  wishlistedBy Wishlist[]
+  orderItems   OrderItem[]
+  certificates Certificate[]
+  media        MediaVault[]
+  offers       Offer[]
+  
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+// ---------------------------
+// NEXT-AUTH & RBAC MODELS
+// ---------------------------
+model Account {
+  id                 String  @id @default(cuid())
+  userId             String
+  type               String
+  provider           String
+  providerAccountId  String
+  refresh_token      String?
+  access_token       String?
+  expires_at         Int?
+  token_type         String?
+  scope              String?
+  id_token           String?
+  session_state      String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?
+  role          String    @default("USER") // SUPER_ADMIN, STAFF, WHOLESALE, USER
+  permissions   String?   // JSON structured abilities for staffs
+  companyName   String?   // Phase 7: B2B Company Profile
+  paymentTerms  String    @default("IMMEDIATE") // Phase 8: IMMEDIATE, NET30, NET60
+  
+  
+  accounts      Account[]
+  sessions      Session[]
+  
+  // Relations
+  comments      Comment[]
+  orders        Order[]
+  wishlists     Wishlist[]
+  addresses     Address[]
+  profile       CollectorProfile?
+  offers        Offer[]
+  
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// ---------------------------
+// CUSTOMER & SOCIAL
+// ---------------------------
+model Address {
+  id        String   @id @default(uuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  phone     String   @default("")
+  country   String   @default("")
+  state     String   @default("")
+  city      String   @default("")
+  street    String   @default("")
+  postal    String   @default("")
+  isDefault Boolean  @default(false)
+}
+
+model Wishlist {
+  id        String   @id @default(uuid())
+  userId    String
+  amuletId  String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  amulet    Amulet   @relation(fields: [amuletId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  @@unique([userId, amuletId])
+}
+
+model Comment {
+  id         String   @id @default(uuid())
+  amuletId   String
+  userId     String?
+  author     String   @default("Anonymous") // Optional fallback
+  content    String
+  isApproved Boolean  @default(false)
+  rating     Int      @default(5) // 0-5 stars
+  images     String   @default("[]") // JSON string array of image urls
+  createdAt  DateTime @default(now())
+  
+  amulet     Amulet   @relation(fields: [amuletId], references: [id], onDelete: Cascade)
+  user       User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+}
+
+// ---------------------------
+// CHECKOUT & ORDERS
+// ---------------------------
+model Order {
+  id          String   @id @default(uuid())
+  userId      String
+  total       Float
+  status      String   @default("PENDING") // PENDING, PAID, SHIPPED, DELIVERED
+  
+  orderType   String   @default("DTC") // Phase 7: DTC or B2B
+  purchaseOrder String? // Phase 7: PO Number for B2B orders
+  
+  // Snapshot of Address
+  snapAddress String?  
+  snapPhone   String?
+  snapCasing  String?  // JSON snapshot containing combined casing configurations
+  
+  // Fulfillment Tracking
+  trackingNumber   String?
+  trackingProvider String?
+
+  // Stripe
+  stripeSessionId String? @unique
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  items       OrderItem[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model OrderItem {
+  id       String @id @default(uuid())
+  orderId  String
+  amuletId String
+  quantity Int
+  price    Float
+  
+  order    Order  @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  amulet   Amulet @relation(fields: [amuletId], references: [id], onDelete: Restrict)
+}
+
+// ---------------------------
+// SYSTEM SETTINGS & AUDIT
+// ---------------------------
+model SiteSetting {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
+model MarketingConfig {
+  id                   String   @id @default("global") 
+  fakePopupsEnabled    Boolean  @default(false)
+  popupIntervalMin     Int      @default(5)
+  popupIntervalMax     Int      @default(15)
+  fakeSalesCities      String   @default("北京,上海,广州,深圳,成都,杭州,香港,台北,新加坡,吉隆坡,纽约,多伦多") // Comma separated
+  fakeSalesNames       String   @default("王先生,陈女士,李先生,张女士,刘先生,吴女士,郑先生,黄女士,Jefferson,Alex,Linda") // Comma separated
+  fakeViewsEnabled     Boolean  @default(false)
+  baseVisitorCount     Int      @default(1250)
+  visitorIncrementRate Int      @default(5)
+  visitorTickInterval  Int      @default(12) // How often to jump in seconds
+  updatedAt            DateTime @updatedAt
+}
+
+model AuditLog {
+  id        String   @id @default(uuid())
+  username  String
+  type      String   @default("WRITE") // READ, WRITE, SYSTEM
+  action    String
+  targetId  String?
+  details   String?
+  createdAt DateTime @default(now())
+}
+
+model EmailLog {
+  id        String   @id @default(uuid())
+  recipient String
+  subject   String
+  bodyHtml  String
+  status    String   @default("SENT") // SENT, FAILED
+  orderId   String?  // Optional relation to Order
+  createdAt DateTime @default(now())
+}
+
+// ---------------------------
+// MODULE 1: PROVENANCE & CERTIFICATION
+// ---------------------------
+model Certificate {
+  id           String   @id @default(uuid())
+  amuletId     String
+  institution  String   // e.g. Samakom, Thaprachan, G-Pra
+  certNumber   String
+  issueDate    String?
+  imageUrl     String
+  
+  amulet       Amulet   @relation(fields: [amuletId], references: [id], onDelete: Cascade)
+  createdAt    DateTime @default(now())
+}
+
+// ---------------------------
+// MODULE 2: CASING CONFIGURATOR
+// ---------------------------
+model CasingOption {
+  id              String   @id @default(uuid())
+  name            String
+  material        String   // Gold, Silver, Acrylic
+  additionalPrice Float
+  leadTimeDays    Int      @default(3)
+  isActive        Boolean  @default(true)
+  createdAt       DateTime @default(now())
+}
+
+// ---------------------------
+// MODULE 3: COLLECTOR CRM & PRIVATE OFFERS
+// ---------------------------
+model CollectorProfile {
+  id              String   @id @default(uuid())
+  userId          String   @unique
+  preferences     String?  // JSON string containing preferences like favored monks, effects
+  lifetimeValue   Float    @default(0.0)
+  
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Offer {
+  id                String   @id @default(uuid())
+  userId            String
+  amuletId          String
+  offerPrice        Float
+  status            String   @default("PENDING") // PENDING, ACCEPTED, REJECTED
+  stripePaymentLink String?
+  contactInfo       String?
+  message           String?
+  
+  user              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  amulet            Amulet   @relation(fields: [amuletId], references: [id], onDelete: Cascade)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+}
+
+// ---------------------------
+// MODULE 4: MEDIA VAULT (360 & Material)
+// ---------------------------
+model MediaVault {
+  id           String   @id @default(uuid())
+  amuletId     String
+  url          String
+  mediaType    String   // Front, Back, Side, Macro_Material, Video_360
+  
+  amulet       Amulet   @relation(fields: [amuletId], references: [id], onDelete: Cascade)
+  createdAt    DateTime @default(now())
+}
+
+// ---------------------------
+// MODULE 5: DYNAMIC CMS & SITE SETTINGS ENGINE
+// ---------------------------
+model SiteConfig {
+  id          String   @id @default("global_config")
+  
+  // Marketing & Hero Section
+  heroTitleZh String   @default("传承神圣 护佑一生")
+  heroTitleEn String   @default("Divine Heritage, Lifetime Protection")
+  heroDescZh  String   @default("Siam Treasures 位于曼谷核心，是全球顶级的泰国佛牌真品殿堂。")
+  heroDescEn  String   @default("Siam Treasures, located in the heart of Bangkok, is the world's premier vault for authentic Thai amulets.")
+  
+  // Marketing Triggers
+  baseVisitorCount Int @default(1250)
+  isVisitorCounterEnabled Boolean @default(true)
+  visitorIncrementRate Int @default(5)
+  visitorJumpInterval Int @default(12)
+  isSalesPopupEnabled Boolean @default(true)
+  salesPopupFrequency Int @default(15)
+  
+  announcementBarZh String? // "全场结缘包邮"
+  announcementBarEn String? // "Free shipping worldwide on all collections"
+  
+  // Footer CMS
+  footerTextZh      String @default("秉持文化传承，所有圣物均经过严苛的宗教开光与真品历史审查，提供绝对的纯粹与保障。")
+  footerTextEn      String @default("Dedicated to cultural heritage. All items have undergone rigorous religious consecration and historical authentication, providing absolute purity and assurance.")
+  copyrightYear     String @default("2026")
+  systemVersionText String @default("安全保管库系统 v2.0")
+
+  // Global Features Toggle
+  isStripeEnabled Boolean @default(true)
+  isOfferEnabled   Boolean @default(true)
+
+  updatedAt   DateTime @updatedAt
+}
+
+model Article {
+  id          String   @id @default(uuid())
+  slug        String   @unique
+  titleZh     String
+  titleEn     String
+  contentZh   String
+  contentEn     String
+  imageUrl    String?
+  author      String   @default("Admin")
+  isPublished Boolean  @default(false)
+  category    String   @default("NEWS") // NEWS, KNOWLEDGE, CEREMONY
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model NavigationItem {
+  id        String   @id @default(uuid())
+  group     String   // e.g. HEADER_MAIN, HEADER_MEGA_CATEGORY, HEADER_MEGA_MASTER, FOOTER_NAV, FOOTER_LEGAL
+  labelZh   String
+  labelEn   String
+  href      String
+  order     Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

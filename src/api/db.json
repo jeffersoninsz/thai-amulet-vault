@@ -1,0 +1,5772 @@
+[
+  {
+    "id": "amulet-liew-2536",
+    "thaiName": "พญาเต่าเรือน หลวงปู่หลิว",
+    "chineseName": "招财 神龟",
+    "monkOrTemple": "龙婆柳 (Luang Phor Liew) / 瓦莱唐通寺",
+    "year": "B.E. 2536 (1993)",
+    "material": "金属",
+    "description": "出自公司资料库《2536年-龙婆柳-招I財鉮龟》。以独特的龟形铸造，通体黄铜材质并刻满密密麻麻的招财挡险经文。被视作延年益寿、守财聚财的顶级圣物，在商业界极受欢迎。",
+    "imageUrl": "/images/turtle.png"
+  },
+  {
+    "id": "amulet-sod-2500",
+    "thaiName": "ดอกกล้วยไม้ หลวงพ่อสด",
+    "chineseName": "牙雕 白兰花",
+    "monkOrTemple": "龙婆术 (Luang Phor Sod) / 瓦白榄寺",
+    "year": "B.E. 2500 (1957)",
+    "material": "骨雕",
+    "description": "出自公司资料库《[文华编写] 2500年-龙婆术-牙雕白兰花》。极度珍稀的冠兰圣物，由泰国九大圣僧之一的龙婆术亲自雕刻的象牙质地白兰花。形态优雅，具备提升自身气场、深受贵人赏识的强大法力。",
+    "imageUrl": "/images/flower.png"
+  },
+  {
+    "id": "amulet-krissana-2562",
+    "thaiName": "เทพจำแลงภมร ครูบากฤษณะ",
+    "chineseName": "幸缘 蝴蝶牌 (大模)",
+    "monkOrTemple": "古巴杰士纳 (Kruba Krissana) / 玛哈湾寺",
+    "year": "B.E. 2562 (2019)",
+    "material": "混合材质",
+    "description": "出自公司资料库《2562年-古巴杰士纳-幸缘蝴蝶牌》。由蝴蝶王大师古巴杰士纳亲制大模。使用了108种花粉香料，背面镶塞满彩色宝石与符管，香气浓郁，招人缘桃花与正偏财。",
+    "imageUrl": "/images/butterfly.png"
+  },
+  {
+    "id": "amulet-koon-2517",
+    "thaiName": "พระปิดตา หลวงพ่อคูณ",
+    "chineseName": "纪念版 必打佛",
+    "monkOrTemple": "龙婆坤 (Luang Phor Koon) / 瓦班莱寺",
+    "year": "B.E. 2517 (1974)",
+    "material": "圣粉",
+    "description": "出自公司资料库《[文化编写] 2517年-龙婆坤-龙婆坤特别纪念版必打佛》。采用香灰、庙土与特制圣粉混合制成，背面印有龙婆坤经典的独特符印。有着极强的人缘与挡险避灾之功能。",
+    "imageUrl": "/images/koon_pidta.png"
+  },
+  {
+    "id": "52d22016",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "佛牌行业专业术语",
+    "monkOrTemple": "未知高僧",
+    "year": "佛牌行业专业术语",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：佛牌行业专业术语.xlsx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b4a4af72",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆妹-南帕亚女王佛",
+    "monkOrTemple": "2517年",
+    "year": "2510",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2510-2517年-龙婆妹-南帕亚女王佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e20465b2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆妹-莲花法座坤平",
+    "monkOrTemple": "2517年",
+    "year": "2510",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2510-2517年-龙婆妹-莲花法座坤平.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0949cb78",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤特别纪念版必打佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2517年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2517年-龙婆坤-龙婆坤特别纪念版必打佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "001c5fe4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "督导崇迪佛",
+    "monkOrTemple": "大法会",
+    "year": "2520年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2520年-大法会-督导崇迪佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "942c4f06",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "小鼠币",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2526年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2526年-龙婆卡贤-小鼠币.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "38284fe2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆普-聖象啦胡天鉮",
+    "monkOrTemple": "2531年",
+    "year": "2530",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2530-2531年-龙婆普-聖象啦胡天鉮.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f2d418f2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆本潒聖观音",
+    "monkOrTemple": "龙婆本",
+    "year": "2535年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2535年-龙婆本-龙婆本潒聖观音.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e251c010",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "招I財鉮龟",
+    "monkOrTemple": "龙婆柳",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆柳-招I財鉮龟.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "88eaa3fe",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "藏传药师佛 (小模)",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2538年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2538年-龙婆卡贤- 藏传药师佛 (小模).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "14e38207",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "84岁上寿富贵版必打",
+    "monkOrTemple": "Som Dej Pra Yan Na Suang Vorn",
+    "year": "2540年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2540年-Som Dej Pra Yan Na Suang Vorn-84岁上寿富贵版必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0c6d8305",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "蒂一期四面鉮",
+    "monkOrTemple": "龙婆碰",
+    "year": "2544年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2544年-龙婆碰-蒂一期四面鉮.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "85e0198e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "火焰药师佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2548年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2548年-龙婆坤-火焰药师佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "237922a6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "坤平六手必打佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2553年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2553年-龙婆坤-坤平六手必打佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "46769d13",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "金面九符管必打",
+    "monkOrTemple": "龙婆堪布",
+    "year": "2554年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2554年-龙婆堪布-金面九符管必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1b600e47",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "金面佛",
+    "monkOrTemple": "龙婆珀师父",
+    "year": "2559年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2559年-龙婆珀师父-金面佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c3ad7f9a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "幸缘蝴蝶牌 (大模)",
+    "monkOrTemple": "古巴杰士纳",
+    "year": "2562年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2562年-古巴杰士纳-幸缘蝴蝶牌 (大模) - 副本.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d5636fba",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "蝴蝶牌 (大模)",
+    "monkOrTemple": "古巴杰士纳",
+    "year": "2562年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2562年-古巴杰士纳-蝴蝶牌 (大模).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "75746c61",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "象头",
+    "monkOrTemple": "古巴杰士纳",
+    "year": "2562年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2562年-古巴杰士纳-象头.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f2434185",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "亲情守护四面佛",
+    "monkOrTemple": "龙婆禅南",
+    "year": "2562年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2562年-龙婆禅南-亲情守护四面佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "36edfc78",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "特别版普里苏托药师佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文化编写] 2536年-龙婆坤-特别版普里苏托药师佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ae806951",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "山丘成功佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2553年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文化编写] 2553年-龙婆坤-山丘成功佛 .doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "52ecd9eb",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "牙雕白兰花",
+    "monkOrTemple": "龙婆术",
+    "year": "2500年",
+    "material": "骨雕",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2500年-龙婆术-牙雕白兰花.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9d7b4cf6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "咩奴红幸纭星",
+    "monkOrTemple": "龙婆碧纳",
+    "year": "2500年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2500年-龙婆碧纳-咩奴红幸纭星.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8b22b0ca",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普娇米尼供奉型必打",
+    "monkOrTemple": "龙普娇",
+    "year": "2510年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2510年-龙普娇-龙普娇米尼供奉型必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0e265549",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "四期白览佛",
+    "monkOrTemple": "龙婆术",
+    "year": "2514年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2514年-龙婆术-四期白览佛 - 副本.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "90bae4d4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普元84周年庆祝版成功佛",
+    "monkOrTemple": "大法会",
+    "year": "2517年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2517年-大法会-龙普元84周年庆祝版成功佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cb1e553e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "发蓝必打佛",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2517年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2517年-龙婆卡贤-发蓝必打佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8b497a0b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆通属立尊观音",
+    "monkOrTemple": "龙婆通属",
+    "year": "2518年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2518年-龙婆通属-龙婆通属立尊观音 .doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0fc4e798",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "周冠威猜荷绽必打",
+    "monkOrTemple": "周冠威猜",
+    "year": "2519年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2519年-周冠威猜-周冠威猜荷绽必打.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ed2d32c5",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "普里苏托药师佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2519年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2519年-龙婆坤-普里苏托药师佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c81e25d3",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆培帕洛佛",
+    "monkOrTemple": "龙婆培",
+    "year": "2519年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2519年-龙婆培-龙婆培帕洛佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cdd2ca9c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "纳玛哈富翁必打",
+    "monkOrTemple": "龙普多",
+    "year": "2524年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2524年-龙普多-纳玛哈富翁必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "efa41f78",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "皇妃药师佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2535年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2535年-龙婆坤-皇妃药师佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fc562d5c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "Mini双面必打",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2536年-龙婆坤-Mini双面必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d6b498da",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "椰壳拉胡自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2536年-龙婆坤-椰壳拉胡自身 .doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2c71aef4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "金鸡崇迪",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2536年-龙婆坤-金鸡崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "77ab26f7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "银坤银靠山佛 红龙牙",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2536年-龙婆坤-银坤银靠山佛 红龙牙.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "249d8f6a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "昭坤培崇迪",
+    "monkOrTemple": "龙婆培",
+    "year": "2537年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2537年-龙婆培-昭坤培崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9ce3b0a1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "黑木四面佛",
+    "monkOrTemple": "龙婆禅南",
+    "year": "2548年",
+    "material": "木雕",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2548年-龙婆禅南-黑木四面佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "134076ae",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "瓦帕哈玛塔泽镀金",
+    "monkOrTemple": "大法会",
+    "year": "2549年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2549年-大法会-瓦帕哈玛塔泽镀金 .doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ccd30999",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "搪瓷坤平佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2553年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2553年-龙婆坤-搪瓷坤平佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e39d1553",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "潮运小古漫潼",
+    "monkOrTemple": "帕阿赞湾",
+    "year": "2555年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2555年-帕阿赞湾-潮运小古漫潼.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1c9af45d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "奠基仪式版的派古曼粉坤平",
+    "monkOrTemple": "龙普添",
+    "year": "2555年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2555年-龙普添-奠基仪式版的派古曼粉坤平.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5b4d5c9a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "金符管鉮木必打佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2556年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2556年-龙婆坤-金符管鉮木必打佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8005bdb0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "盾牌四面佛",
+    "monkOrTemple": "龙普贤",
+    "year": "2562年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2562年-龙普贤-盾牌四面佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9040444b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "阿瓦洛基特萨瓦药师佛",
+    "monkOrTemple": "龙婆通",
+    "year": "2564年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2564年-龙婆通-阿瓦洛基特萨瓦药师佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "28d5ddaa",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "有求皆满火焰必达",
+    "monkOrTemple": "龙普多",
+    "year": "2564年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2564年-龙普多-有求皆满火焰必达.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "822911ee",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "百万富翁维素万手链-",
+    "monkOrTemple": "龙婆易",
+    "year": "2565年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2565年-龙婆易-百万富翁维素万手链-.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9705db4b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "五眼四耳 (Ruay Ruay Ruay系列)",
+    "monkOrTemple": "古巴博洋",
+    "year": "2566年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2566年-古巴博洋-五眼四耳 (Ruay Ruay Ruay系列).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4ef9e6c0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "时运王拉胡天神 - 用于合并",
+    "monkOrTemple": "大法会",
+    "year": "2566年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2566年-大法会-时运王拉胡天神 - 用于合并.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "16585e07",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "福運九头娜迦蛇",
+    "monkOrTemple": "普习苏托",
+    "year": "2566年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2566年-普习苏托-福運九头娜迦蛇.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "800279e1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "8循环心想事成手链",
+    "monkOrTemple": "龙婆興",
+    "year": "2566年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2566年-龙婆興-8循环心想事成手链.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d7b8a489",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普兴自身富裕战胜贫穷款",
+    "monkOrTemple": "龙普兴",
+    "year": "2566年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2566年-龙普兴-龙普兴自身富裕战胜贫穷款.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "af7a16f9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "打留",
+    "monkOrTemple": "大法会",
+    "year": "2567年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2567年-大法会-打留.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a2a181c2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆培-一期女王佛",
+    "monkOrTemple": "2506年",
+    "year": "",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写]-2506年-龙婆培-一期女王佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0752b4da",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆安南-一期象头",
+    "monkOrTemple": "2566年",
+    "year": "",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写]-2566年-龙婆安南-一期象头.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "722082e2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20230518163004",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20230518163004",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20230518163004.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c61708cc",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20230518163059",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20230518163059",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20230518163059.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1595e2f8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20230518163102",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20230518163102",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20230518163102.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9b9746f3",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20230518163108",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20230518163108",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20230518163108.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9ffe1fc8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20230518163111",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20230518163111",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20230518163111.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a7158228",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20230518163114",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20230518163114",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20230518163114.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "dd9cb66a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20230518163118",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20230518163118",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20230518163118.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "220e885b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20230518163121",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20230518163121",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20230518163121.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fea82e24",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20230518163124",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20230518163124",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20230518163124.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "915d79da",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "莲花六手必打",
+    "monkOrTemple": "龙婆坤",
+    "year": "2522年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2522年-龙婆坤-莲花六手必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "dbb5ca42",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "亲那拉成功佛",
+    "monkOrTemple": "大法会",
+    "year": "2525年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2525年-大法会-亲那拉成功佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "48e595a9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "天眼",
+    "monkOrTemple": "龙婆碧纳",
+    "year": "2527年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2527年-龙婆碧纳-天眼.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "34421922",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆培-亲那班成小崇迪 .doc",
+    "monkOrTemple": "2536年",
+    "year": "待检查",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：待检查 - 2536年-龙婆培-亲那班成小崇迪 .doc.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "82b0d00e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "大法会-mini荣耀泽度金",
+    "monkOrTemple": "2550年",
+    "year": "待检查",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：待检查-2550年-大法会-mini荣耀泽度金.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5328926d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆本-三圣色双面拉胡天神",
+    "monkOrTemple": "2558年",
+    "year": "待检查",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：待检查-2558年-龙婆本-三圣色双面拉胡天神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fa0301d2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "草莓必达",
+    "monkOrTemple": "阿赞de",
+    "year": "待检查2566年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：待检查2566年-阿赞de-草莓必达.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1e569277",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆饮-招财女神",
+    "monkOrTemple": "2470年",
+    "year": "2460",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2460-2470年-龙婆饮-招财女神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "abf82662",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "素斋版招财龟",
+    "monkOrTemple": "龙普柳",
+    "year": "2537年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2537年-龙普柳-素斋版招财龟.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c7439afd",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "心想事成象神",
+    "monkOrTemple": "大法会",
+    "year": "2550年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2550年-大法会-心想事成象神 .docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "11de53fe",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "金属版立尊小必打",
+    "monkOrTemple": "龙婆堪布",
+    "year": "2556年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2556年-龙婆堪布-金属版立尊小必打.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "54064352",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "乘龙立尊观音",
+    "monkOrTemple": "龙普基",
+    "year": "2556年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2556年-龙普基-乘龙立尊观音.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3352c44e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "背拉胡金脸必打",
+    "monkOrTemple": "龙普基",
+    "year": "2557年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2557年-龙普基-背拉胡金脸必打.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b90aad35",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "莲花座迷你象神",
+    "monkOrTemple": "阿赞叻(Lek)",
+    "year": "2561年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2561年-阿赞叻(Lek)-莲花座迷你象神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7fec255c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "百年坤平 (红肉黄铜符管)",
+    "monkOrTemple": "龙婆帕",
+    "year": "2564年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2564年-龙婆帕-百年坤平 (红肉黄铜符管).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3ede1427",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "百亿富翁象神",
+    "monkOrTemple": "龙普洛",
+    "year": "2564年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2564年-龙普洛-百亿富翁象神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2884fdd6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "福瑞拉胡天神",
+    "monkOrTemple": "阿赞叻 (Lek)",
+    "year": "2566年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2566年-阿赞叻 (Lek)-福瑞拉胡天神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fad1946e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆本观音",
+    "monkOrTemple": "龙婆本",
+    "year": "2537年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2537年-龙婆本-龙婆本观音.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "66af1be6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "食日月拉胡天神",
+    "monkOrTemple": "龙婆本",
+    "year": "2538年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2538年-龙婆本-食日月拉胡天神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ef4d0185",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "帕拉娜娜通",
+    "monkOrTemple": "帕阿赞Prasut",
+    "year": "文华编写] 2566年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[]文华编写] 2566年-帕阿赞Prasut-帕拉娜娜通.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f11f7488",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龟-牛情债佛",
+    "monkOrTemple": "龙婆碧纳",
+    "year": "2527年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文化编写] 2527年-龙婆碧纳-龟-牛情债佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "690cac17",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤钱袋子自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文化编写] 2536年-龙婆坤-龙婆坤钱袋子自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "161d82d9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玉石崇迪",
+    "monkOrTemple": "龙婆宏",
+    "year": "2555年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文化编写] 2555年-龙婆宏-玉石崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3c220f59",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "菩提叶九层座崇迪",
+    "monkOrTemple": "龙婆宏",
+    "year": "2555年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文化编写] 2555年-龙婆宏-菩提叶九层座崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0b5d958e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "虎头符管",
+    "monkOrTemple": "龙婆 Aeun",
+    "year": "2561年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文化编写] 2561年-龙婆 Aeun-虎头符管.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7e2af013",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "百万银兰必打",
+    "monkOrTemple": "龙婆坤",
+    "year": "[文华编写 2540年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写 2540年-龙婆坤-百万银兰必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f03ff326",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "古曼童吸胎盘",
+    "monkOrTemple": "龙婆晨",
+    "year": "2518年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2518年-龙婆晨-古曼童吸胎盘.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7f70b9b7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普多观音",
+    "monkOrTemple": "龙普多",
+    "year": "2518年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2518年-龙普多-龙普多观音.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "634c5b09",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆碧纳-背观音崇迪",
+    "monkOrTemple": "2545年",
+    "year": "2527",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2527-2545年-龙婆碧纳-背观音崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "dba28fb4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "纳差利帝符文版赌王崇迪",
+    "monkOrTemple": "龙婆碧纳",
+    "year": "2527年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2527年-龙婆碧纳-纳差利帝符文版赌王崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "91847281",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "迷你型帕素天神背善伽財珍宝版",
+    "monkOrTemple": "龙婆碧纳",
+    "year": "2527年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2527年-龙婆碧纳-迷你型帕素天神背善伽財珍宝版 .doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "03536176",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "珍宝必打",
+    "monkOrTemple": "龙婆培",
+    "year": "2531年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2531年-龙婆培-珍宝必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6816ce61",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "星期佛崇迪",
+    "monkOrTemple": "龙婆坤",
+    "year": "2537年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2537年-龙婆坤-星期佛崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "dede48e6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤水滴自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2537年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2537年-龙婆坤-龙婆坤水滴自身 - 副本.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "258125a1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "澢降贝",
+    "monkOrTemple": "龙婆乐",
+    "year": "2542年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2542年-龙婆乐-澢降贝.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9591f3e5",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "旁巴干",
+    "monkOrTemple": "大法会",
+    "year": "2549年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2549年-大法会-旁巴干.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "70af939d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "虎牙",
+    "monkOrTemple": "龙婆Chan",
+    "year": "2550年",
+    "material": "骨雕",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2550年-龙婆Chan-虎牙.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "da6d9fea",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "九面富贵佛",
+    "monkOrTemple": "龙普Somboon",
+    "year": "2551年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2551年-龙普Somboon-九面富贵佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "30f520bd",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "二哥丰",
+    "monkOrTemple": "龙普基",
+    "year": "2553年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2553年-龙普基-二哥丰.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c2961108",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈富翁针荷花佛",
+    "monkOrTemple": "帕阿赞湾",
+    "year": "2555年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2555年-帕阿赞湾-玛哈富翁针荷花佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "59246765",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "富王佛崇迪",
+    "monkOrTemple": "阿赞苏斌",
+    "year": "2555年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2555年-阿赞苏斌-富王佛崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "640ef387",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆宏象神必打",
+    "monkOrTemple": "龙婆宏",
+    "year": "2555年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2555年-龙婆宏-龙婆宏象神必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7e88fb66",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "马食能符管",
+    "monkOrTemple": "鲁士Dech",
+    "year": "2556年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2556年-鲁士Dech-马食能符管.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a18e92f9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "福运风车",
+    "monkOrTemple": "古巴Ariya Chat",
+    "year": "2558年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2558年-古巴Ariya Chat-福运风车.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1fb2e9e0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "纳特波波吉天神",
+    "monkOrTemple": "阿赞Sankongviej",
+    "year": "2559年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2559年-阿赞Sankongviej-纳特波波吉天神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "630745d9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "金属版天官赐福",
+    "monkOrTemple": "吴锦溪",
+    "year": "2560年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2560年- 吴锦溪-金属版天官赐福.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "56f1993e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "敬师版二哥丰",
+    "monkOrTemple": "阿赞苏斌",
+    "year": "2560年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2560年-阿赞苏斌-敬师版二哥丰.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "52a76fbf",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "迷你骑凤四面佛",
+    "monkOrTemple": "龙婆禅南",
+    "year": "2560年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2560年-龙婆禅南-迷你骑凤四面佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "37ac4111",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "帕西瓦里",
+    "monkOrTemple": "古巴Phon",
+    "year": "2561年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2561年-古巴Phon-帕西瓦里.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "520becc6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "骑象四面佛",
+    "monkOrTemple": "大法会",
+    "year": "2561年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2561年-大法会-骑象四面佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a44b3ec0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈瑟提膏",
+    "monkOrTemple": "龙婆Wan",
+    "year": "2561年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2561年-龙婆Wan-玛哈瑟提膏.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f506ccc0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈四面法杖",
+    "monkOrTemple": "龙普Nen Kaew",
+    "year": "2561年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2561年-龙普Nen Kaew-玛哈四面法杖.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "faa741bb",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "二哥丰",
+    "monkOrTemple": "龙普Tar",
+    "year": "2561年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2561年-龙普Tar-二哥丰.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a85a91a7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈威力老虎",
+    "monkOrTemple": "龙婆Sut",
+    "year": "2562年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2562年-龙婆Sut-玛哈威力老虎.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2e8a8ea7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "背吸钱葫芦爱凯",
+    "monkOrTemple": "大法会",
+    "year": "2563",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2563-大法会-背吸钱葫芦爱凯.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "88cc49ff",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "鲁士头",
+    "monkOrTemple": "龙婆Klom",
+    "year": "2563年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2563年-龙婆Klom-鲁士头.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e8bc36bb",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "十亿富翁狮子",
+    "monkOrTemple": "龙婆帕",
+    "year": "2563年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2563年-龙婆帕-十亿富翁狮子 .doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a095d350",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "哈努曼",
+    "monkOrTemple": "龙普Kaew",
+    "year": "2563年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2563年-龙普Kaew-哈努曼.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "dbdb8e18",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "百亿富翁版二哥丰",
+    "monkOrTemple": "龙普洛",
+    "year": "2563年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2563年-龙普洛-百亿富翁版二哥丰 .doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "23c95dee",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "老鼠喝猫奶",
+    "monkOrTemple": "古巴Kham Peng",
+    "year": "2565年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2565年-古巴Kham Peng-老鼠喝猫奶.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "48183cbd",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "五眼四耳",
+    "monkOrTemple": "古巴博洋",
+    "year": "2565年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2565年-古巴博洋-五眼四耳.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "30278094",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "拍婴",
+    "monkOrTemple": "龙婆klom",
+    "year": "2565年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2565年-龙婆klom-拍婴.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5fbb7825",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "魂魄湧",
+    "monkOrTemple": "龙普通湾",
+    "year": "2566年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2566年-龙普通湾-魂魄湧.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b2780944",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "二哥丰",
+    "monkOrTemple": "大法会",
+    "year": "2567年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2567年-大法会-二哥丰.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "397ff57b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "人缘膏",
+    "monkOrTemple": "阿赞Phrom",
+    "year": "2567年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2567年-阿赞Phrom-人缘膏.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "54ea39ca",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "2567年-黑猫王二期",
+    "monkOrTemple": "黑猫王二期",
+    "year": "2567年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2567年-黑猫王二期.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3c53c62b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "鼓皮魂魄湧",
+    "monkOrTemple": "龙普Phongsak",
+    "year": "2567年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2567年-龙普Phongsak-鼓皮魂魄湧.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4c0b234d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆碧纳-上校幸运星 (刀奈潘)",
+    "monkOrTemple": "2527年",
+    "year": "2500",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2500-2527年-龙婆碧纳-上校幸运星 (刀奈潘).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "462f63a0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆碧纳-帕威耐背善伽財",
+    "monkOrTemple": "2530年",
+    "year": "2527",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2527-2530年-龙婆碧纳-帕威耐背善伽財.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "33a4c5fa",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆碧纳-覃扎伦汤背阿赞曼",
+    "monkOrTemple": "2545年",
+    "year": "2527",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2527-2545年-龙婆碧纳-覃扎伦汤背阿赞曼.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "933a578b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "帕巴拉玛崇迪",
+    "monkOrTemple": "龙婆碧纳",
+    "year": "2535年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2535年-龙婆碧纳-帕巴拉玛崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7cdd403f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "25佛历世纪玉佛",
+    "monkOrTemple": "大法会",
+    "year": "2500年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文化编写] 2500年-大法会-25佛历世纪玉佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fe0c3980",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "十世佛",
+    "monkOrTemple": "龙婆银",
+    "year": "2512年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2512年-龙婆银-十世佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fced5f9c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "爱凯邮票塔固",
+    "monkOrTemple": "大法会",
+    "year": "2563年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2563年-大法会-爱凯邮票塔固.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "255a1880",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "虎骑巴拉吉",
+    "monkOrTemple": "龙婆班荣",
+    "year": "2539年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文化编写] 2539年-龙婆班荣-虎骑巴拉吉.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6d5206d8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "二头则镀金 (皇帝之宝系列)",
+    "monkOrTemple": "大法会",
+    "year": "2549年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文化编写] 2549年-大法会-二头则镀金 (皇帝之宝系列).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "127dabf4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "觉悟崇迪",
+    "monkOrTemple": "坤麦奔伦",
+    "year": "2499年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2499年-坤麦奔伦-觉悟崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b37cf5c3",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "战胜敌人崇迪",
+    "monkOrTemple": "大法会",
+    "year": "2514年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2514年-大法会-战胜敌人崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8e891bde",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "佛祖币背阿赞多",
+    "monkOrTemple": "龙婆贵",
+    "year": "2514年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2514年-龙婆贵-佛祖币背阿赞多.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "78f4e91a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "派咕嫚粉招财女神",
+    "monkOrTemple": "龙婆贵",
+    "year": "2515年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2515年-龙婆贵-派咕嫚粉招财女神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ed5fdc97",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "牙雕立尊四瓦里",
+    "monkOrTemple": "龙普凡",
+    "year": "2517年",
+    "material": "骨雕",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2517年-龙普凡-牙雕立尊四瓦里.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5081046b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "开世佛背观音",
+    "monkOrTemple": "龙婆碧纳",
+    "year": "2527年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2527年- 龙婆碧纳-开世佛背观音.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "256760c9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "贴金仪式版成功佛",
+    "monkOrTemple": "大法会",
+    "year": "2547年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2547年-大法会-贴金仪式版成功佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cdc60f04",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "富贵不尽版泽镀金",
+    "monkOrTemple": "大法会",
+    "year": "2550年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2550年-大法会-富贵不尽版泽镀金.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "18e425a8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "弓箭牛",
+    "monkOrTemple": "龙婆漂",
+    "year": "2552年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2552年-龙婆漂-弓箭牛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ceeefd32",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "二哥丰",
+    "monkOrTemple": "大法会",
+    "year": "2561年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2561年-大法会-二哥丰.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ff1e1212",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "粉色人缘膏",
+    "monkOrTemple": "古巴丙",
+    "year": "2567年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2567年-古巴丙-粉色人缘膏.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "344859e7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "虎王抱糖",
+    "monkOrTemple": "古巴岛",
+    "year": "2564年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2564年-古巴岛-虎王抱糖.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7bf96cc0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈无必打",
+    "monkOrTemple": "龙婆坤",
+    "year": "2518年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2518年-龙婆坤- 玛哈无必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2a4dfd47",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤做圣水版自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2526年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2526年-龙婆坤-龙婆坤做圣水版自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a208e5cc",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤建设寺庙食堂及围墙版自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2528年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2528年-龙婆坤- 龙婆坤建设寺庙食堂及围墙版自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "eec442c6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤繁荣版崇迪",
+    "monkOrTemple": "龙婆坤",
+    "year": "2530年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2530年-龙婆坤- 龙婆坤繁荣版崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3feb6a13",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤拉沙咪佛祖",
+    "monkOrTemple": "龙婆坤",
+    "year": "2530年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2530年-龙婆坤-龙婆坤拉沙咪佛祖.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "40d75b10",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤建设金佛殿纪念版自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2532年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2532年-龙婆坤- 龙婆坤建设金佛殿纪念版自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "19f6bb76",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "背佛塔印七龙崇迪",
+    "monkOrTemple": "龙婆坤",
+    "year": "2535年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2535年-龙婆坤-背佛塔印七龙崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1fd476c0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "巴拉米71崇迪 (财富增倍版)",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2536年-龙婆坤-巴拉米71崇迪 (财富增倍版).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "88fe52d1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤心祈祷版自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2536年-龙婆坤-龙婆坤心祈祷版自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f1787c9c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤自我崇迪",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2536年-龙婆坤-龙婆坤自我崇迪 - 副本.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3e5bec75",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤自身 (支持艺术及工艺中心版)",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2536年-龙婆坤-龙婆坤自身 (支持艺术及工艺中心版).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "61f7cedb",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "第一期佛台版自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2555年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2555年-龙婆坤-第一期佛台版自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0c83451d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普纳菩提叶崇迪",
+    "monkOrTemple": "龙普纳",
+    "year": "2495至2500",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：[文华编写] 2495至2500-龙普纳-龙普纳菩提叶崇迪.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "40558d56",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "招财粉⻳",
+    "monkOrTemple": "⻰婆柳",
+    "year": "2540年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2540年-⻰婆柳-招财粉⻳.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "eb301092",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "神龙法座观音菩萨",
+    "monkOrTemple": "拉廊府",
+    "year": "2539年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2539年-拉廊府-神龙法座观音菩萨.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c2705629",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "财富倍增版座山佛",
+    "monkOrTemple": "龙婆瑞",
+    "year": "2556",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2556-龙婆瑞-财富倍增版座山佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a896d735",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "阿赞旁-碎石家有福版坤平",
+    "monkOrTemple": "2562年",
+    "year": "2561",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2561-2562年-阿赞旁-碎石家有福版坤平.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ff6b84a7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "第一期帕亚响铃福猪",
+    "monkOrTemple": "龙婆翋",
+    "year": "2561年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2561年-龙婆翋-第一期帕亚响铃福猪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3ca02758",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "帮里拉佛-菠萝蜜叶佛（行走佛）",
+    "monkOrTemple": "菠萝蜜叶佛（行走佛）",
+    "year": "帮里拉佛",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：帮里拉佛-菠萝蜜叶佛（行走佛）.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ec5fe6b8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "幸运星",
+    "monkOrTemple": "未知高僧",
+    "year": "幸运星",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：幸运星.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "21495b6c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "头版普陀耐佛（小模）",
+    "monkOrTemple": "葡萄奶",
+    "year": "2494",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2494-葡萄奶-头版普陀耐佛（小模）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8182c098",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "冠咩布伦上",
+    "monkOrTemple": "未知高僧",
+    "year": "冠咩布伦上",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：冠咩布伦上.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "46b42ba4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "普陀奈药师佛",
+    "monkOrTemple": "未知高僧",
+    "year": "普陀奈药师佛",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：普陀奈药师佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f937d688",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "67560246_2983172765240367_6287987199728156672_n",
+    "monkOrTemple": "未知高僧",
+    "year": "67560246_2983172765240367_6287987199728156672_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：67560246_2983172765240367_6287987199728156672_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "64c440e8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "67580891_2983172838573693_1874608248082923520_n",
+    "monkOrTemple": "未知高僧",
+    "year": "67580891_2983172838573693_1874608248082923520_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：67580891_2983172838573693_1874608248082923520_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f0fac667",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "67653658_2983172671907043_4557561192750514176_n",
+    "monkOrTemple": "未知高僧",
+    "year": "67653658_2983172671907043_4557561192750514176_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：67653658_2983172671907043_4557561192750514176_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ae9e4aa0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "67951333_2983172548573722_1994129980975480832_n",
+    "monkOrTemple": "未知高僧",
+    "year": "67951333_2983172548573722_1994129980975480832_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：67951333_2983172548573722_1994129980975480832_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a6e92279",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "古曼童（龙婆炎）",
+    "monkOrTemple": "未知高僧",
+    "year": "古曼童（龙婆炎）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：古曼童（龙婆炎）.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "72ee6ed1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222093803",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222093803",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222093803.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9c5b040c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222093825",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222093825",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222093825.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2877a087",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222093830",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222093830",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222093830.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "70f6e120",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222093838",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222093838",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222093838.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "bd772194",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222093842",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222093842",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222093842.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6b8b089e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222093846",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222093846",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222093846.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "edeee9ca",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222093859",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222093859",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222093859.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6f9a0b74",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222093906",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222093906",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222093906.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7a3ef0e4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222093952",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222093952",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222093952.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f7c03703",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222094012",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222094012",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222094012.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "77593677",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222094020",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222094020",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222094020.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e97935cd",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222094025",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222094025",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222094025.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f4e321bf",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222171856",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222171856",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222171856.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fd5ba809",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222172001",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222172001",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222172001.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4e6c53b4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222172006",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222172006",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222172006.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3075e66e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222172010",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222172010",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222172010.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "556a567c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222172023",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222172023",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222172023.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "23e7a074",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222172027",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222172027",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222172027.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4bb1e4a9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240222172032",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240222172032",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240222172032.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5db2379d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240306150153",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240306150153",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240306150153.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b81b1a98",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240306150306",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240306150306",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240306150306.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "847ab606",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240306150312",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240306150312",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240306150312.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8d7fdf7a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240306150321",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240306150321",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240306150321.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b36a739e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240306150448",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240306150448",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240306150448.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "52a1c26b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20240306153013",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20240306153013",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20240306153013.png。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a4c39703",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "详情页1",
+    "monkOrTemple": "未知高僧",
+    "year": "详情页1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：详情页1.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "435140f5",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "详情页2",
+    "monkOrTemple": "未知高僧",
+    "year": "详情页2",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：详情页2.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4c2dc9ac",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "详情页3",
+    "monkOrTemple": "未知高僧",
+    "year": "详情页3",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：详情页3.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5bad376e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "背龙婆多（大）菩提叶崇迪（大模）",
+    "monkOrTemple": "大法会",
+    "year": "2519年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2519年-大法会-背龙婆多（大）菩提叶崇迪（大模）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9fa0f053",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "82岁上寿吉祥版象神",
+    "monkOrTemple": "大法会版",
+    "year": "2560",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2560-大法会版-82岁上寿吉祥版象神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cd7ca3ab",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "有求皆满超级富翁版符管（印花）",
+    "monkOrTemple": "大法会",
+    "year": "2564年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2564年-大法会-有求皆满超级富翁版符管（印花）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "113c5c1b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "荣耀门帕丽碧娜",
+    "monkOrTemple": "未知高僧",
+    "year": "荣耀门帕丽碧娜",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：荣耀门帕丽碧娜.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a8fd6ad1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈招财骑凤四面佛立尊",
+    "monkOrTemple": "大法会",
+    "year": "2558",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2558-大法会-玛哈招财骑凤四面佛立尊.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cc003fe7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈招财骑凤四面佛（佩戴型）",
+    "monkOrTemple": "大法会版",
+    "year": "2558",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2558-大法会版-玛哈招财骑凤四面佛（佩戴型）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "590e5cc4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈招财骑凤四面佛",
+    "monkOrTemple": "大法会版",
+    "year": "2558年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2558年-大法会版-玛哈招财骑凤四面佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "526e3e90",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "双龙自身",
+    "monkOrTemple": "吴锦溪仙",
+    "year": "2523年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2523年-吴锦溪仙-双龙自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "67c0dc83",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "天官赐福符布（兴字）",
+    "monkOrTemple": "大法会版",
+    "year": "2560年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2560年-大法会版-天官赐福符布（兴字）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a12a0b48",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "天官赐福（大号）",
+    "monkOrTemple": "吴锦溪仙庙",
+    "year": "2562年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2562年-吴锦溪仙庙-天官赐福（大号）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4d7729af",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙答邦-手托必达女王佛（大模）",
+    "monkOrTemple": "2516年",
+    "year": "2515",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2515-2516年-龙答邦-手托必达女王佛（大模）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4b945377",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "女王佛",
+    "monkOrTemple": "女王佛原庙",
+    "year": "2555年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2555年-女王佛原庙-女王佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c9d40323",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "山卡拉培歪葫芦2482",
+    "monkOrTemple": "未知高僧",
+    "year": "山卡拉培歪葫芦2482",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：山卡拉培歪葫芦2482.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "367dfba9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "Prachai introduction 20210622batch",
+    "monkOrTemple": "未知高僧",
+    "year": "Prachai introduction 20210622batch",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：Prachai introduction 20210622batch.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d7b2e0ce",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "帕猜佛的由来",
+    "monkOrTemple": "未知高僧",
+    "year": "帕猜佛的由来",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：帕猜佛的由来.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "521c27ef",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "马哈福古曼童",
+    "monkOrTemple": "帕阿赞泰",
+    "year": "2560年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2560年-帕阿赞泰-马哈福古曼童.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "abc8c9cd",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "2508—— 沧海寺—华帘自身",
+    "monkOrTemple": "未知高僧",
+    "year": "2508—— 沧海寺—华帘自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2508—— 沧海寺—华帘自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4c59cd2e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "七彩帕赛佛符布",
+    "monkOrTemple": "波塞寺",
+    "year": "2564年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2564年-波塞寺-七彩帕赛佛符布.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5220c395",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "供奉型帕赛佛（7 寸）",
+    "monkOrTemple": "波塞寺",
+    "year": "2564年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2564年-波塞寺-供奉型帕赛佛（7 寸）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "716c23ff",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "别针式帕赛佛徽章",
+    "monkOrTemple": "波塞寺",
+    "year": "2564年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2564年-波塞寺-别针式帕赛佛徽章.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "662ce01a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "双色帕赛佛",
+    "monkOrTemple": "波塞寺",
+    "year": "2564年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2564年-波塞寺-双色帕赛佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2405c18c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "提升运势帕赛女王佛",
+    "monkOrTemple": "波塞寺",
+    "year": "2564年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2564年-波塞寺-提升运势帕赛女王佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2c3d5468",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆帕赛佛介绍",
+    "monkOrTemple": "未知高僧",
+    "year": "龙婆帕赛佛介绍",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆帕赛佛介绍.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ac955241",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "一期座山佛",
+    "monkOrTemple": "龙普 boon",
+    "year": "2477年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2477年-龙普 boon- 一期座山佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e7006de8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "帕崇迪碎象牙纹",
+    "monkOrTemple": "Wat Rakhang",
+    "year": "2556",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2556-Wat Rakhang-帕崇迪碎象牙纹.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "edcf5d31",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "瓦拉康100周年崇迪13个版本客服版",
+    "monkOrTemple": "未知高僧",
+    "year": "瓦拉康100周年崇迪13个版本客服版",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：瓦拉康100周年崇迪13个版本客服版.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "54c25807",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "a78e4ca1-4",
+    "monkOrTemple": "4",
+    "year": "a78e4ca1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：a78e4ca1-4.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1eaa3d15",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "omjy1yoim3M2hxsy9aO-o",
+    "monkOrTemple": "o",
+    "year": "omjy1yoim3M2hxsy9aO",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：omjy1yoim3M2hxsy9aO-o.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "427065ff",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "unnamed",
+    "monkOrTemple": "未知高僧",
+    "year": "unnamed",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：unnamed.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "eb1340cc",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "二战成功佛",
+    "monkOrTemple": "苏泰寺",
+    "year": "2485年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2485年-苏泰寺-二战成功佛.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "aa4f115c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "素媞娲妮女神",
+    "monkOrTemple": "苏泰寺",
+    "year": "2557年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2557年-苏泰寺-素媞娲妮女神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b7698f5f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "授勋素媞娲妮女神",
+    "monkOrTemple": "苏泰寺",
+    "year": "2562年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2562年-苏泰寺-授勋素媞娲妮女神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5a1657e2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "古曼童",
+    "monkOrTemple": "未知高僧",
+    "year": "古曼童",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：古曼童.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f2b76c63",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空冠兰下1",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空冠兰下1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空冠兰下1.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "51b2c220",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空冠兰下2",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空冠兰下2",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空冠兰下2.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f18cdbf3",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空冠兰下3",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空冠兰下3",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空冠兰下3.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d21e658d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空冠兰下4",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空冠兰下4",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空冠兰下4.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6d2809da",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空冠兰下5",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空冠兰下5",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空冠兰下5.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "52a6e53d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空观兰年鉴上册1",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空观兰年鉴上册1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空观兰年鉴上册1.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "74921f91",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空观兰年鉴上册2",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空观兰年鉴上册2",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空观兰年鉴上册2.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5d085094",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空观兰年鉴上册3",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空观兰年鉴上册3",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空观兰年鉴上册3.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7771ceca",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空观兰年鉴上册4",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空观兰年鉴上册4",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空观兰年鉴上册4.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3094c174",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空观兰年鉴上册5",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空观兰年鉴上册5",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空观兰年鉴上册5.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cf4c5443",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "萨玛空观兰年鉴上册6",
+    "monkOrTemple": "未知高僧",
+    "year": "萨玛空观兰年鉴上册6",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：萨玛空观兰年鉴上册6.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7f265c0e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "谭照玛-帕猜佛（纳伽比模）",
+    "monkOrTemple": "帕猜佛（纳伽比模）",
+    "year": "谭照玛",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：谭照玛-帕猜佛（纳伽比模）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ee167237",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "40406611_467585053755971_1513445174011756544_o",
+    "monkOrTemple": "未知高僧",
+    "year": "40406611_467585053755971_1513445174011756544_o",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：40406611_467585053755971_1513445174011756544_o.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "47e2ef3f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "40422127_467585117089298_7480067136648380416_o",
+    "monkOrTemple": "未知高僧",
+    "year": "40422127_467585117089298_7480067136648380416_o",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：40422127_467585117089298_7480067136648380416_o.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "62481d06",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "Dhammavitakko_Bhikkhu",
+    "monkOrTemple": "未知高僧",
+    "year": "Dhammavitakko_Bhikkhu",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：Dhammavitakko_Bhikkhu.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "118f96f9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "象神甘地",
+    "monkOrTemple": "象神庙",
+    "year": "2565年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2565年-象神庙-象神甘地.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2120f8eb",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "富富小古漫潼",
+    "monkOrTemple": "阿赞Waen",
+    "year": "2555年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2555年-阿赞Waen-富富小古漫潼.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e945f414",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "供奉型古曼天童",
+    "monkOrTemple": "马哈苏拉萨",
+    "year": "2557",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2557-马哈苏拉萨-供奉型古曼天童.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fcb38f05",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "成愿版四面佛头",
+    "monkOrTemple": "马哈苏拉萨",
+    "year": "2560",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2560-马哈苏拉萨-成愿版四面佛头.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f0dfddef",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "2565年-兰斯素达瑰王佛像",
+    "monkOrTemple": "兰斯素达瑰王佛像",
+    "year": "2565年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2565年-兰斯素达瑰王佛像.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b72033b7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "鹰神兽崇迪",
+    "monkOrTemple": "鲁士灵丹",
+    "year": "2496年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2496年-鲁士灵丹-鹰神兽崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "aa0e9c5d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆班神兽崇迪成佛版",
+    "monkOrTemple": "大法会版",
+    "year": "2536",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2536-大法会版-龙婆班神兽崇迪成佛版.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f9042491",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "宝藏古漫潼",
+    "monkOrTemple": "龙塔Lek",
+    "year": "2555年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2555年-龙塔Lek-宝藏古漫潼.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "833157c1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "嘎两古漫潼",
+    "monkOrTemple": "龙婆Som",
+    "year": "2561年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2561年-龙婆Som-嘎两古漫潼.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "dc40d1fa",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆严2436-2469纳华考必打",
+    "monkOrTemple": "2469纳华考必打",
+    "year": "龙婆严2436",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆严2436-2469纳华考必打.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "760eb44f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈崇必达",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2518年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2518年-龙婆卡贤-玛哈崇必达.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "17cde692",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈無（超级福佑）必达",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2518年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2518年-龙婆卡贤-玛哈無（超级福佑）必达.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b1d4e4ae",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈翋（醒狮底盖)",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2518年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2518年-龙婆卡贤-玛哈翋（醒狮底盖).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "13a49aae",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "头版招财女神",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2521",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2521-龙婆卡贤-头版招财女神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b943acf8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "清盛佛像",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2529年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2529年-龙婆卡贤-清盛佛像.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "389071c3",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "2529年-龙婆喀仙佛像",
+    "monkOrTemple": "龙婆喀仙佛像",
+    "year": "2529年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2529年-龙婆喀仙佛像.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a6b11619",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "赛亿崇迪佛",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2531",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2531-龙婆卡贤-赛亿崇迪佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8e3c6364",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆卡贤-无巴经药师佛",
+    "monkOrTemple": "2536年",
+    "year": "2535",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2535-2536年-龙婆卡贤-无巴经药师佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d7cc9083",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "头版珍宝必达",
+    "monkOrTemple": "年龙婆卡贤",
+    "year": "2536",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536-年龙婆卡贤-头版珍宝必达.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a687f286",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "菩提叶符文招财女神",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆卡贤-菩提叶符文招财女神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fae1faad",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "阿瓦洛藏传帕猜药师佛 82 理事版",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2536年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆卡贤-阿瓦洛藏传帕猜药师佛 82 理事版.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2c427750",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "3纳（Na)印必达",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2537",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2537-龙婆卡贤- 3纳（Na)印必达.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1f29c584",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "纳(Na)印波尼必达佛",
+    "monkOrTemple": "龙婆卡贤",
+    "year": "2537",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2537-龙婆卡贤-纳(Na)印波尼必达佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d46d75f7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆卡贤",
+    "monkOrTemple": "未知高僧",
+    "year": "龙婆卡贤",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆卡贤.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "41c8b77f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆卡贤黄图鉴1",
+    "monkOrTemple": "未知高僧",
+    "year": "龙婆卡贤黄图鉴1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆卡贤黄图鉴1.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9e31092a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "五手昭财女神（小模）",
+    "monkOrTemple": "",
+    "year": "2550年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2550年--五手昭财女神（小模）.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c4584a39",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "特殊稀有版必达佛",
+    "monkOrTemple": "坤",
+    "year": "2517",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2517-坤-特殊稀有版必达佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0f015fc2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "洛伊崇迪",
+    "monkOrTemple": "龙婆坤",
+    "year": "2517年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2517年-龙婆坤- 洛伊崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c26c98ff",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "特殊版黑神木女王佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2519年",
+    "material": "木雕",
+    "description": "[待完善] 该档案提取自公司原始库：2519年-龙婆坤-特殊版黑神木女王佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8a8ba193",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤凸月崇迪 56岁特殊纪念版",
+    "monkOrTemple": "龙婆坤",
+    "year": "2522年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2522年-龙婆坤-龙婆坤凸月崇迪 56岁特殊纪念版.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4993e181",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "特别的礼物版必达佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2527",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2527-龙婆坤-特别的礼物版必达佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "585e0dcb",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "头版坐莲善伽财",
+    "monkOrTemple": "龙婆坤",
+    "year": "2529",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2529-龙婆坤-头版坐莲善伽财.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6c400de7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "建僧舍纪念版自身（钱袋子小模）",
+    "monkOrTemple": "龙婆坤",
+    "year": "2530年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2530年-龙婆坤-建僧舍纪念版自身（钱袋子小模）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "42906eae",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "福运金银元宝供奉善伽财",
+    "monkOrTemple": "龙婆坤",
+    "year": "2533年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2533年-龙婆坤-福运金银元宝供奉善伽财.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b00c43a0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "三宝符文崇迪佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2534",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2534-龙婆坤-三宝符文崇迪佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ead71b25",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "供奉型菩提伽耶释迦摩尼佛（9寸）",
+    "monkOrTemple": "龙婆坤",
+    "year": "2535年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2535年-龙婆坤-供奉型菩提伽耶释迦摩尼佛（9寸）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b92b9af5",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "皇后印记雪茄侧身像",
+    "monkOrTemple": "坤",
+    "year": "2536",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536-坤-皇后印记雪茄侧身像.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a4952c70",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "迎皇药师佛",
+    "monkOrTemple": "坤",
+    "year": "2536",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2536-坤-迎皇药师佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "56013597",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "黑神木玛哈腊",
+    "monkOrTemple": "坤",
+    "year": "2536",
+    "material": "木雕",
+    "description": "[待完善] 该档案提取自公司原始库：2536-坤-黑神木玛哈腊.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c142ff29",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "卡拉壳拉胡自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆坤-卡拉壳拉胡自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9390f8d6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "古坤希颂拉赐富自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆坤-古坤希颂拉赐富自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f82fda3e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "坤银坤通掩面善伽财",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆坤-坤银坤通掩面善伽财.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5866bb2b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "尼米自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆坤-尼米自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ed4b47fb",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "巴拉米自身符管",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆坤-巴拉米自身符管.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "990dda16",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "百业经塔固",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆坤-百业经塔固.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "09a67319",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "皇后药师佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆坤-皇后药师佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6a4e3749",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "舍玛自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2536年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536年-龙婆坤-舍玛自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e4d0dc1e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "劦邦珮女王佛",
+    "monkOrTemple": "坤",
+    "year": "2537",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2537- 坤- 劦邦珮女王佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f7ca93b9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "响铃百万必达佛",
+    "monkOrTemple": "坤",
+    "year": "2537",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2537-坤-响铃百万必达佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a3f658de",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "手刻符善伽财",
+    "monkOrTemple": "坤",
+    "year": "2537",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2537-坤-手刻符善伽财.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c097ca88",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "十亿舍玛崇迪",
+    "monkOrTemple": "龙婆坤",
+    "year": "2537年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2537年-龙婆坤-十亿舍玛崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "27dfc803",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "双符管功德自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2537年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2537年-龙婆坤-双符管功德自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3a3979f1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "百丹自身（小模）",
+    "monkOrTemple": "龙婆坤",
+    "year": "2537年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2537年-龙婆坤-百丹自身（小模）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ce9b5232",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "莲花瓣法座六手必达",
+    "monkOrTemple": "龙婆坤",
+    "year": "2537年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2537年-龙婆坤-莲花瓣法座六手必达.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ff19f23d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "二期 稀有版百万药师佛（舍利子)",
+    "monkOrTemple": "龙婆坤",
+    "year": "2538",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2538-龙婆坤-二期 稀有版百万药师佛（舍利子).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a968bf12",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "2538头版旗杆佛ver202012191656李军",
+    "monkOrTemple": "未知高僧",
+    "year": "2538头版旗杆佛ver202012191656李军",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2538头版旗杆佛ver202012191656李军.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "40921b52",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "头版旗杆佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2538年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2538年- 龙婆坤- 头版旗杆佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "11ba2309",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "SAOHA镂空花边钱袋自身",
+    "monkOrTemple": "坤",
+    "year": "2539",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2539-坤-SAOHA镂空花边钱袋自身.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c17d8009",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "金轮手镯",
+    "monkOrTemple": "坤",
+    "year": "2539",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2539-坤-金轮手镯.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ad507c2a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "三世佛之乌通佛（U-Thong Prisuttho ）",
+    "monkOrTemple": "龙婆坤",
+    "year": "2539年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2539年-龙婆坤-三世佛之乌通佛（U-Thong Prisuttho ）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "63555217",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "三世佛之清盛佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2539年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2539年-龙婆坤-三世佛之清盛佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a98b9a1c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "三世佛之素可泰佛（sukhothai prisuttho )",
+    "monkOrTemple": "龙婆坤",
+    "year": "2539年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2539年-龙婆坤-三世佛之素可泰佛（sukhothai prisuttho ).doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "79e6111e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "曼弥塔威崇迪佛",
+    "monkOrTemple": "龙婆坤",
+    "year": "2539年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2539年-龙婆坤-曼弥塔威崇迪佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "223a2d1f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "（韶哈）十万招财雪茄自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "2539年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2539年-龙婆坤-（韶哈）十万招财雪茄自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "349fcf0a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "搪瓷坤平",
+    "monkOrTemple": "龙婆坤",
+    "year": "2553",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2553-龙婆坤-搪瓷坤平.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5ff3df7d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈吉祥药师佛",
+    "monkOrTemple": "坤",
+    "year": "2557",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2557-坤- 玛哈吉祥药师佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0dd8d52f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "帕猜药师佛",
+    "monkOrTemple": "坤",
+    "year": "2557",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2557-坤-帕猜药师佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ea515c74",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "手持福杖招财自身",
+    "monkOrTemple": "龙婆坤",
+    "year": "佛历2538",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：佛历2538-龙婆坤-手持福杖招财自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8c4a874c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤20220320比赛场次新佛牌资料",
+    "monkOrTemple": "未知高僧",
+    "year": "龙婆坤20220320比赛场次新佛牌资料",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆坤20220320比赛场次新佛牌资料.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cc7a6975",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤2519年最贵自身",
+    "monkOrTemple": "未知高僧",
+    "year": "龙婆坤2519年最贵自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆坤2519年最贵自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d8b16913",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤2554暹罗舍玛自身",
+    "monkOrTemple": "未知高僧",
+    "year": "龙婆坤2554暹罗舍玛自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆坤2554暹罗舍玛自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a6582240",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "salakran 纪念版自身",
+    "monkOrTemple": "未知高僧",
+    "year": "salakran 纪念版自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：salakran 纪念版自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0affd2b2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "salakran 纪念版自身1",
+    "monkOrTemple": "未知高僧",
+    "year": "salakran 纪念版自身1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：salakran 纪念版自身1.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "44872704",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "侦察兵善迦财+必达",
+    "monkOrTemple": "未知高僧",
+    "year": "侦察兵善迦财+必达",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：侦察兵善迦财+必达.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "372b8a31",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "八方幸运必达",
+    "monkOrTemple": "未知高僧",
+    "year": "八方幸运必达",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：八方幸运必达.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "bbd723e8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "八脚崇迪",
+    "monkOrTemple": "未知高僧",
+    "year": "八脚崇迪",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：八脚崇迪.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9ade340d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "六手必达",
+    "monkOrTemple": "未知高僧",
+    "year": "六手必达",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：六手必达.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9a88f819",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "六手必达1",
+    "monkOrTemple": "未知高僧",
+    "year": "六手必达1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：六手必达1.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b7da6948",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "再生版自身",
+    "monkOrTemple": "未知高僧",
+    "year": "再生版自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：再生版自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "33270b58",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "博叶自身",
+    "monkOrTemple": "未知高僧",
+    "year": "博叶自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：博叶自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4de463d6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "发财树自身",
+    "monkOrTemple": "未知高僧",
+    "year": "发财树自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：发财树自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1463adba",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "发财树自身1",
+    "monkOrTemple": "未知高僧",
+    "year": "发财树自身1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：发财树自身1.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "34dea5d4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "坐莲必达",
+    "monkOrTemple": "未知高僧",
+    "year": "坐莲必达",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：坐莲必达.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e6b02ea4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "塔状成功佛",
+    "monkOrTemple": "未知高僧",
+    "year": "塔状成功佛",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：塔状成功佛.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b4835255",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "头版自身",
+    "monkOrTemple": "未知高僧",
+    "year": "头版自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：头版自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3d49107f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "头版自身1",
+    "monkOrTemple": "未知高僧",
+    "year": "头版自身1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：头版自身1.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "151b9eca",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "头版自身2",
+    "monkOrTemple": "未知高僧",
+    "year": "头版自身2",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：头版自身2.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "40389ba6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "头版钱袋子",
+    "monkOrTemple": "未知高僧",
+    "year": "头版钱袋子",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：头版钱袋子.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "20b6dcaa",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "小模钱袋子",
+    "monkOrTemple": "未知高僧",
+    "year": "小模钱袋子",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：小模钱袋子.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fd60355d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "小蓝本",
+    "monkOrTemple": "未知高僧",
+    "year": "小蓝本",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：小蓝本.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b6c4997d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "小钱袋子自身",
+    "monkOrTemple": "未知高僧",
+    "year": "小钱袋子自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：小钱袋子自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f070cd51",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "崇迪+自身",
+    "monkOrTemple": "未知高僧",
+    "year": "崇迪+自身",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：崇迪+自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "265c037b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "必达",
+    "monkOrTemple": "未知高僧",
+    "year": "必达",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：必达.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "693ebf0d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "情报机关成功佛",
+    "monkOrTemple": "未知高僧",
+    "year": "情报机关成功佛",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：情报机关成功佛.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b83c4182",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "琉璃药师佛",
+    "monkOrTemple": "未知高僧",
+    "year": "琉璃药师佛",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：琉璃药师佛.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7502168c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "琉璃药师佛金版",
+    "monkOrTemple": "未知高僧",
+    "year": "琉璃药师佛金版",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：琉璃药师佛金版.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a23b4e1f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "白莲六手必达自身",
+    "monkOrTemple": "未知高僧",
+    "year": "白莲六手必达自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：白莲六手必达自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a304c66b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "百万+辣木崇迪",
+    "monkOrTemple": "未知高僧",
+    "year": "百万+辣木崇迪",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：百万+辣木崇迪.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "871df422",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "神迹钱袋子",
+    "monkOrTemple": "未知高僧",
+    "year": "神迹钱袋子",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：神迹钱袋子.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9cda6a8f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "福田自身",
+    "monkOrTemple": "未知高僧",
+    "year": "福田自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：福田自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6668233c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "立尊自身",
+    "monkOrTemple": "未知高僧",
+    "year": "立尊自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：立尊自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "428528f6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "童子军自身",
+    "monkOrTemple": "未知高僧",
+    "year": "童子军自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：童子军自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a3b78aeb",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "符文崇迪",
+    "monkOrTemple": "未知高僧",
+    "year": "符文崇迪",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：符文崇迪.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2f924609",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "背后佛祖自身",
+    "monkOrTemple": "未知高僧",
+    "year": "背后佛祖自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：背后佛祖自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "68587794",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "自身",
+    "monkOrTemple": "未知高僧",
+    "year": "自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3fda94c2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "舍玛成功佛",
+    "monkOrTemple": "未知高僧",
+    "year": "舍玛成功佛",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：舍玛成功佛.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7173f40e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "药师佛",
+    "monkOrTemple": "未知高僧",
+    "year": "药师佛",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：药师佛.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "461a2b45",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "药师佛1",
+    "monkOrTemple": "未知高僧",
+    "year": "药师佛1",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：药师佛1.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3d3e20a6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "辣木崇迪",
+    "monkOrTemple": "未知高僧",
+    "year": "辣木崇迪",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：辣木崇迪.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d58155c9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "钱袋子",
+    "monkOrTemple": "未知高僧",
+    "year": "钱袋子",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：钱袋子.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1e962e6e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "雪茄自身+钱袋子",
+    "monkOrTemple": "未知高僧",
+    "year": "雪茄自身+钱袋子",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：雪茄自身+钱袋子.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a9fa8ab7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "雪茄自身",
+    "monkOrTemple": "未知高僧",
+    "year": "雪茄自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：雪茄自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b3776201",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "雪茄自身1",
+    "monkOrTemple": "未知高僧",
+    "year": "雪茄自身1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：雪茄自身1.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3272fa93",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "雪茄自身2",
+    "monkOrTemple": "未知高僧",
+    "year": "雪茄自身2",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：雪茄自身2.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cfa5283f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "麒麟自身",
+    "monkOrTemple": "未知高僧",
+    "year": "麒麟自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：麒麟自身.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a0cddac6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "123241540_4086379951389140_7570293001505217718_n",
+    "monkOrTemple": "未知高僧",
+    "year": "123241540_4086379951389140_7570293001505217718_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：123241540_4086379951389140_7570293001505217718_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ba190951",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "123369047_4086379888055813_6292895309389196094_n",
+    "monkOrTemple": "未知高僧",
+    "year": "123369047_4086379888055813_6292895309389196094_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：123369047_4086379888055813_6292895309389196094_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6414643f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "1",
+    "monkOrTemple": "未知高僧",
+    "year": "1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：1.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "42246b75",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "2",
+    "monkOrTemple": "未知高僧",
+    "year": "2",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2f81158b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "3",
+    "monkOrTemple": "未知高僧",
+    "year": "3",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：3.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c512331d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "4",
+    "monkOrTemple": "未知高僧",
+    "year": "4",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：4.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9b9453b7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "5",
+    "monkOrTemple": "未知高僧",
+    "year": "5",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：5.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "942c09bd",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "get_auc1_img",
+    "monkOrTemple": "未知高僧",
+    "year": "get_auc1_img",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：get_auc1_img.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "de19ccb6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "20210307 比赛场次新佛牌资料",
+    "monkOrTemple": "未知高僧",
+    "year": "20210307 比赛场次新佛牌资料",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：20210307 比赛场次新佛牌资料.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e57ff5f6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "Screenshot_20220326_163752_com.android.chrome",
+    "monkOrTemple": "未知高僧",
+    "year": "Screenshot_20220326_163752_com.android.chrome",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：Screenshot_20220326_163752_com.android.chrome.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "70c0d194",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "Screenshot_20220326_163803_com.android.chrome",
+    "monkOrTemple": "未知高僧",
+    "year": "Screenshot_20220326_163803_com.android.chrome",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：Screenshot_20220326_163803_com.android.chrome.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "466ac8c8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤20200823比赛场次新牌资料",
+    "monkOrTemple": "未知高僧",
+    "year": "龙婆坤20200823比赛场次新牌资料",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆坤20200823比赛场次新牌资料.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "92bbf651",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤20201018比赛场次新牌资料",
+    "monkOrTemple": "未知高僧",
+    "year": "龙婆坤20201018比赛场次新牌资料",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆坤20201018比赛场次新牌资料.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ad382d8c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆坤20201129比赛场次新佛牌资料",
+    "monkOrTemple": "未知高僧",
+    "year": "龙婆坤20201129比赛场次新佛牌资料",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆坤20201129比赛场次新佛牌资料.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d63ffb90",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "人缘鸟",
+    "monkOrTemple": "龙普塔",
+    "year": "2505年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2505年-龙普塔-人缘鸟.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "475cd0f1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "佰花缘崇迪",
+    "monkOrTemple": "龙婆培",
+    "year": "2509年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2509年-龙婆培-佰花缘崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b59c4d34",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "黑福文崇迪（第一模）",
+    "monkOrTemple": "龙婆培",
+    "year": "2512年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2512年-龙婆培- 黑福文崇迪（第一模）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "724f5966",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆培-出征帕洛佛",
+    "monkOrTemple": "2519年",
+    "year": "2514",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2514-2519年-龙婆培-出征帕洛佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "866f2c89",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈无崇迪",
+    "monkOrTemple": "龙婆培",
+    "year": "2516年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2516年-龙婆培-玛哈无崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f841911c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆培-二期坎南伽罗崇迪",
+    "monkOrTemple": "2520年",
+    "year": "2519",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2519-2520年-龙婆培-二期坎南伽罗崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0d64eeef",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "六微药师佛",
+    "monkOrTemple": "培",
+    "year": "2535",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2535-培-六微药师佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c8406661",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "昭坤倍崇迪",
+    "monkOrTemple": "龙婆培",
+    "year": "2537年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2537年-龙婆培-昭坤倍崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "37f9e052",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "亲那般川崇迪背阿赞多",
+    "monkOrTemple": "龙婆培",
+    "year": "2539",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2539-龙婆培-亲那般川崇迪背阿赞多.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f95b1d1d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "韶哈背普娑符文崇迪",
+    "monkOrTemple": "龙婆培",
+    "year": "2539",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2539-龙婆培-韶哈背普娑符文崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9bf92da2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "亲那般川背龙婆培崇迪",
+    "monkOrTemple": "龙婆培",
+    "year": "2539年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2539年-龙婆培-亲那般川背龙婆培崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "add1d733",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "巴拉米人缘七龙佛",
+    "monkOrTemple": "龙婆培",
+    "year": "2540",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2540-龙婆培-巴拉米人缘七龙佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "19c4df5f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙婆培1",
+    "monkOrTemple": "未知高僧",
+    "year": "龙婆培1",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙婆培1.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "26038521",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普培2",
+    "monkOrTemple": "未知高僧",
+    "year": "龙普培2",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙普培2.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7faa5041",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "媚娜自身牌",
+    "monkOrTemple": "龙婆巴升",
+    "year": "2565年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2565年-龙婆巴升-媚娜自身牌 .docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ff984bd1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "头版巴拉米阿瓦洛藏传药师佛",
+    "monkOrTemple": "龙婆帕",
+    "year": "2562",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2562-龙婆帕-头版巴拉米阿瓦洛藏传药师佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a90bc6bd",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "波尼察纳宗必达宝吉星版20210114",
+    "monkOrTemple": "龙婆廷",
+    "year": "2564年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2564年-龙婆廷-波尼察纳宗必达宝吉星版20210114.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b7d541c9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "瓦曼港出塔坤平",
+    "monkOrTemple": "龙婆德敬",
+    "year": "2490年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2490年-龙婆德敬-瓦曼港出塔坤平.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0696b713",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "百万富翁维素万手链",
+    "monkOrTemple": "龙婆易",
+    "year": "2565年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2565年-龙婆易-百万富翁维素万手链.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f592c3ca",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "拜师版象神",
+    "monkOrTemple": "龙婆本",
+    "year": "2536",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2536-龙婆本-拜师版象神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "db97165a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "敬师版老虎抱糖",
+    "monkOrTemple": "龙婆本",
+    "year": "2545年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2545年-龙婆本-敬师版老虎抱糖.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3df4d0e0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "白兰花",
+    "monkOrTemple": "龙婆术",
+    "year": "2500年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2500年-龙婆术-白兰花.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f4e28ff1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "增大富古漫潼",
+    "monkOrTemple": "龙普洪",
+    "year": "2553年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2553年-龙普洪-增大富古漫潼.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c8fc1e87",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "力泥药师佛",
+    "monkOrTemple": "龙婆爽",
+    "year": "2519年",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：2519年-龙婆爽-力泥药师佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e6fafaaf",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "六大神兽崇迪文献介绍",
+    "monkOrTemple": "未知高僧",
+    "year": "六大神兽崇迪文献介绍",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：六大神兽崇迪文献介绍.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c6a82908",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "六大神兽崇迪文献介绍最新版",
+    "monkOrTemple": "未知高僧",
+    "year": "六大神兽崇迪文献介绍最新版",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：六大神兽崇迪文献介绍最新版.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a2ba85dc",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "人缘鸟",
+    "monkOrTemple": "未知高僧",
+    "year": "人缘鸟",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：人缘鸟.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "72583268",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "古模猪",
+    "monkOrTemple": "未知高僧",
+    "year": "古模猪",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：古模猪.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b2cc6cf5",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "后一批鸡",
+    "monkOrTemple": "未知高僧",
+    "year": "后一批鸡",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：后一批鸡.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e34a4303",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "哈奴曼",
+    "monkOrTemple": "未知高僧",
+    "year": "哈奴曼",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：哈奴曼.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "72ecef99",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "第一批人缘鸟",
+    "monkOrTemple": "未知高僧",
+    "year": "第一批人缘鸟",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：第一批人缘鸟.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "223ac192",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "箭猪第一次",
+    "monkOrTemple": "未知高僧",
+    "year": "箭猪第一次",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：箭猪第一次.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5555e689",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "鱼",
+    "monkOrTemple": "未知高僧",
+    "year": "鱼",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：鱼.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "af851d9d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "鸡第一批",
+    "monkOrTemple": "未知高僧",
+    "year": "鸡第一批",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：鸡第一批.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "88c99afd",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "鹰",
+    "monkOrTemple": "未知高僧",
+    "year": "鹰",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：鹰.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9189ae25",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "富贵金鸡",
+    "monkOrTemple": "未知高僧",
+    "year": "富贵金鸡",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：富贵金鸡.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4c8c70a5",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "必胜哈努曼",
+    "monkOrTemple": "未知高僧",
+    "year": "必胜哈努曼",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：必胜哈努曼.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c348fdbd",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "智慧鸟",
+    "monkOrTemple": "未知高僧",
+    "year": "智慧鸟",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：智慧鸟.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "209fe974",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "神兽招财鱼",
+    "monkOrTemple": "未知高僧",
+    "year": "神兽招财鱼",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：神兽招财鱼.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "10f6c4e8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "神兽鱼",
+    "monkOrTemple": "未知高僧",
+    "year": "神兽鱼",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：神兽鱼.png。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2eca3f1a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "神兽鸡",
+    "monkOrTemple": "未知高僧",
+    "year": "神兽鸡",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：神兽鸡.png。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2baf0a75",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "箭猪",
+    "monkOrTemple": "未知高僧",
+    "year": "箭猪",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：箭猪.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f74b73eb",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "鹰神",
+    "monkOrTemple": "未知高僧",
+    "year": "鹰神",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：鹰神.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "bde39195",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "招财女神",
+    "monkOrTemple": "龙婆甘",
+    "year": "2512前",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2512前-龙婆甘-招财女神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "963f77fe",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "招财女神（背佛祖）",
+    "monkOrTemple": "龙婆登",
+    "year": "2485",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2485-龙婆登-招财女神（背佛祖）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "267146ed",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "钱袋子四面神",
+    "monkOrTemple": "龙婆禅南",
+    "year": "2563年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2563年-龙婆禅南-钱袋子四面神.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "83939db1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "竹节法镯",
+    "monkOrTemple": "龙婆耶",
+    "year": "2565年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2565年-龙婆耶-竹节法镯.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "606d5d8d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛雅古崇迪",
+    "monkOrTemple": "龙婆蜀",
+    "year": "2460年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2460年-龙婆蜀-玛雅古崇迪.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "33e0d8f7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "西瓦里崇迪佛",
+    "monkOrTemple": "龙婆贵",
+    "year": "2515年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2515年-龙婆贵-西瓦里崇迪佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "bac49208",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "座古漫潼坤平",
+    "monkOrTemple": "龙婆贵",
+    "year": "2518年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2518年-龙婆贵-座古漫潼坤平.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ab030d91",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "富翁符文帕亚仑福龟",
+    "monkOrTemple": "龙婆通",
+    "year": "2562年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2562年-龙婆通-富翁符文帕亚仑福龟.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4859b1c0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "拉胡自身",
+    "monkOrTemple": "龙婆马泥",
+    "year": "2546年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2546年-龙婆马泥-拉胡自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "497ce574",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "香油女王佛",
+    "monkOrTemple": "龙普元",
+    "year": "2517年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2517年-龙普元-香油女王佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "093521c8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普waen 大师 简介",
+    "monkOrTemple": "未知高僧",
+    "year": "龙普waen 大师 简介",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙普waen 大师 简介.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3dbfe777",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "符管",
+    "monkOrTemple": "龙普多",
+    "year": "2510年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2510年-龙普多-符管.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e5e6fb0c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈神尼必达-DESKTOP-ZL",
+    "monkOrTemple": "龙普多",
+    "year": "2518年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2518年-龙普多-玛哈神尼必达-DESKTOP-ZL.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "50b4eb60",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "玛哈神尼必达",
+    "monkOrTemple": "龙普多",
+    "year": "2518年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2518年-龙普多-玛哈神尼必达.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f86135ff",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "彩发帕猜佛",
+    "monkOrTemple": "龙普多",
+    "year": "2520年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2520年-龙普多-彩发帕猜佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ac73a6ca",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普多-波尼背阳翟伲幸黑符文必达",
+    "monkOrTemple": "2523年",
+    "year": "2521",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2521-2523年-龙普多-波尼背阳翟伲幸黑符文必达.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "31db53f9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "莲花古佛(1)",
+    "monkOrTemple": "龙普多",
+    "year": "2521",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2521-龙普多-莲花古佛(1).docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4a38c018",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "莲花古佛图鉴",
+    "monkOrTemple": "龙普多",
+    "year": "2521",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2521-龙普多-莲花古佛图鉴.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "704a3166",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "纳塔纳必达",
+    "monkOrTemple": "龙普多",
+    "year": "2522年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2522年-龙普多-纳塔纳必达.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f09c94d7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普多系列的佛牌（原版）",
+    "monkOrTemple": "未知高僧",
+    "year": "龙普多系列的佛牌（原版）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙普多系列的佛牌（原版）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fa96aeee",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "117809949_3313026495421835_7801966058909989177_n",
+    "monkOrTemple": "未知高僧",
+    "year": "117809949_3313026495421835_7801966058909989177_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：117809949_3313026495421835_7801966058909989177_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "56efec6d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "118144491_3423200341064239_355018022634090258_n",
+    "monkOrTemple": "未知高僧",
+    "year": "118144491_3423200341064239_355018022634090258_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：118144491_3423200341064239_355018022634090258_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f64a26db",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "120523830_3557624104288528_8165268541274926776_n",
+    "monkOrTemple": "未知高僧",
+    "year": "120523830_3557624104288528_8165268541274926776_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：120523830_3557624104288528_8165268541274926776_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b4040d7b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "133238111_3781438598573743_9047537461490359640_n",
+    "monkOrTemple": "未知高僧",
+    "year": "133238111_3781438598573743_9047537461490359640_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：133238111_3781438598573743_9047537461490359640_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "21400561",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "240601626_4021942691243693_1052543255465920346_n",
+    "monkOrTemple": "未知高僧",
+    "year": "240601626_4021942691243693_1052543255465920346_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：240601626_4021942691243693_1052543255465920346_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "bdbd49d4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "240651499_4021942237910405_7459831620281339191_n",
+    "monkOrTemple": "未知高僧",
+    "year": "240651499_4021942237910405_7459831620281339191_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：240651499_4021942237910405_7459831620281339191_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4fbbc5f2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "241055292_4021943107910318_8388646099605268674_n",
+    "monkOrTemple": "未知高僧",
+    "year": "241055292_4021943107910318_8388646099605268674_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：241055292_4021943107910318_8388646099605268674_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "139140a7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "241178254_4133101350127826_8839127576903827801_n",
+    "monkOrTemple": "未知高僧",
+    "year": "241178254_4133101350127826_8839127576903827801_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：241178254_4133101350127826_8839127576903827801_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ff65a321",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "242074692_4024543110983651_6507117003451539205_n",
+    "monkOrTemple": "未知高僧",
+    "year": "242074692_4024543110983651_6507117003451539205_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：242074692_4024543110983651_6507117003451539205_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "859e71d7",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "242806132_4049933995111229_4160722412640852686_n",
+    "monkOrTemple": "未知高僧",
+    "year": "242806132_4049933995111229_4160722412640852686_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：242806132_4049933995111229_4160722412640852686_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "bb7ae547",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "245090229_4112773422160619_6316554183209300256_n",
+    "monkOrTemple": "未知高僧",
+    "year": "245090229_4112773422160619_6316554183209300256_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：245090229_4112773422160619_6316554183209300256_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "39d56e6b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "245093547_4112773262160635_983611721216557932_n",
+    "monkOrTemple": "未知高僧",
+    "year": "245093547_4112773262160635_983611721216557932_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：245093547_4112773262160635_983611721216557932_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2e06493c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "245337635_4109345925836702_730012143454710335_n",
+    "monkOrTemple": "未知高僧",
+    "year": "245337635_4109345925836702_730012143454710335_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：245337635_4109345925836702_730012143454710335_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "43ddb676",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "245351777_4112775082160453_7994524478012488768_n",
+    "monkOrTemple": "未知高僧",
+    "year": "245351777_4112775082160453_7994524478012488768_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：245351777_4112775082160453_7994524478012488768_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4b00745d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "245382681_4108165125954782_2540994719059581683_n",
+    "monkOrTemple": "未知高僧",
+    "year": "245382681_4108165125954782_2540994719059581683_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：245382681_4108165125954782_2540994719059581683_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "342423ce",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "245944398_4136204876484140_5511963883085298375_n",
+    "monkOrTemple": "未知高僧",
+    "year": "245944398_4136204876484140_5511963883085298375_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：245944398_4136204876484140_5511963883085298375_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7e3b8d75",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "246162068_4136204829817478_2216227211793717837_n",
+    "monkOrTemple": "未知高僧",
+    "year": "246162068_4136204829817478_2216227211793717837_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：246162068_4136204829817478_2216227211793717837_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "04a21425",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "246414302_4120664578038170_5023450935173680257_n",
+    "monkOrTemple": "未知高僧",
+    "year": "246414302_4120664578038170_5023450935173680257_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：246414302_4120664578038170_5023450935173680257_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8bca86f9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "246626012_4144521898985771_3588658682295669587_n",
+    "monkOrTemple": "未知高僧",
+    "year": "246626012_4144521898985771_3588658682295669587_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：246626012_4144521898985771_3588658682295669587_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7320babf",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "246692799_4136204753150819_1023112520551065779_n",
+    "monkOrTemple": "未知高僧",
+    "year": "246692799_4136204753150819_1023112520551065779_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：246692799_4136204753150819_1023112520551065779_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7619d36a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "246713471_4141365435968084_4560808175669707673_n",
+    "monkOrTemple": "未知高僧",
+    "year": "246713471_4141365435968084_4560808175669707673_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：246713471_4141365435968084_4560808175669707673_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "90ecb6f3",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "246719734_4141365382634756_577642220495913833_n",
+    "monkOrTemple": "未知高僧",
+    "year": "246719734_4141365382634756_577642220495913833_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：246719734_4141365382634756_577642220495913833_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "826b081d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "247090288_4141365315968096_5482273701937955922_n",
+    "monkOrTemple": "未知高僧",
+    "year": "247090288_4141365315968096_5482273701937955922_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：247090288_4141365315968096_5482273701937955922_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "df707e6d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "247262845_4144937692277525_7339171862241948716_n",
+    "monkOrTemple": "未知高僧",
+    "year": "247262845_4144937692277525_7339171862241948716_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：247262845_4144937692277525_7339171862241948716_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e5e0e382",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "247454272_4136204726484155_2996918823621184060_n",
+    "monkOrTemple": "未知高僧",
+    "year": "247454272_4136204726484155_2996918823621184060_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：247454272_4136204726484155_2996918823621184060_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e4b2bbad",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "247697352_4144522462319048_5199418598179527234_n",
+    "monkOrTemple": "未知高僧",
+    "year": "247697352_4144522462319048_5199418598179527234_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：247697352_4144522462319048_5199418598179527234_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "768235de",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "247893985_4144937835610844_2460726264675282845_n",
+    "monkOrTemple": "未知高僧",
+    "year": "247893985_4144937835610844_2460726264675282845_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：247893985_4144937835610844_2460726264675282845_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "ca9380b5",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "248041213_4156428417795119_6242842689500972659_n",
+    "monkOrTemple": "未知高僧",
+    "year": "248041213_4156428417795119_6242842689500972659_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：248041213_4156428417795119_6242842689500972659_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "575a8c38",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "248356700_4156428314461796_6447245858599568166_n (1)",
+    "monkOrTemple": "未知高僧",
+    "year": "248356700_4156428314461796_6447245858599568166_n (1)",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：248356700_4156428314461796_6447245858599568166_n (1).jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "255768a1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "248356700_4156428314461796_6447245858599568166_n",
+    "monkOrTemple": "未知高僧",
+    "year": "248356700_4156428314461796_6447245858599568166_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：248356700_4156428314461796_6447245858599568166_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1ebc185a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "248412908_4144937822277512_393273969537278981_n",
+    "monkOrTemple": "未知高僧",
+    "year": "248412908_4144937822277512_393273969537278981_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：248412908_4144937822277512_393273969537278981_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e39d1fb6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "248538626_4141364952634799_5387672894349998323_n",
+    "monkOrTemple": "未知高僧",
+    "year": "248538626_4141364952634799_5387672894349998323_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：248538626_4141364952634799_5387672894349998323_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "51e4cc36",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "248544597_4158086160962678_6079535711072043489_n",
+    "monkOrTemple": "未知高僧",
+    "year": "248544597_4158086160962678_6079535711072043489_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：248544597_4158086160962678_6079535711072043489_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "19941cf0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "248582927_4144523045652323_4536144054754046621_n",
+    "monkOrTemple": "未知高僧",
+    "year": "248582927_4144523045652323_4536144054754046621_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：248582927_4144523045652323_4536144054754046621_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3ab83ca8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "248772414_4144937672277527_515559520486175931_n",
+    "monkOrTemple": "未知高僧",
+    "year": "248772414_4144937672277527_515559520486175931_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：248772414_4144937672277527_515559520486175931_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "15377150",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "249493810_4156438697794091_8928913837735601631_n (1)",
+    "monkOrTemple": "未知高僧",
+    "year": "249493810_4156438697794091_8928913837735601631_n (1)",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：249493810_4156438697794091_8928913837735601631_n (1).jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0b43111b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "249493810_4156438697794091_8928913837735601631_n",
+    "monkOrTemple": "未知高僧",
+    "year": "249493810_4156438697794091_8928913837735601631_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：249493810_4156438697794091_8928913837735601631_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d6375f1f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "249921499_4164358597002101_9147814872316004287_n",
+    "monkOrTemple": "未知高僧",
+    "year": "249921499_4164358597002101_9147814872316004287_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：249921499_4164358597002101_9147814872316004287_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "64ed9328",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "250143424_1028949841250310_6861689674678372123_n",
+    "monkOrTemple": "未知高僧",
+    "year": "250143424_1028949841250310_6861689674678372123_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：250143424_1028949841250310_6861689674678372123_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5829eb72",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "250319775_4164357850335509_3543694349613021719_n (1)",
+    "monkOrTemple": "未知高僧",
+    "year": "250319775_4164357850335509_3543694349613021719_n (1)",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：250319775_4164357850335509_3543694349613021719_n (1).jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "82c330c8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "250319775_4164357850335509_3543694349613021719_n",
+    "monkOrTemple": "未知高僧",
+    "year": "250319775_4164357850335509_3543694349613021719_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：250319775_4164357850335509_3543694349613021719_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "09609b50",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "250356833_4156429104461717_3586034303381202046_n (1)",
+    "monkOrTemple": "未知高僧",
+    "year": "250356833_4156429104461717_3586034303381202046_n (1)",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：250356833_4156429104461717_3586034303381202046_n (1).jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "702abe24",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "250356833_4156429104461717_3586034303381202046_n",
+    "monkOrTemple": "未知高僧",
+    "year": "250356833_4156429104461717_3586034303381202046_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：250356833_4156429104461717_3586034303381202046_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cca94e31",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "250677751_4164359623668665_7617852638262859097_n",
+    "monkOrTemple": "未知高僧",
+    "year": "250677751_4164359623668665_7617852638262859097_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：250677751_4164359623668665_7617852638262859097_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "04f88289",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "250891796_4164359213668706_4462301777906787979_n",
+    "monkOrTemple": "未知高僧",
+    "year": "250891796_4164359213668706_4462301777906787979_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：250891796_4164359213668706_4462301777906787979_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "08464f56",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "251241994_4164359073668720_4856288441782677358_n",
+    "monkOrTemple": "未知高僧",
+    "year": "251241994_4164359073668720_4856288441782677358_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：251241994_4164359073668720_4856288441782677358_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "32862c10",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "251595740_1030753674403260_8253761187196489257_n",
+    "monkOrTemple": "未知高僧",
+    "year": "251595740_1030753674403260_8253761187196489257_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：251595740_1030753674403260_8253761187196489257_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fc766b48",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "251815742_4164358450335449_231683501014960815_n",
+    "monkOrTemple": "未知高僧",
+    "year": "251815742_4164358450335449_231683501014960815_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：251815742_4164358450335449_231683501014960815_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "7b0a9ce0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "254695866_4187969104641050_5992911287471281488_n",
+    "monkOrTemple": "未知高僧",
+    "year": "254695866_4187969104641050_5992911287471281488_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：254695866_4187969104641050_5992911287471281488_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "041f492e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "255003572_4192646980839929_2636206271453656656_n",
+    "monkOrTemple": "未知高僧",
+    "year": "255003572_4192646980839929_2636206271453656656_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：255003572_4192646980839929_2636206271453656656_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f69c8997",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "257290941_4216212301816730_5536095821656465814_n",
+    "monkOrTemple": "未知高僧",
+    "year": "257290941_4216212301816730_5536095821656465814_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：257290941_4216212301816730_5536095821656465814_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d193965e",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "257368425_4211198165651477_1050394697675406679_n",
+    "monkOrTemple": "未知高僧",
+    "year": "257368425_4211198165651477_1050394697675406679_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：257368425_4211198165651477_1050394697675406679_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "88dc830a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "258842810_4225792580858702_3770232829299347106_n",
+    "monkOrTemple": "未知高僧",
+    "year": "258842810_4225792580858702_3770232829299347106_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：258842810_4225792580858702_3770232829299347106_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a4460c7f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "259076601_4221096784661615_9118139137366905562_n",
+    "monkOrTemple": "未知高僧",
+    "year": "259076601_4221096784661615_9118139137366905562_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：259076601_4221096784661615_9118139137366905562_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "295df874",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "262161007_4256651441106149_1155236900679766639_n",
+    "monkOrTemple": "未知高僧",
+    "year": "262161007_4256651441106149_1155236900679766639_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：262161007_4256651441106149_1155236900679766639_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "25dee606",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "263108560_4278378872266739_2688341024706289306_n",
+    "monkOrTemple": "未知高僧",
+    "year": "263108560_4278378872266739_2688341024706289306_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：263108560_4278378872266739_2688341024706289306_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8b07e5fa",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "263781553_4279694218801871_5333014031474722683_n",
+    "monkOrTemple": "未知高僧",
+    "year": "263781553_4279694218801871_5333014031474722683_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：263781553_4279694218801871_5333014031474722683_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e4a7b4c0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "264083803_4279699148801378_3590274050218918210_n",
+    "monkOrTemple": "未知高僧",
+    "year": "264083803_4279699148801378_3590274050218918210_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：264083803_4279699148801378_3590274050218918210_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a3a0470d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "264153262_4279694812135145_4377835246144489721_n",
+    "monkOrTemple": "未知高僧",
+    "year": "264153262_4279694812135145_4377835246144489721_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：264153262_4279694812135145_4377835246144489721_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fe919c3a",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "264341746_4286089401495686_1980479756971977852_n",
+    "monkOrTemple": "未知高僧",
+    "year": "264341746_4286089401495686_1980479756971977852_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：264341746_4286089401495686_1980479756971977852_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "441e3a2c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "264798785_4288169824620977_5819140610147622355_n",
+    "monkOrTemple": "未知高僧",
+    "year": "264798785_4288169824620977_5819140610147622355_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：264798785_4288169824620977_5819140610147622355_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8ec13962",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "264905333_4286089418162351_2529051899710505541_n",
+    "monkOrTemple": "未知高僧",
+    "year": "264905333_4286089418162351_2529051899710505541_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：264905333_4286089418162351_2529051899710505541_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d23154d1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "264910885_4286089898162303_7142765535586651462_n",
+    "monkOrTemple": "未知高僧",
+    "year": "264910885_4286089898162303_7142765535586651462_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：264910885_4286089898162303_7142765535586651462_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3b1097a1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "265119422_4283032295134730_4980828791559634862_n",
+    "monkOrTemple": "未知高僧",
+    "year": "265119422_4283032295134730_4980828791559634862_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：265119422_4283032295134730_4980828791559634862_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "dc8a7800",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "265168641_4286089668162326_7008255882049350862_n",
+    "monkOrTemple": "未知高僧",
+    "year": "265168641_4286089668162326_7008255882049350862_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：265168641_4286089668162326_7008255882049350862_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a7566ca3",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "265202069_4286089784828981_2572180916438877995_n",
+    "monkOrTemple": "未知高僧",
+    "year": "265202069_4286089784828981_2572180916438877995_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：265202069_4286089784828981_2572180916438877995_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f606bc34",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "265207240_4294641040640522_5379848810097196997_n",
+    "monkOrTemple": "未知高僧",
+    "year": "265207240_4294641040640522_5379848810097196997_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：265207240_4294641040640522_5379848810097196997_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "47da3bb5",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "265546964_4283020565135903_97471206435642708_n",
+    "monkOrTemple": "未知高僧",
+    "year": "265546964_4283020565135903_97471206435642708_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：265546964_4283020565135903_97471206435642708_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b47ec02f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "266123589_4300342163403743_510884986000605709_n (1)",
+    "monkOrTemple": "未知高僧",
+    "year": "266123589_4300342163403743_510884986000605709_n (1)",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：266123589_4300342163403743_510884986000605709_n (1).jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "671ea0b3",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "266123589_4300342163403743_510884986000605709_n",
+    "monkOrTemple": "未知高僧",
+    "year": "266123589_4300342163403743_510884986000605709_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：266123589_4300342163403743_510884986000605709_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4b40a187",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "266184494_4300353300069296_1782480469777384982_n",
+    "monkOrTemple": "未知高僧",
+    "year": "266184494_4300353300069296_1782480469777384982_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：266184494_4300353300069296_1782480469777384982_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "5f8ce683",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "266218266_4295478213890138_4527306344739520630_n",
+    "monkOrTemple": "未知高僧",
+    "year": "266218266_4295478213890138_4527306344739520630_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：266218266_4295478213890138_4527306344739520630_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "25de61ae",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "266220570_4303577196413573_3617569941222367272_n",
+    "monkOrTemple": "未知高僧",
+    "year": "266220570_4303577196413573_3617569941222367272_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：266220570_4303577196413573_3617569941222367272_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6e9176c2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "266340670_4294640600640566_6611490194918020329_n",
+    "monkOrTemple": "未知高僧",
+    "year": "266340670_4294640600640566_6611490194918020329_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：266340670_4294640600640566_6611490194918020329_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "d1195018",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "266473361_4303577213080238_2834542399966385465_n",
+    "monkOrTemple": "未知高僧",
+    "year": "266473361_4303577213080238_2834542399966385465_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：266473361_4303577213080238_2834542399966385465_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1a7f119b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "266981499_4294643217306971_5514872347814349852_n",
+    "monkOrTemple": "未知高僧",
+    "year": "266981499_4294643217306971_5514872347814349852_n",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：266981499_4294643217306971_5514872347814349852_n.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "050f04e5",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "apx6i8",
+    "monkOrTemple": "未知高僧",
+    "year": "apx6i8",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：apx6i8.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "bda56529",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "EuvbpMbUUAM5Cqd",
+    "monkOrTemple": "未知高僧",
+    "year": "EuvbpMbUUAM5Cqd",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：EuvbpMbUUAM5Cqd.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "81daeb99",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "loyabh",
+    "monkOrTemple": "未知高僧",
+    "year": "loyabh",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：loyabh.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cd0c3dc0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20211210164828",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20211210164828",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20211210164828.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "eb0f01cb",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20211210164835",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20211210164835",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20211210164835.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "22ef3d7f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20211210164840",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20211210164840",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20211210164840.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "cc7f69af",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20211214160413",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20211214160413",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20211214160413.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e7fded44",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "有求皆满火焰必达",
+    "monkOrTemple": "未知高僧",
+    "year": "有求皆满火焰必达",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：有求皆满火焰必达.pdf。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "9b524b96",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片编辑_20210507182044",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片编辑_20210507182044",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片编辑_20210507182044.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c05dd52d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片编辑_20210507182808",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片编辑_20210507182808",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片编辑_20210507182808.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "3ff57341",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片编辑_20210507183653",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片编辑_20210507183653",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片编辑_20210507183653.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f9bd0b0b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "底部",
+    "monkOrTemple": "未知高僧",
+    "year": "底部",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：底部.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "2752b4c8",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片编辑_20220112195111",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片编辑_20220112195111",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片编辑_20220112195111.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "eae2d5e1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "正面",
+    "monkOrTemple": "未知高僧",
+    "year": "正面",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：正面.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "dd081fd3",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "背面",
+    "monkOrTemple": "未知高僧",
+    "year": "背面",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：背面.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "91533656",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "花粉侧面",
+    "monkOrTemple": "未知高僧",
+    "year": "花粉侧面",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：花粉侧面.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fc0503f3",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "边沟",
+    "monkOrTemple": "未知高僧",
+    "year": "边沟",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：边沟.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "141ec6b4",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20210528091529",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20210528091529",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20210528091529.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "aeca8403",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20210528091537",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20210528091537",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20210528091537.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c9b2eed6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20210528091546",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20210528091546",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20210528091546.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8ff86327",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20210528091553",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20210528091553",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20210528091553.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "fc93a372",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20210528091559",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20210528091559",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20210528091559.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "539013d9",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20210528091604",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20210528091604",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20210528091604.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a195b89d",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "微信图片_20210528091630",
+    "monkOrTemple": "未知高僧",
+    "year": "微信图片_20210528091630",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：微信图片_20210528091630.jpg。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "a33e8b82",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "普拉坤平佛",
+    "monkOrTemple": "龙普添龙普乔",
+    "year": "2514年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2514年-龙普添龙普乔-普拉坤平佛.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "e5675300",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "四面佛盾牌",
+    "monkOrTemple": "龙普贤",
+    "year": "2562年",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2562年-龙普贤-四面佛盾牌.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "db5bd6b6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普贤瑰王禅定自身",
+    "monkOrTemple": "未知高僧",
+    "year": "龙普贤瑰王禅定自身",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：龙普贤瑰王禅定自身.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "001ca64b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "龙普通-五始佛",
+    "monkOrTemple": "2439年",
+    "year": "2436",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：2436-2439年-龙普通-五始佛.docx。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1afd9f6c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "珠光帘崇迪（小模）",
+    "monkOrTemple": "龙普门",
+    "year": "2543年",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：2543年-龙普门-珠光帘崇迪（小模）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "1eeca0ad",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "七龙佛ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "七龙佛ver20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：七龙佛ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "0c790eac",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "供奉型ver20191216(刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "供奉型ver20191216(刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：供奉型ver20191216(刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8c7d0e17",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "其他ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "其他ver20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：其他ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c300f3a2",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "冠兰物ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "冠兰物ver20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：冠兰物ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "8985cca1",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "善伽财ver20191216(刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "善伽财ver20191216(刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：善伽财ver20191216(刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "28b5439c",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "四面佛ver201916（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "四面佛ver201916（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：四面佛ver201916（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "75e78920",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "坤平佛ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "坤平佛ver20191216（刘雪）",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：坤平佛ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "015bbebe",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "女王佛ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "女王佛ver20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：女王佛ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4349e7c6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "崇迪佛ver20191216(唐敏）",
+    "monkOrTemple": "未知高僧",
+    "year": "崇迪佛ver20191216(唐敏）",
+    "material": "圣粉",
+    "description": "[待完善] 该档案提取自公司原始库：崇迪佛ver20191216(唐敏）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "369ca4ca",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "成功佛ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "成功佛ver20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：成功佛ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "f25602c0",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "拉胡天神ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "拉胡天神ver20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：拉胡天神ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "6641ae2f",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "掩面佛ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "掩面佛ver20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：掩面佛ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "60b8e63b",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "旗杆佛ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "旗杆佛ver20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：旗杆佛ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "57d809a6",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "自身像ver20191216（唐敏）",
+    "monkOrTemple": "未知高僧",
+    "year": "自身像ver20191216（唐敏）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：自身像ver20191216（唐敏）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "b1287d52",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "药师佛ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "药师佛ver20191216（刘雪）",
+    "material": "金属",
+    "description": "[待完善] 该档案提取自公司原始库：药师佛ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "c78747ab",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "象神ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "象神ver20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：象神ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "4f0d9596",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "车挂车摆ver20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "车挂车摆ver20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：车挂车摆ver20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  },
+  {
+    "id": "24a46a03",
+    "thaiName": "รอข้อมูลเพิ่มเติม",
+    "chineseName": "转运珠20191216（刘雪）",
+    "monkOrTemple": "未知高僧",
+    "year": "转运珠20191216（刘雪）",
+    "material": "混合材质",
+    "description": "[待完善] 该档案提取自公司原始库：转运珠20191216（刘雪）.doc。包含该圣物的详细历史与文化背景，请前往后台编辑并上传清晰照片。",
+    "imageUrl": "/images/placeholder-amulet.png"
+  }
+]
