@@ -20,6 +20,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import Image from "next/image";
 
 import { useRouter } from "next/navigation";
 
@@ -51,14 +52,13 @@ export default function AmuletDetailClient({ amulet, userRole, adminComments }: 
             className="w-full h-full amulet-swiper"
           >
             {amuletImages.map((img, idx) => (
-              <SwiperSlide key={idx} className="bg-[#1a1814] flex items-center justify-center">
-                <img
-                  src={img as string}
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src = 'https://via.placeholder.com/800x800/1a1814/c4a265?text=Siam+Treasures'
-                  }}
+              <SwiperSlide key={idx} className="bg-[#1a1814] flex items-center justify-center relative min-h-[400px] md:min-h-[600px]">
+                <Image
+                  src={img || "/images/placeholder-amulet.png"}
                   alt={lang === "zh" ? `${amulet.nameZh} / 细节图 ${idx + 1}` : `${amulet.nameEn} / Detail ${idx + 1}`}
-                  className="w-full h-full object-contain md:object-cover aspect-square md:aspect-auto md:min-h-[600px] hover:scale-105 transition-transform duration-[1.5s] ease-out"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-contain md:object-cover aspect-square md:aspect-auto hover:scale-105 transition-transform duration-[1.5s] ease-out"
                 />
               </SwiperSlide>
             ))}

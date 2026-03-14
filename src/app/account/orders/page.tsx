@@ -4,6 +4,7 @@ import { prisma } from "@/api/db";
 import { PackageSearch, Clock, PackageCheck, MapPin, Search } from "lucide-react";
 import Link from "next/link";
 import { Amulet } from "@prisma/client";
+import Image from "next/image";
 
 export default async function OrdersPage() {
     const session = await getServerSession(authOptions);
@@ -64,8 +65,14 @@ export default async function OrdersPage() {
                                 <ul className="space-y-4">
                                     {order.items.map(item => (
                                         <li key={item.id} className="flex gap-4">
-                                            <div className="w-16 h-20 bg-[#0d0c0b] rounded overflow-hidden shrink-0 border border-[#c4a265]/10">
-                                                <img src={item.amulet.imageUrl} alt="" className="w-full h-full object-cover opacity-80" />
+                                            <div className="relative w-16 h-20 bg-[#0d0c0b] rounded overflow-hidden shrink-0 border border-[#c4a265]/10">
+                                                <Image 
+                                                    src={item.amulet.imageUrl || "/images/placeholder-amulet.png"} 
+                                                    alt={item.amulet.nameEn || "Amulet"} 
+                                                    fill
+                                                    sizes="64px"
+                                                    className="object-cover opacity-80" 
+                                                />
                                             </div>
                                             <div>
                                                 <Link href={`/amulet/${item.amulet.id}`} className="text-[#d4c5b0] hover:text-[#c4a265] font-serif transition-colors line-clamp-1">

@@ -5,6 +5,7 @@ import { postCommentAction } from '@/app/actions';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 import { Star } from 'lucide-react';
+import Image from "next/image";
 
 export function CommentsList({ amuletId, comments, userRole = "CUSTOMER" }: { amuletId: string, comments: any[], userRole?: string }) {
     const { t } = useLanguage();
@@ -60,7 +61,15 @@ export function CommentsList({ amuletId, comments, userRole = "CUSTOMER" }: { am
                             {c.images && JSON.parse(c.images).length > 0 && (
                                 <div className="flex gap-2 mt-2">
                                     {JSON.parse(c.images).map((imgUrl: string, idx: number) => (
-                                        <img key={idx} src={imgUrl} alt="Review Image" className="w-20 h-20 object-cover rounded border border-[#c4a265]/20" />
+                                        <div key={idx} className="relative w-20 h-20 rounded overflow-hidden border border-[#c4a265]/20 bg-[#0d0c0b]">
+                                            <Image 
+                                                src={imgUrl} 
+                                                alt="Review Image" 
+                                                fill 
+                                                sizes="80px" 
+                                                className="object-cover" 
+                                            />
+                                        </div>
                                     ))}
                                 </div>
                             )}

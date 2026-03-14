@@ -6,6 +6,7 @@ import { Trash2, ShoppingBag } from "lucide-react";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useSession } from "next-auth/react";
+import Image from "next/image";
 
 export default function CartPage() {
     const { items, removeFromCart, updateQuantity } = useCart();
@@ -48,8 +49,14 @@ export default function CartPage() {
                         <div className="lg:col-span-2 space-y-6">
                             {items.map((item) => (
                                 <div key={item.amulet.id} className="flex gap-6 bg-[#1a1814] p-6 rounded-2xl border border-[#c4a265]/20 hover:border-[#c4a265]/40 transition-colors shadow-xl">
-                                    <div className="w-24 h-32 bg-[#0d0c0b] rounded-lg overflow-hidden shrink-0">
-                                        <img src={item.amulet.imageUrl} alt="Artifact" className="w-full h-full object-cover opacity-80" />
+                                    <div className="relative w-24 h-32 bg-[#0d0c0b] rounded-lg overflow-hidden shrink-0">
+                                        <Image 
+                                            src={item.amulet.imageUrl || "/images/placeholder-amulet.png"} 
+                                            alt="Artifact" 
+                                            fill
+                                            sizes="96px"
+                                            className="object-cover opacity-80" 
+                                        />
                                     </div>
                                     <div className="flex-1 flex flex-col">
                                         <div className="flex justify-between items-start mb-2">

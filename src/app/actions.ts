@@ -27,6 +27,8 @@ export async function updateAmuletAction(id: string, formData: FormData) {
         isB2bOnly: formData.get("isB2bOnly") === "on",
     };
 
+    console.log(`[updateAmuletAction] ID: ${id}, ImageURL: ${updates.imageUrl}`);
+
     const wholesalePriceStr = formData.get("wholesalePrice") as string;
     if (wholesalePriceStr && !isNaN(parseFloat(wholesalePriceStr))) {
         updates.wholesalePrice = parseFloat(wholesalePriceStr);
@@ -41,13 +43,15 @@ export async function updateAmuletAction(id: string, formData: FormData) {
             session.user.name || session.user.email || "Unknown User",
             "更新圣物档案",
             id,
-            `更新了: ${updates.nameZh}`,
+            `更新了: ${updates.nameZh} | Image: ${updates.imageUrl?.substring(0, 50)}...`,
             "WRITE"
         );
 
         revalidatePath("/admin");
         revalidatePath("/");
         revalidatePath(`/amulet/${id}`);
+    } else {
+        console.error(`[updateAmuletAction] FAILED for ID: ${id}`);
     }
     return { success };
 }

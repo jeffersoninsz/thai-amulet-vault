@@ -1,4 +1,5 @@
 import { TopNav } from "@/components/TopNav";
+import Image from "next/image";
 
 export default function StoryPage() {
     return (
@@ -24,9 +25,17 @@ export default function StoryPage() {
                         </p>
                     </div>
                     <div className="order-1 md:order-2">
-                        <div className="aspect-[4/5] relative rounded-2xl overflow-hidden border border-[#c4a265]/20 shadow-2xl">
-                            <img src="/images/siam_treasure_placeholder.png" alt="Monk blessing" className="object-cover w-full h-full opacity-80" />
-                            <div className="absolute inset-0 bg-gradient-to-t from-[#0d0c0b] to-transparent"></div>
+                        <div className="relative group">
+                            <div className="absolute inset-0 bg-[#c4a265]/20 translate-x-4 -translate-y-4 rounded-xl -z-10 group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-500"></div>
+                            <div className="relative aspect-[3/4] rounded-xl overflow-hidden border border-[#c4a265]/30">
+                                <Image
+                                    src="/images/siam_treasure_placeholder.png"
+                                    alt="Monk blessing"
+                                    fill
+                                    sizes="(max-width: 768px) 100vw, 50vw"
+                                    className="object-cover opacity-80"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>

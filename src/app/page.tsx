@@ -1,4 +1,5 @@
 import { getAmulets, getAdminReviewComments, getSiteConfig, getArticles } from "@/api/db";
+import Image from "next/image";
 import { Sparkles, Shield, Droplet, FileText } from "lucide-react";
 import { TopNav } from "@/components/TopNav";
 import { AmuletShowcase } from "@/components/AmuletShowcase";
@@ -48,25 +49,27 @@ export default async function Home() {
       <section className="w-full pt-[140px] lg:pt-[130px] pb-8 md:pb-16 bg-[#0d0c0b]">
         {/* 外层包裹器，可根据需求加边距，此处设定为满铺以更显大气 */}
         <div className="w-full mx-auto relative group bg-[#1a1814]">
-          <Link href="/collections" className="block relative w-full overflow-hidden">
+          <div className="block relative w-full overflow-hidden">
 
             {/* 1. PC端长条海报预留位 (MD屏幕及以上显示，默认隐藏) */}
-            <div className="hidden md:block w-full h-[400px] lg:h-[600px] xl:h-[700px]">
-              <img
-                /* 👇 在此替换为您的 PC版大促海报图 (如 1920x600 或 21:9 比例) */
+            <div className="hidden md:block w-full h-[400px] lg:h-[600px] xl:h-[700px] relative">
+              <Image
                 src="/images/banner_pc.png"
                 alt="PC 节日/活动海报"
-                className="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-[1.03]"
+                fill
+                priority
+                className="object-cover transition-transform duration-[2s] group-hover:scale-[1.03]"
               />
             </div>
 
             {/* 2. 无线端竖排海报预留位 (默认显示，MD屏幕及以上隐藏) */}
-            <div className="block md:hidden w-full h-[550px] sm:h-[600px]">
-              <img
-                /* 👇 在此替换为您的 手机版大促竖版海报图 (如 1080x1920 或 4:5 比例) */
+            <div className="block md:hidden w-full h-[550px] sm:h-[600px] relative">
+              <Image
                 src="/images/banner_mob.png"
                 alt="Mobile 节日/活动海报"
-                className="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-[1.03]"
+                fill
+                priority
+                className="object-cover transition-transform duration-[2s] group-hover:scale-[1.03]"
               />
             </div>
 
@@ -103,7 +106,7 @@ export default async function Home() {
               </div>
             </div>
 
-          </Link>
+          </div>
 
           {/* 4. Mobile Text Flow (Appears purely below the image, strictly formatted) */}
           <div className="md:hidden flex flex-col items-center justify-center pt-8 px-6 pb-4 text-center space-y-5 bg-[#1a1814]">
@@ -168,8 +171,14 @@ export default async function Home() {
               {articles.map((article: any) => (
                 <div key={article.id} className="bg-[#1a1814] rounded-xl border border-[#c4a265]/10 overflow-hidden hover:border-[#c4a265]/40 transition-all group">
                   {article.imageUrl && (
-                    <div className="w-full h-48 overflow-hidden">
-                      <img src={article.imageUrl} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80" alt={article.titleEn} />
+                    <div className="relative w-full h-48 overflow-hidden bg-black/40">
+                      <Image 
+                        src={article.imageUrl || "/images/placeholder-amulet.png"} 
+                        fill
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                        className="object-cover transition-transform duration-700 group-hover:scale-105 opacity-80" 
+                        alt={article.titleEn} 
+                      />
                     </div>
                   )}
                   <div className="p-6">

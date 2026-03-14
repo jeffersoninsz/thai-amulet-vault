@@ -3,6 +3,9 @@
 import { Amulet } from "@/types/amulet";
 import { useState, useTransition } from "react";
 import { updateAmuletAction, createAmuletAction, deleteAmuletAction } from "@/app/actions";
+import { CloudinaryUploader } from "@/components/admin/CloudinaryUploader";
+import Image from "next/image";
+import { toast } from "react-hot-toast";
 
 export default function AdminClient({
   amulets,
@@ -41,46 +44,56 @@ export default function AdminClient({
     setCurrentPage(1);
   };
 
-  const handleFileUpload = async (
-    e: React.ChangeEvent<HTMLInputElement>,
-    amuletId: string,
-  ) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
-
-    const formData = new FormData();
-    formData.append("file", file);
-
-    try {
-      const res = await fetch("/api/upload", {
-        method: "POST",
-        body: formData,
-      });
-      if (res.ok) {
-        const data = await res.json();
-        setUploadedImages((prev) => ({ ...prev, [amuletId]: data.url }));
-      } else {
-        alert("图片上传失败 (Upload failed)");
-      }
-    } catch (error) {
-      console.error(error);
-      alert("网络错误 (Network error during upload)");
-    }
+  const handleCloudinarySuccess = (url: string, amuletId: string) => {
+    setUploadedImages((prev) => ({ ...prev, [amuletId]: url }));
   };
 
   async function handleSave(formData: FormData, id: string) {
     setLoading(true);
-    await updateAmuletAction(id, formData);
-    setLoading(false);
-    setEditingId(null);
+    try {
+      const result = await updateAmuletAction(id, formData);
+      if (result.success) {
+        toast.success("档案更新成功！");
+        // 清理本地上传缓存，确保下次编辑使用服务器最新数据
+        setUploadedImages(prev => {
+          const next = { ...prev };
+          delete next[id];
+          return next;
+        });
+        setEditingId(null);
+      } else {
+        toast.error("更新失败，请检查数据格式");
+      }
+    } catch (error) {
+      console.error("HandleSave error:", error);
+      toast.error("服务器响应异常，请稍后再试");
+    } finally {
+      setLoading(false);
+    }
   }
 
   async function handleCreate(formData: FormData) {
     setLoading(true);
-    await createAmuletAction(formData);
-    setLoading(false);
-    setIsCreating(false);
-    setCurrentPage(1);
+    try {
+      const result = await createAmuletAction(formData);
+      if (result.success) {
+        toast.success("新圣物创建成功！");
+        setUploadedImages(prev => {
+          const next = { ...prev };
+          delete next["new"];
+          return next;
+        });
+        setIsCreating(false);
+        setCurrentPage(1);
+      } else {
+        toast.error("创建失败：" + (result.error || "未知原因"));
+      }
+    } catch (error) {
+      console.error("HandleCreate error:", error);
+      toast.error("创建过程中发生意外错误");
+    } finally {
+      setLoading(false);
+    }
   }
 
   async function handleDelete(id: string, name: string) {
@@ -143,7 +156,7 @@ export default function AdminClient({
                     employee={employee}
                     loading={loading}
                     uploadedImages={uploadedImages}
-                    handleFileUpload={handleFileUpload}
+                    handleFileUpload={(url: string) => handleCloudinarySuccess(url, "new")}
                     handleSave={handleCreate}
                     setEditingId={() => setIsCreating(false)}
                     colSpan={7}
@@ -154,11 +167,15 @@ export default function AdminClient({
               {displayList.map((amulet) => (
                 <tr key={amulet.id} className="border-b border-[#c4a265]/10 hover:bg-[#c4a265]/5 transition-colors">
                   <td className="p-4">
-                    <img
-                      src={uploadedImages[amulet.id] || amulet.imageUrl}
-                      className="w-12 h-16 object-cover rounded opacity-80"
-                      alt=""
-                    />
+                    <div className="relative w-12 h-16 rounded overflow-hidden opacity-80 border border-[#c4a265]/10 bg-[#0d0c0b]">
+                      <Image
+                        src={uploadedImages[amulet.id] || amulet.imageUrl || "/images/placeholder-amulet.png"}
+                        alt={amulet.nameEn || "Amulet"}
+                        fill
+                        sizes="48px"
+                        className="object-cover"
+                      />
+                    </div>
                   </td>
 
                   {editingId === amulet.id ? (
@@ -167,7 +184,7 @@ export default function AdminClient({
                       employee={employee}
                       loading={loading}
                       uploadedImages={uploadedImages}
-                      handleFileUpload={handleFileUpload}
+                      handleFileUpload={(url: string) => handleCloudinarySuccess(url, amulet.id)}
                       handleSave={(fd: FormData) => handleSave(fd, amulet.id)}
                       setEditingId={setEditingId}
                       colSpan={7}
@@ -232,7 +249,7 @@ export default function AdminClient({
                 employee={employee}
                 loading={loading}
                 uploadedImages={uploadedImages}
-                handleFileUpload={handleFileUpload}
+                handleFileUpload={(url: string) => handleCloudinarySuccess(url, "new")}
                 handleSave={handleCreate}
                 setEditingId={() => setIsCreating(false)}
                 isNew={true}
@@ -248,18 +265,22 @@ export default function AdminClient({
                     employee={employee}
                     loading={loading}
                     uploadedImages={uploadedImages}
-                    handleFileUpload={handleFileUpload}
+                    handleFileUpload={(url: string) => handleCloudinarySuccess(url, amulet.id)}
                     handleSave={(fd: FormData) => handleSave(fd, amulet.id)}
                     setEditingId={setEditingId}
                   />
                 </div>
               ) : (
                 <div className="flex gap-4">
-                  <img
-                    src={uploadedImages[amulet.id] || amulet.imageUrl}
-                    className="w-20 h-24 object-cover rounded opacity-90 border border-[#c4a265]/20"
-                    alt=""
-                  />
+                  <div className="relative w-20 h-24 rounded overflow-hidden opacity-90 border border-[#c4a265]/20 bg-[#0d0c0b] shrink-0">
+                    <Image
+                      src={uploadedImages[amulet.id] || amulet.imageUrl || "/images/placeholder-amulet.png"}
+                      alt={amulet.nameEn || "Amulet"}
+                      fill
+                      sizes="80px"
+                      className="object-cover"
+                    />
+                  </div>
                   <div className="flex-1 min-w-0 flex flex-col justify-between">
                     <div>
                       <h3 className="text-[#f5ebd7] font-medium line-clamp-2 text-sm leading-tight">
@@ -349,20 +370,11 @@ function RenderEditForm({
 
       <div className="flex flex-col sm:flex-row gap-5">
         <div className="flex flex-col items-center justify-center p-4 bg-[#1a1814] border border-dashed border-[#c4a265]/40 rounded-lg sm:w-1/3">
-          <img
-            src={currentImgUrl}
-            alt="Preview"
-            className="w-24 h-32 object-cover rounded shadow-lg border border-[#c4a265]/20 mb-3"
+          <CloudinaryUploader 
+            currentImageUrl={currentImgUrl}
+            onUploadSuccess={handleFileUpload}
+            label="佛牌高清实拍图"
           />
-          <label className="cursor-pointer bg-[#c4a265]/10 hover:bg-[#c4a265]/20 text-[#c4a265] px-3 py-1.5 rounded transition-colors text-xs font-semibold text-center w-full">
-            🖼️ 照片更新
-            <input
-              type="file"
-              accept="image/*"
-              onChange={(e) => handleFileUpload(e, amulet.id)}
-              className="hidden"
-            />
-          </label>
         </div>
 
         <div className="flex-1 space-y-4">

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Amulet } from '@/types/amulet';
 import { useLanguage } from '@/contexts/LanguageContext';
+import Image from "next/image";
 
 const CITIES_ZH = ['北京', '上海', '广州', '深圳', '成都', '杭州', '香港', '台北', '新加坡', '吉隆坡', '纽约', '多伦多'];
 const CITIES_EN = ['Beijing', 'Shanghai', 'Guangzhou', 'Shenzhen', 'Chengdu', 'Hangzhou', 'Hong Kong', 'Taipei', 'Singapore', 'Kuala Lumpur', 'New York', 'Toronto'];
@@ -86,7 +87,15 @@ export function FakeOrderToast({
     return (
         <div className="fixed top-28 lg:top-40 left-4 z-50 animate-in slide-in-from-top-8 fade-in duration-500">
             <div className="bg-[#1a1814]/95 backdrop-blur-md border border-[#c4a265]/30 shadow-2xl rounded-xl p-3 flex items-center gap-4 max-w-[300px] md:max-w-sm">
-                <img src={toast.amuletImg} alt="Amulet" className="w-12 h-16 object-cover rounded border border-[#c4a265]/20 shadow-sm shrink-0" />
+                <div className="relative w-12 h-16 rounded border border-[#c4a265]/20 shadow-sm shrink-0 overflow-hidden bg-black/40">
+                  <Image 
+                    src={toast.amuletImg || "/images/placeholder-amulet.png"} 
+                    alt="Amulet" 
+                    fill
+                    sizes="48px"
+                    className="object-cover" 
+                  />
+                </div>
                 <div className="text-sm">
                     <p className="text-[#a39783] mb-1">
                         <span className="font-bold text-[#d4c5b0]">{lang === 'zh' ? toast.cityZh : toast.cityEn}</span> {lang === 'zh' ? '的' : ''} <span className="font-bold text-[#d4c5b0]">{lang === 'zh' ? toast.nameZh : toast.nameEn}</span>

@@ -3,6 +3,7 @@
 import { FC } from "react";
 import { motion } from "framer-motion";
 import { Amulet } from "@/types/amulet";
+import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -26,12 +27,13 @@ export const AmuletCard: FC<AmuletCardProps> = ({ amulet, index }) => {
         whileHover={{ y: -8, scale: 1.02 }}
         className="group relative bg-[#1a1814]/80 backdrop-blur-md border border-[#c4a265]/20 rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 hover:border-[#c4a265]/60 hover:shadow-lg hover:shadow-[#c4a265]/20 flex flex-col h-full"
       >
-        <div className="relative h-40 md:h-64 w-full bg-[#0a0908] overflow-hidden flex items-center justify-center shrink-0">
-          <div className="absolute inset-0 bg-gradient-to-t from-[#1a1814] via-transparent to-transparent z-10 pointer-events-none" />
-          <img
-            src={amulet.imageUrl}
-            alt={lang === 'zh' ? (amulet.nameZh || "圣物") : (amulet.nameEn || amulet.nameZh || "Amulet")}
-            className="object-cover w-full h-full opacity-80 group-hover:scale-110 group-hover:opacity-100 transition-all duration-700 ease-in-out"
+        <div className="relative aspect-[3/4] w-full overflow-hidden mb-6 rounded-lg bg-black/40">
+          <Image
+            src={amulet.imageUrl || "/images/placeholder-amulet.png"}
+            alt={amulet.nameEn}
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover transition-transform duration-700 ease-[cubic-bezier(0.25,0.46,0.45,0.94)] group-hover:scale-110 opacity-90 group-hover:opacity-100"
           />
         </div>
 

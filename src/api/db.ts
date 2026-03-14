@@ -122,6 +122,8 @@ export async function updateAmulet(
     delete dataToUpdate.createdAt;
     delete dataToUpdate.updatedAt;
 
+    console.log(`[api/db.ts] updateAmulet ID: ${id}, fields:`, Object.keys(dataToUpdate));
+
     await prisma.amulet.update({
       where: { id },
       data: dataToUpdate,

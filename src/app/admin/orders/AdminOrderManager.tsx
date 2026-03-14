@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { PackageCheck, ChevronDown, Check, UserIcon, MapPin, Search, X, Eye } from "lucide-react";
+import Image from "next/image";
 
 export function AdminOrderManager({ initialOrders }: { initialOrders: any[] }) {
     const [orders, setOrders] = useState(initialOrders);
@@ -136,8 +137,14 @@ export function AdminOrderManager({ initialOrders }: { initialOrders: any[] }) {
                                 <ul className="space-y-3">
                                     {order.items.map((item: any) => (
                                         <li key={item.id} className="flex items-center gap-3">
-                                            <div className="w-10 h-10 bg-[#0d0c0b] rounded overflow-hidden shrink-0 border border-[#c4a265]/10">
-                                                <img src={item.amulet.imageUrl} className="w-full h-full object-cover opacity-70" alt="" />
+                                            <div className="relative w-10 h-10 bg-[#0d0c0b] rounded overflow-hidden shrink-0 border border-[#c4a265]/10">
+                                                <Image 
+                                                    src={item.amulet.imageUrl || "/images/placeholder-amulet.png"} 
+                                                    alt={item.amulet.nameEn || "Amulet"} 
+                                                    fill 
+                                                    sizes="40px" 
+                                                    className="object-cover opacity-70" 
+                                                />
                                             </div>
                                             <div className="flex-1 min-w-0">
                                                 <p className="text-[#d4c5b0] text-sm truncate font-serif">{item.amulet.nameEn || item.amulet.nameZh}</p>
@@ -220,7 +227,15 @@ export function AdminOrderManager({ initialOrders }: { initialOrders: any[] }) {
                                 <ul className="space-y-4">
                                     {selectedOrder.items.map((item: any) => (
                                         <li key={item.id} className="flex items-center gap-4 bg-[#0a0908] p-3 rounded">
-                                            <img src={item.amulet.imageUrl} className="w-16 h-20 object-cover rounded opacity-80 border border-[#c4a265]/20" alt="" />
+                                            <div className="relative w-16 h-20 shrink-0 border border-[#c4a265]/20 rounded overflow-hidden bg-[#0d0c0b]">
+                                                <Image 
+                                                    src={item.amulet.imageUrl || "/images/placeholder-amulet.png"} 
+                                                    alt={item.amulet.nameEn || "Amulet"} 
+                                                    fill 
+                                                    sizes="64px" 
+                                                    className="object-cover opacity-80" 
+                                                />
+                                            </div>
                                             <div className="flex-1">
                                                 <p className="text-[#d4c5b0] text-sm font-serif line-clamp-2">{item.amulet.nameZh}</p>
                                                 <p className="text-[#a39783] text-xs mt-1">{item.amulet.nameEn}</p>

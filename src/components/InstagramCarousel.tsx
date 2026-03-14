@@ -3,6 +3,7 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import Link from "next/link";
 import { MessageSquareQuote } from "lucide-react";
+import Image from "next/image";
 
 // The comment interface from Prisma
 interface AdminComment {
@@ -51,7 +52,13 @@ export function InstagramCarousel({ comments }: { comments: AdminComment[] }) {
                         >
                             {/* Fallback pattern if no image */}
                             <div className="absolute inset-0 bg-[#1a1814] flex items-center justify-center">
-                                <img src={imgUrl} className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Review" />
+                                <Image 
+                                    src={imgUrl || "/images/placeholder-amulet.png"} 
+                                    className="object-cover transition-transform duration-700 group-hover:scale-110" 
+                                    alt="Review" 
+                                    fill
+                                    sizes="(max-width: 768px) 100vw, 33vw"
+                                />
                             </div>
 
                             {/* Overlay (Visible on Hover for Desktop, always slightly visible or tap to view on mobile) */}

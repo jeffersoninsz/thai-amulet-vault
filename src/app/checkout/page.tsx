@@ -7,6 +7,7 @@ import { ArrowLeft, CheckCircle2, ShieldCheck, Lock, Truck, Loader2 } from "luci
 import { useState } from "react";
 import { redirect, useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
+import Image from "next/image";
 
 export default function CheckoutPage() {
     const { items, clearCart } = useCart();
