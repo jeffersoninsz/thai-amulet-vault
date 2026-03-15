@@ -1,4 +1,0 @@
-Cloud name dsvgbvi4y
-API key 615237678385821
-API secret **********
-API environment variable CLOUDINARY_URL=cloudinary://615237678385821:**********@dsvgbvi4y

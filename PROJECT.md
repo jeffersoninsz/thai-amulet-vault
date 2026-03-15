@@ -76,15 +76,17 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 | `start-dev.bat` 秒退 | BAT 文件含中文导致 CMD 编码崩溃 | 重写为纯英文脚本 | 2026-03-14 |
 | 图片更新后台无反应 | 缺乏错误捕获，Toast 未集成 | `AdminClient.tsx` 添加 try-catch + toast | 2026-03-14 |
 | Next.js Image 400 错误 | 本地路径图片未被 `remotePatterns` 覆盖 | 全量迁移至 Cloudinary | 2026-03-13 |
+| 网页跳转缓慢 | 数据库位于 AWS us-east-1 导致高 RTT | 实施 SiteConfig 内存缓存 + Promise.all 并行化 | 2026-03-15 |
+| 根目录太乱 | 临时测试脚本堆积 | 整合为 `scripts/maintain.py` 并清理冗余 | 2026-03-15 |
 
 ---
 
 ## 6. 自动化执行规约 (For AI Agents)
 
-1. **路径锁定**: 所有技术文档就地修改 (In-place edit)，严禁带日期后缀的冗余文档。
-2. **验证闭环**: 修改代码后必须自行运行 `npm run dev` 验证。
-3. **知识同步**: 重大变更后必须同步更新本文件与相关 `.md` 文档。
-4. **防失忆**: 新会话开始时，必须先读本文件获取上下文。
+1. **缓存同步**: 修改 `SiteConfig` 或核心配置后，需调用 `clearSiteConfigCache()` 或等待 TTL 过期。
+2. **强制精简**: 严禁在根目录创建 `test.php`, `tmp.txt` 等临时文件。所有诊断应写为 `scripts/` 下的标准化工具。
+3. **维护脚本**: 任何重大变更后，应运行 `python scripts/maintain.py` 进行健康检查。
+4. **Git 准则**: 确保每次重大优化后都强制推送到 GitHub 以保证 SSOT 同步。
 
 ---
-*SSOT Last Updated: 2026-03-14T21:22+08:00*
+*SSOT Last Updated: 2026-03-15T19:40+08:00*
