@@ -304,7 +304,8 @@ model MediaVault {
   id           String   @id @default(uuid())
   amuletId     String
   url          String
-  mediaType    String   // Front, Back, Side, Macro_Material, Video_360
+  mediaType    String   @default("IMAGE") // IMAGE, VIDEO
+  sortOrder    Int      @default(0)
   
   amulet       Amulet   @relation(fields: [amuletId], references: [id], onDelete: Cascade)
   createdAt    DateTime @default(now())

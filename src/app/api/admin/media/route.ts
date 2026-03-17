@@ -4,7 +4,7 @@ import { authOptions } from "@/lib/auth";
 import { prisma } from "@/api/db";
 import { revalidatePath } from "next/cache";
 
-// GET: Fetch media for a specific amulet
+// GET: Fetch media for a specific amulet, or all media for the vault browser
 export async function GET(req: Request) {
     try {
         const session = await getServerSession(authOptions);
@@ -16,17 +16,17 @@ export async function GET(req: Request) {
         const amuletId = searchParams.get("amuletId");
 
         if (!amuletId) {
-            // Return all media (for media vault browser)
+            // Return all media (for media vault browser / Cloudinary library picker)
             const allMedia = await prisma.mediaVault.findMany({
                 orderBy: { createdAt: "desc" },
-                take: 100,
+                take: 200,
             });
             return NextResponse.json({ media: allMedia });
         }
 
         const media = await prisma.mediaVault.findMany({
             where: { amuletId },
-            orderBy: { createdAt: "asc" },
+            orderBy: { sortOrder: "asc" },
         });
 
         return NextResponse.json({ media });
@@ -46,7 +46,7 @@ export async function POST(req: Request) {
         }
 
         const body = await req.json();
-        const { amuletId, url, mediaType, altText } = body;
+        const { amuletId, url, mediaType } = body;
 
         if (!amuletId || !url) {
             return NextResponse.json({ error: "amuletId and url are required" }, { status: 400 });
@@ -55,7 +55,7 @@ export async function POST(req: Request) {
         // Check current count for this amulet (max 5 media items)
         const currentCount = await prisma.mediaVault.count({ where: { amuletId } });
         if (currentCount >= 5) {
-            return NextResponse.json({ error: "Maximum 5 media items per product" }, { status: 400 });
+            return NextResponse.json({ error: "每个产品最多 5 张图片" }, { status: 400 });
         }
 
         const newMedia = await prisma.mediaVault.create({
@@ -63,6 +63,7 @@ export async function POST(req: Request) {
                 amuletId,
                 url,
                 mediaType: mediaType || "IMAGE",
+                sortOrder: currentCount, // append at end
             },
         });
 
@@ -81,6 +82,51 @@ export async function POST(req: Request) {
     } catch (error) {
         console.error("Error creating media:", error);
         return NextResponse.json({ error: "Failed to create media" }, { status: 500 });
+    }
+}
+
+// PUT: Reorder media items
+export async function PUT(req: Request) {
+    try {
+        const session = await getServerSession(authOptions);
+        const role = session?.user?.role;
+        if (!session?.user?.id || !["ADMIN", "SUPER_ADMIN", "STAFF"].includes(role || "")) {
+            return NextResponse.json({ error: "Unauthorized" }, { status: 403 });
+        }
+
+        const body = await req.json();
+        const { orderedIds, amuletId } = body;
+
+        if (!orderedIds || !Array.isArray(orderedIds) || !amuletId) {
+            return NextResponse.json({ error: "orderedIds array and amuletId are required" }, { status: 400 });
+        }
+
+        // Update sortOrder for each item
+        await Promise.all(
+            orderedIds.map((id: string, index: number) =>
+                prisma.mediaVault.update({
+                    where: { id },
+                    data: { sortOrder: index },
+                })
+            )
+        );
+
+        // Update the primary image (first item)
+        const firstMedia = await prisma.mediaVault.findUnique({ where: { id: orderedIds[0] } });
+        if (firstMedia) {
+            await prisma.amulet.update({
+                where: { id: amuletId },
+                data: { imageUrl: firstMedia.url },
+            });
+        }
+
+        revalidatePath(`/amulet/${amuletId}`);
+        revalidatePath("/");
+
+        return NextResponse.json({ success: true });
+    } catch (error) {
+        console.error("Error reordering media:", error);
+        return NextResponse.json({ error: "Failed to reorder media" }, { status: 500 });
     }
 }
 
@@ -107,13 +153,23 @@ export async function DELETE(req: Request) {
 
         await prisma.mediaVault.delete({ where: { id } });
 
-        // If we just deleted the primary image, set the next available one
+        // Re-normalize sortOrder and update primary image
         const remaining = await prisma.mediaVault.findMany({
             where: { amuletId: media.amuletId },
-            orderBy: { createdAt: "asc" },
-            take: 1,
+            orderBy: { sortOrder: "asc" },
         });
 
+        // Re-number sortOrder
+        await Promise.all(
+            remaining.map((item, index) =>
+                prisma.mediaVault.update({
+                    where: { id: item.id },
+                    data: { sortOrder: index },
+                })
+            )
+        );
+
+        // Update primary image
         if (remaining.length > 0) {
             await prisma.amulet.update({
                 where: { id: media.amuletId },

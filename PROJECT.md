@@ -16,7 +16,6 @@
 | **TDD.md** | `./docs/superpowers/specs/TDD.md` | 技术设计文档 |
 | **ARCHITECTURE.md** | `./docs/superpowers/specs/ARCHITECTURE.md` | 系统架构拓扑 |
 | **USER_GUIDE.md** | `./docs/superpowers/specs/USER_GUIDE.md` | 运营操作手册 |
-| **start-dev.bat** | `./start-dev.bat` | 一键启动开发环境（支持 IP 自动探测） |
 
 ---
 
@@ -71,23 +70,23 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 
 ## 5. 系统账户（数据库实际状态）
 
-### 1. 管理员账号（可登录后台 `/admin`）
+### 管理员账号（可登录后台 `/admin`）
 
-| 角色 | 邮箱 | 密码 | 来源 | 备注 |
-|:-----|:-----|:-----|:-----|:-----|
-| **SUPER_ADMIN** | `super@siamtreasures.com` | `password123` | seed 脚本 | 最高权限，全模块访问 |
-| **ADMIN** | `admin@siam.com` | `admin123` | 手动补录 | 常规管理员 |
-| **STAFF** | `staff@siamtreasures.com` | `password123` | seed 脚本 | 运营权限，受限访问 |
+| 角色 | 邮箱 | 密码 | 来源 |
+|:-----|:-----|:-----|:-----|
+| **ADMIN** | `admin@siam.com` | `admin123` | 手动创建 |
+| **SUPER_ADMIN** | `super@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
+| **STAFF** | `staff@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
 
-### 2. 前台客户账号
+### 前台用户账号
 
-| 角色 | 邮箱 | 密码 | 来源 | 备注 |
-|:-----|:-----|:-----|:-----|:-----|
-| **VIP_USER** | `vip@siamtreasures.com` | `password123` | seed 脚本 | 尊贵信众，B2B 优惠价 |
-| **USER** | `user@siamtreasures.com` | `password123` | seed 脚本 | 普通信众，标准价 |
+| 角色 | 邮箱 | 密码 | 来源 |
+|:-----|:-----|:-----|:-----|
+| **VIP_USER** | `vip@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
+| **USER** | `user@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
+| **WHOLESALE** | `customer@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
 
-> [!TIP]
-> **重置账户**: 运行 `npx tsx scripts/seedAccounts.ts` 可恢复上述 seed 账户。
+> **重置账户**: 运行 `npx tsx scripts/seedAccounts.ts` 可恢复 seed 账户。  
 > **认证机制**: NextAuth.js Credentials Provider + bcrypt 密码哈希 + JWT Session。  
 > **RBAC 权限**: `SUPER_ADMIN` / `ADMIN` / `STAFF` 可访问后台，其余角色仅限前台。
 
@@ -119,36 +118,18 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 | 移动端无访客计数器 | 移除 `hidden md:block`，改为响应式 fixed 定位 | 03-17 |
 | 虚假订单设置重复 | 移除 Config 端重复区块，统一至 CRO 营销页 | 03-17 |
 | Prisma generate EPERM | 先停 Node 进程再 `prisma generate` | 03-17 |
-| 局域网访问失败 | 已通过 `start-dev.bat` 自动探测 IP 并绑定 0.0.0.0 解决 | 03-17 |
 
 ---
 
-## 8. Vercel 部署与运维
-
-### 常用维护命令
-| 场景 | 命令 |
-|:-----|:-----|
-| **查看部署状态** | `vercel ls` |
-| **强制生产部署** | `vercel --prod --yes` |
-| **同步环境变量** | `vercel env pull .env.vercel` |
-| **实时查看日志** | `vercel logs` |
-
-### 生产环境 SSOT 校验
-- **数据库**: 生产环境锁定使用 **Neon PostgreSQL**，禁止在线上切换为 SQLite。
-- **环境参数**: 修改生产环境 `MarketingConfig` 必须通过 Vercel 控制台或 `psycopg2` 脚本直连数据库。
-- **验证**: 每次推送后，必须使用 Vercel CLI 或浏览器访问生产地址，确认变更已生效。
-
----
-
-## 9. AI Agent 执行规约
+## 8. AI Agent 执行规约
 
 1. **读取优先**: 接入项目前必须先读本文件，理解技术栈和账户体系。
 2. **缓存同步**: 修改 `SiteConfig` 后需调用 `clearSiteConfigCache()` 或等 TTL 过期。
 3. **路径锁定**: 严禁在根目录创建临时文件，诊断工具写入 `scripts/` 目录。
-4. **Vercel 自查**: 部署完成后必须使用 `vercel ls` 确认状态，不可口嗨。
+4. **Prisma 注意**: Windows 环境下 `prisma generate` 前必须停止 dev server。
 5. **Git 规范**: 重大变更后必须 `git push origin main --force` 保持 SSOT 同步。
 6. **编码强制**: 所有 Python 脚本输出中文必须加 UTF-8 流重置补丁。
 
 ---
 
-*SSOT Last Updated: 2026-03-17T11:00+08:00*
+*SSOT Last Updated: 2026-03-17T10:20+08:00*
