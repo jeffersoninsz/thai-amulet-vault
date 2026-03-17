@@ -299,3 +299,8 @@ export async function getUsers() {
     return [];
   }
 }
+export async function deleteUser(id: string) {
+  return await prisma.user.delete({
+    where: { id },
+  });
+}

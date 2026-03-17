@@ -1,7 +1,7 @@
 # 🧪 暹罗御藏 (Siam Treasures) 技术设计文档 (TDD)
 
-> **版本**: 4.0 | **最后同步**: 2026-03-14
-> **Status**: 深度开发白皮书
+> **版本**: 4.1 | **最后同步**: 2026-03-15
+> **Status**: 深度开发白皮书 (极致性能版已发布)
 
 ---
 
@@ -45,7 +45,15 @@ authorize(credentials) → prisma.user.findUnique → bcrypt.compare
 **RBAC 鉴权**
 - 角色枚举：`SUPER_ADMIN`, `STAFF`, `WHOLESALE`, `USER`
 - Server Actions 通过 `getServerSession()` 拦截
-- 只有 `STAFF` 及以上角色可触发写操作
+- 只有 `STAFF` 及以上角色可触发写操作。
+- `SUPER_ADMIN` 持有最高特权，包括注销（删除）普通及员工帐号。
+
+### 2.2 极致性能加速 (RTT 优化)
+
+针对数据库位于海外导致的延迟，系统实施了以下机制：
+- **内存级缓存**: `SiteConfig` 默认在服务端内存中缓存（TTL 1小时），避免重复查询静态配置。
+- **并行化加载**: 核心页面使用 `Promise.all` 同步抓取 Amulet 列表、SiteConfig 和统计数据。
+- **按需加载**: `/admin` 列表查询默认带 `take` 限制，大幅减少数据库 Payload。
 
 ### 2.2 数据库写操作范式
 
@@ -205,4 +213,4 @@ isStripeEnabled, isOfferEnabled
 ```
 
 ---
-*TDD v4.0 - Synced 2026-03-14*
+*TDD v4.1 - Synced 2026-03-15 (Integrity Verified)*

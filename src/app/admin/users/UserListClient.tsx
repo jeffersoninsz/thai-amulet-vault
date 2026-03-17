@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { updateUserRoleAction } from "@/app/actions";
-import { Shield, ShieldAlert, User, MoreVertical, Check, X } from "lucide-react";
+import { Shield, ShieldAlert, User, MoreVertical, Check, X, Trash2 } from "lucide-react";
+import { deleteUserAction, updateUserRoleAction } from "@/app/actions";
 
 interface UserListClientProps {
     initialUsers: any[];
@@ -26,6 +26,25 @@ export default function UserListClient({ initialUsers, currentUserId }: UserList
             }
         } catch (e) {
             alert("Failed to update role");
+        } finally {
+            setLoadingId(null);
+        }
+    };
+
+    const handleDelete = async (userId: string) => {
+        if (userId === currentUserId) return;
+        if (!confirm("确定要永久注销此信众的档案吗？此操作不可逆。(Are you sure you want to permanently delete this user?)")) return;
+
+        setLoadingId(userId);
+        try {
+            const result = await deleteUserAction(userId);
+            if (result.success) {
+                setUsers(users.filter(u => u.id !== userId));
+            } else {
+                alert(result.error || "Failed to delete user");
+            }
+        } catch (e) {
+            alert("Failed to delete user");
         } finally {
             setLoadingId(null);
         }
@@ -77,18 +96,28 @@ export default function UserListClient({ initialUsers, currentUserId }: UserList
                                     {new Date(user.createdAt).toLocaleDateString()}
                                 </td>
                                 <td className="px-6 py-4">
-                                    <div className="flex gap-2">
+                                    <div className="flex gap-2 items-center">
                                         {user.id !== currentUserId ? (
-                                            <select
-                                                value={user.role}
-                                                onChange={(e) => handleRoleChange(user.id, e.target.value)}
-                                                disabled={loadingId === user.id}
-                                                className="bg-black text-[#d4c5b0] border border-[#c4a265]/30 rounded px-2 py-1 text-xs outline-none focus:border-[#c4a265] transition-colors disabled:opacity-50"
-                                            >
-                                                <option value="CUSTOMER">CUSTOMER</option>
-                                                <option value="STAFF">STAFF</option>
-                                                <option value="ADMIN">ADMIN</option>
-                                            </select>
+                                            <>
+                                                <select
+                                                    value={user.role}
+                                                    onChange={(e) => handleRoleChange(user.id, e.target.value)}
+                                                    disabled={loadingId === user.id}
+                                                    className="bg-black text-[#d4c5b0] border border-[#c4a265]/30 rounded px-2 py-1 text-xs outline-none focus:border-[#c4a265] transition-colors disabled:opacity-50"
+                                                >
+                                                    <option value="CUSTOMER">CUSTOMER</option>
+                                                    <option value="STAFF">STAFF</option>
+                                                    <option value="ADMIN">ADMIN</option>
+                                                </select>
+                                                <button
+                                                    onClick={() => handleDelete(user.id)}
+                                                    disabled={loadingId === user.id}
+                                                    className="p-1 text-[#a39783] hover:text-red-400 hover:bg-red-400/10 rounded transition-all disabled:opacity-30"
+                                                    title="注销档案"
+                                                >
+                                                    <Trash2 className="w-4 h-4" />
+                                                </button>
+                                            </>
                                         ) : (
                                             <span className="text-xs italic text-[#8c8273] border border-white/10 rounded px-2 py-1">当前圣座 (Self)</span>
                                         )}

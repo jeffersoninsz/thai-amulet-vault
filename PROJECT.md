@@ -87,6 +87,8 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 | 用户删除功能缺失 | 初始版本未包含此管理能力 | 在后端 Actions 与 UI 层实现全链路注销逻辑 | 2026-03-15 |
 | 构建脚本路径报错 | 清理文件后残存旧路径引用 | 清理 `.next` 缓存并补齐必要路由占位文件 | 2026-03-15 |
 | 后台图片上传保存失败 | `actions.ts` RBAC 只检查 `ADMIN`/`STAFF`，不识别 `SUPER_ADMIN` | 新增 `isAdminOrStaff()` 辅助函数统一 6 处角色校验 + hidden input 添加 `key` 强制同步 | 2026-03-17 |
+| 移动端无访客计数器 | `layout.tsx` 中 `hidden md:block` 导致 `<768px` 设备隐藏 | 移除 `hidden md:block`，改为 `fixed bottom-4 right-4 md:bottom-6 md:right-6 z-40` | 2026-03-17 |
+| 虚假订单/访客设置后台重复 | `SiteSettingsForm` 和 `MarketingEditorClient` 各有一套 | 移除 Config 端重复区块，统一至 CRO 营销页面管理 | 2026-03-17 |
 
 ---
 
@@ -98,4 +100,4 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 4. **Git 准则**: 确保每次重大优化后都强制推送到 GitHub 以保证 SSOT 同步。
 
 ---
-*SSOT Last Updated: 2026-03-17T08:40+08:00 (Image Upload RBAC Fix Verified)*
+*SSOT Last Updated: 2026-03-17T09:05+08:00 (Mobile VisitorCounter + Marketing Settings Dedup)*

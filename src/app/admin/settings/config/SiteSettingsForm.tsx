@@ -9,15 +9,9 @@ export function SiteSettingsForm({ config }: { config: any }) {
         heroTitleEn: config?.heroTitleEn || "",
         heroDescZh: config?.heroDescZh || "",
         heroDescEn: config?.heroDescEn || "",
-        baseVisitorCount: config?.baseVisitorCount || 1250,
         announcementBarEn: config?.announcementBarEn || "",
-        isVisitorCounterEnabled: config?.isVisitorCounterEnabled ?? true,
-        visitorIncrementRate: config?.visitorIncrementRate || 5,
-        isSalesPopupEnabled: config?.isSalesPopupEnabled ?? true,
-        salesPopupFrequency: config?.salesPopupFrequency || 15,
         isStripeEnabled: config?.isStripeEnabled ?? true,
         isOfferEnabled: config?.isOfferEnabled ?? true,
-        visitorJumpInterval: config?.visitorJumpInterval || 12,
     });
     const [isSaving, setIsSaving] = useState(false);
     const [message, setMessage] = useState("");
@@ -113,47 +107,11 @@ export function SiteSettingsForm({ config }: { config: any }) {
                     </div>
 
                     <div className="md:col-span-2 border-t border-[#c4a265]/10 mt-4 pt-6">
-                        <h4 className="text-[#f5ebd7] font-serif text-lg tracking-widest uppercase mb-6">Traffic Simulation Engines</h4>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                            <div className="bg-[#0a0908]/50 p-4 rounded-lg border border-[#c4a265]/20">
-                                <div className="flex justify-between items-center mb-4">
-                                    <label className="block text-[#c4a265] text-xs font-mono uppercase font-bold">1. Visitor Eye Counter</label>
-                                    <label className="inline-flex relative items-center cursor-pointer">
-                                        <input type="checkbox" name="isVisitorCounterEnabled" checked={formData.isVisitorCounterEnabled} onChange={handleChange} className="sr-only peer" />
-                                        <div className="w-11 h-6 bg-[#1a1814] border border-[#c4a265]/30 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-[#c4a265] after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#c4a265]/20"></div>
-                                    </label>
-                                </div>
-                                <div className="space-y-4">
-                                    <div>
-                                        <label className="block text-[#a39783] text-[10px] font-mono uppercase mb-2">Maximum Jump per interval</label>
-                                        <input type="number" name="visitorIncrementRate" value={formData.visitorIncrementRate} onChange={handleChange} className="w-full bg-[#0d0c0b] border border-[#c4a265]/30 rounded p-2 text-[#f5ebd7] font-mono text-sm focus:border-[#c4a265] focus:outline-none" min="1" max="100" />
-                                    </div>
-                                    <div>
-                                        <label className="block text-[#a39783] text-[10px] font-mono uppercase mb-2">Jump Interval (Seconds)</label>
-                                        <input type="number" name="visitorJumpInterval" value={formData.visitorJumpInterval} onChange={handleChange} className="w-full bg-[#0d0c0b] border border-[#c4a265]/30 rounded p-2 text-[#f5ebd7] font-mono text-sm focus:border-[#c4a265] focus:outline-none" min="1" max="60" />
-                                    </div>
-                                    <div>
-                                        <label className="block text-[#a39783] text-[10px] font-mono uppercase mb-2">Base Initial Count</label>
-                                        <input type="number" name="baseVisitorCount" value={formData.baseVisitorCount} onChange={handleChange} className="w-full bg-[#0d0c0b] border border-[#c4a265]/30 rounded p-2 text-[#f5ebd7] font-mono text-sm focus:border-[#c4a265] focus:outline-none" />
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="bg-[#0a0908]/50 p-4 rounded-lg border border-[#c4a265]/20">
-                                <div className="flex justify-between items-center mb-4">
-                                    <label className="block text-[#c4a265] text-xs font-mono uppercase font-bold">2. Recent Sales Toaster</label>
-                                    <label className="inline-flex relative items-center cursor-pointer">
-                                        <input type="checkbox" name="isSalesPopupEnabled" checked={formData.isSalesPopupEnabled} onChange={handleChange} className="sr-only peer" />
-                                        <div className="w-11 h-6 bg-[#1a1814] border border-[#c4a265]/30 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-[#c4a265] after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-[#c4a265]/20"></div>
-                                    </label>
-                                </div>
-                                <div className="space-y-4">
-                                    <div>
-                                        <label className="block text-[#a39783] text-[10px] font-mono uppercase mb-2">Display Frequency (Seconds)</label>
-                                        <input type="number" name="salesPopupFrequency" value={formData.salesPopupFrequency} onChange={handleChange} className="w-full bg-[#0d0c0b] border border-[#c4a265]/30 rounded p-2 text-[#f5ebd7] font-mono text-sm focus:border-[#c4a265] focus:outline-none" min="5" max="300" />
-                                    </div>
-                                    <p className="text-[10px] text-[#8c8273] italic">Lower frequency means the popup fires more often, creating artificial FOMO.</p>
-                                </div>
+                        <div className="flex items-center gap-3 p-4 bg-[#0a0908]/50 rounded-lg border border-[#c4a265]/20">
+                            <Info className="w-5 h-5 text-[#c4a265] shrink-0" />
+                            <div>
+                                <p className="text-[#f5ebd7] text-sm font-medium">流量模拟引擎已迁移</p>
+                                <p className="text-[#a39783] text-xs mt-1">访客计数器 {'&'} 虚假订单弹窗的配置已统一至 <a href="/admin/settings/marketing" className="text-[#c4a265] underline hover:text-[#d4c5b0] transition-colors font-medium">CRO营销 (Marketing)</a> 页面管理。</p>
                             </div>
                         </div>
                     </div>
