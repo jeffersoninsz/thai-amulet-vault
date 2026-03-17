@@ -1,59 +1,64 @@
-# 🎯 暹罗御藏 (Siam Treasures) 项目元数据中心
+# 🎯 暹罗御藏 (Siam Treasures) — 项目 SSOT
 
-> **Status**: 生产准备就绪 (Production Ready)
-> **最后同步**: 2026-03-17
-> **维护规约**: 任何 AI Agent 接入本项目，必须首先读取本文件与下方链接的 SSOT 文档。
+> **Status**: Production Ready  
+> **最后更新**: 2026-03-17T10:20+08:00  
+> **规约**: 任何 AI Agent 接入本项目，必须首先读取本文件。
 
 ---
 
-## 1. 核心文档索引 (The Source of Truth)
+## 1. 文档索引
 
 | 文档 | 路径 | 用途 |
-| :--- | :--- | :--- |
-| **PROJECT.md** | `./PROJECT.md` (本文件) | 项目总纲、技术栈锁定、防失忆规约 |
-| **README.md** | `./README.md` | 快速启动、目录地图、脚本索引 |
-| **USER_GUIDE.md** | `./docs/superpowers/specs/USER_GUIDE.md` | 运营操作手册（给管理员/设计师看） |
+|:-----|:-----|:-----|
+| **PROJECT.md** | `./PROJECT.md` (本文件) | 项目总纲、技术栈、账户、防失忆规约 |
+| **README.md** | `./README.md` | 快速启动、目录结构 |
 | **PRD.md** | `./docs/superpowers/specs/PRD.md` | 产品需求定义 |
 | **TDD.md** | `./docs/superpowers/specs/TDD.md` | 技术设计文档 |
-| **ARCHITECTURE.md** | `./docs/superpowers/specs/ARCHITECTURE.md` | 架构图与系统拓扑 |
-| **UI_ASSETS_MAPPING.md** | `./docs/superpowers/specs/UI_ASSETS_MAPPING.md` | 视觉资产分布与上云规范 |
+| **ARCHITECTURE.md** | `./docs/superpowers/specs/ARCHITECTURE.md` | 系统架构拓扑 |
+| **USER_GUIDE.md** | `./docs/superpowers/specs/USER_GUIDE.md` | 运营操作手册 |
 
 ---
 
-## 1.5. 核心功能 (Core Features)
+## 2. 核心功能
 
-- **管理员控制台**: 实时库存管理、订单追踪、信众档案管理（支持角色调整与帐号注销）、系统日志审计、性能监控与自动化维护。
-- **MediaVault 媒体图库**: 每产品支持最多 5 张图片/视频，后台可视化网格管理，Cloudinary 上传，首张自动设为主图。API 路由 `api/admin/media`。
-- **动态 Banner 管理**: 后台 Storefront 面板支持 PC/Mobile 独立 Banner 上传，类型选择器（静态图片/视频循环/HTML·SVG），实时预览。首页 `page.tsx` 根据 `bannerType` 动态渲染。
-- **产品详情 Gallery**: `AmuletDetailClient` Swiper 接入真实 MediaVault 数据，支持图片和视频混合展示。
+| 功能模块 | 说明 |
+|:---------|:-----|
+| **库存管理** | 佛牌 CRUD、分类、价格、库存追踪、搜索过滤 |
+| **订单系统** | 购物车、结账、Stripe 支付（集成中）、订单追踪 |
+| **用户管理** | 三级 RBAC（SUPER_ADMIN / ADMIN / STAFF）、信众档案、账号注销 |
+| **MediaVault 图库** | 每产品最多 5 张图片/视频、后台可视化网格管理、Cloudinary 上传、首张自动设主图 |
+| **动态 Banner** | 后台 Storefront 面板 PC/Mobile 独立上传、类型选择器（图片/视频/HTML·SVG）、实时预览 |
+| **产品 Gallery** | 前端 Swiper 接入真实 MediaVault 数据、支持图片+视频混合展示 |
+| **CRO 营销** | 虚假订单模拟、虚假访客计数器、营销 Pop-up 配置 |
+| **前端陈列 CMS** | Hero 大图块编辑、导航菜单管理、Banner 广告管理 |
+| **系统监控** | 操作日志审计、性能面板（Recharts 图表） |
 
+---
 
-## 2. 技术栈锁定 (Tech Stack - Ground Truth)
-
-> **警告**: 以下为项目实际使用的技术栈，请勿凭假设修改。
+## 3. 技术栈
 
 | 层级 | 技术 | 版本 | 备注 |
-| :--- | :--- | :--- | :--- |
-| **框架** | Next.js (App Router) | 16.1.6 | 使用 Server Actions |
-| **前端** | React | 19.2.3 | Server Components + Client Components |
-| **UI** | Tailwind CSS | v4 | 自定义黑金主题 |
-| **动画** | Framer Motion | 12.x | 页面过渡与微交互 |
-| **图标** | Lucide React | 0.575.0 | — |
-| **轮播** | Swiper | 11.x | 首页产品展示 |
-| **数据库** | SQLite | — | 通过 Prisma ORM 操作，文件位于 `prisma/dev.db` |
-| **ORM** | Prisma | 5.22.0 | Schema 位于 `prisma/schema.prisma` |
-| **认证** | NextAuth.js | v4 (4.24.13) | JWT 策略 + Credentials Provider |
-| **图床** | Cloudinary | — | `next-cloudinary` v6.17.5，无签名直传 |
-| **支付** | Stripe | 20.4.0 | 集成中 |
-| **图表** | Recharts | 3.7.0 | 后台数据面板 |
-| **通知** | react-hot-toast | 2.6.0 | 全局 Toast 反馈 |
+|:-----|:-----|:-----|:-----|
+| 框架 | Next.js (App Router) | 16.1.6 | Server Actions |
+| 前端 | React | 19.2.3 | Server + Client Components |
+| UI | Tailwind CSS | v4 | 自定义黑金主题 |
+| 动画 | Framer Motion | 12.x | 页面过渡与微交互 |
+| 图标 | Lucide React | 0.575.0 | — |
+| 轮播 | Swiper | 11.x | 产品 Gallery |
+| 数据库 | SQLite | — | `prisma/dev.db` |
+| ORM | Prisma | 5.22.0 | `prisma/schema.prisma` |
+| 认证 | NextAuth.js v4 | 4.24.13 | JWT + Credentials (bcrypt) |
+| 图床 | Cloudinary | — | `next-cloudinary` v6.17.5 |
+| 支付 | Stripe | 20.4.0 | 集成中 |
+| 图表 | Recharts | 3.7.0 | 后台数据面板 |
+| 通知 | react-hot-toast | 2.6.0 | 全局 Toast |
 
 ---
 
-## 3. 环境变量清单
+## 4. 环境变量
 
 ```env
-# .env.local 中必须配置：
+# .env.local
 DATABASE_URL="file:./dev.db"
 NEXTAUTH_SECRET="your_secret_key"
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="dsvgbvi4y"
@@ -63,46 +68,68 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 
 ---
 
-## 4. 测试账户
+## 5. 系统账户（数据库实际状态）
 
-| 角色 | 邮箱 | 密码 | 创建方式 |
-| :--- | :--- | :--- | :--- |
-| SUPER_ADMIN | `super@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
-| STAFF | `staff@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
-| VIP_USER (批发) | `vip@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
-| USER (普通) | `user@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
+### 管理员账号（可登录后台 `/admin`）
 
-如果账户不存在，执行：`npx tsx scripts/seedAccounts.ts`
+| 角色 | 邮箱 | 密码 | 来源 |
+|:-----|:-----|:-----|:-----|
+| **ADMIN** | `admin@siam.com` | `admin123` | 手动创建 |
+| **SUPER_ADMIN** | `super@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
+| **STAFF** | `staff@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
 
----
+### 前台用户账号
 
-## 5. 已知问题与排雷记录
+| 角色 | 邮箱 | 密码 | 来源 |
+|:-----|:-----|:-----|:-----|
+| **VIP_USER** | `vip@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
+| **USER** | `user@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
+| **WHOLESALE** | `customer@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
 
-| 问题 | 原因 | 解决方案 | 日期 |
-| :--- | :--- | :--- | :--- |
-| Cloudinary 图片加载失败 | VPN/代理将 `res.cloudinary.com` 解析到私有 IP | `next.config.ts` 中设置 `images.unoptimized: true` | 2026-03-14 |
-| `start-dev.bat` 秒退 | BAT 文件含中文导致 CMD 编码崩溃 | 重写为纯英文脚本 | 2026-03-14 |
-| 图片更新后台无反应 | 缺乏错误捕获，Toast 未集成 | `AdminClient.tsx` 添加 try-catch + toast | 2026-03-14 |
-| Next.js Image 400 错误 | 本地路径图片未被 `remotePatterns` 覆盖 | 全量迁移至 Cloudinary | 2026-03-13 |
-| 网页跳转缓慢 | 数据库位于 AWS us-east-1 导致高 RTT | 实施 SiteConfig 内存缓存 + Promise.all 并行化 | 2026-03-15 |
-| 根目录太乱 | 临时测试脚本堆积 | 整合为 `scripts/maintain.py` 并清理冗余 | 2026-03-15 |
-| 用户删除功能缺失 | 初始版本未包含此管理能力 | 在后端 Actions 与 UI 层实现全链路注销逻辑 | 2026-03-15 |
-| 构建脚本路径报错 | 清理文件后残存旧路径引用 | 清理 `.next` 缓存并补齐必要路由占位文件 | 2026-03-15 |
-| 后台图片上传保存失败 | `actions.ts` RBAC 只检查 `ADMIN`/`STAFF`，不识别 `SUPER_ADMIN` | 新增 `isAdminOrStaff()` 辅助函数统一 6 处角色校验 + hidden input 添加 `key` 强制同步 | 2026-03-17 |
-| 移动端无访客计数器 | `layout.tsx` 中 `hidden md:block` 导致 `<768px` 设备隐藏 | 移除 `hidden md:block`，改为 `fixed bottom-4 right-4 md:bottom-6 md:right-6 z-40` | 2026-03-17 |
-| 虚假订单/访客设置后台重复 | `SiteSettingsForm` 和 `MarketingEditorClient` 各有一套 | 移除 Config 端重复区块，统一至 CRO 营销页面管理 | 2026-03-17 |
-| Prisma generate EPERM | dev server 锁定 `query_engine-windows.dll.node` | 先 `Stop-Process` 停 Node 进程再 `prisma generate` | 2026-03-17 |
-| Playwright EOF 浏览器崩溃 | Antigravity Browser 组件 EOF 导致 `open_browser_url` 失败 | 重启 IDE 环境后恢复 | 2026-03-17 |
+> **重置账户**: 运行 `npx tsx scripts/seedAccounts.ts` 可恢复 seed 账户。  
+> **认证机制**: NextAuth.js Credentials Provider + bcrypt 密码哈希 + JWT Session。  
+> **RBAC 权限**: `SUPER_ADMIN` / `ADMIN` / `STAFF` 可访问后台，其余角色仅限前台。
 
 ---
 
-## 6. 自动化执行规约 (For AI Agents)
+## 6. 关键 API 路由
 
-1. **缓存同步**: 修改 `SiteConfig` 或核心配置后，需调用 `clearSiteConfigCache()` 或等待 TTL 过期。
-2. **强制精简**: 严禁在根目录创建 `test.php`, `tmp.txt` 等临时文件。所有诊断应写为 `scripts/` 下的标准化工具。
-3. **维护脚本**: 任何重大变更后，应运行 `python scripts/maintain.py` 进行健康检查。
-4. **Git 准则**: 确保每次重大优化后都强制推送到 GitHub 以保证 SSOT 同步。
-5. **Prisma 注意**: 执行 `prisma generate` 前必须确保 dev server 已停止，否则 Windows 上会出现 EPERM。
+| 路由 | 方法 | 说明 |
+|:-----|:-----|:-----|
+| `/api/admin/media` | GET/POST/DELETE | MediaVault CRUD（产品多图管理） |
+| `/api/admin/settings/config` | GET/POST | SiteConfig 配置读写（含 Banner） |
+| `/api/admin/settings/site` | GET/POST | 站点参数读写 |
+| `/api/admin/amulets` | GET/POST/PUT/DELETE | 佛牌产品 CRUD |
+| `/api/auth/[...nextauth]` | — | NextAuth 认证端点 |
 
 ---
-*SSOT Last Updated: 2026-03-17T10:10+08:00 (Phase B: MediaVault + Gallery + Dynamic Banner)*
+
+## 7. 排雷记录
+
+| 问题 | 解决方案 | 日期 |
+|:-----|:---------|:-----|
+| Cloudinary 图片加载失败 | `next.config.ts` 设置 `images.unoptimized: true` | 03-14 |
+| BAT 脚本秒退 | 重写为纯英文脚本 | 03-14 |
+| 图片上传无反馈 | `AdminClient.tsx` 添加 try-catch + toast | 03-14 |
+| Next.js Image 400 | 全量迁移至 Cloudinary | 03-13 |
+| 页面跳转缓慢 | SiteConfig 内存缓存 + Promise.all 并行化 | 03-15 |
+| 用户删除功能缺失 | 后端 Actions + UI 全链路注销逻辑 | 03-15 |
+| RBAC 不识别 SUPER_ADMIN | `isAdminOrStaff()` 统一 6 处角色校验 | 03-17 |
+| 移动端无访客计数器 | 移除 `hidden md:block`，改为响应式 fixed 定位 | 03-17 |
+| 虚假订单设置重复 | 移除 Config 端重复区块，统一至 CRO 营销页 | 03-17 |
+| Prisma generate EPERM | 先停 Node 进程再 `prisma generate` | 03-17 |
+
+---
+
+## 8. AI Agent 执行规约
+
+1. **读取优先**: 接入项目前必须先读本文件，理解技术栈和账户体系。
+2. **缓存同步**: 修改 `SiteConfig` 后需调用 `clearSiteConfigCache()` 或等 TTL 过期。
+3. **路径锁定**: 严禁在根目录创建临时文件，诊断工具写入 `scripts/` 目录。
+4. **Prisma 注意**: Windows 环境下 `prisma generate` 前必须停止 dev server。
+5. **Git 规范**: 重大变更后必须 `git push origin main --force` 保持 SSOT 同步。
+6. **编码强制**: 所有 Python 脚本输出中文必须加 UTF-8 流重置补丁。
+
+---
+
+*SSOT Last Updated: 2026-03-17T10:20+08:00*
