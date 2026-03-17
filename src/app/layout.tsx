@@ -73,7 +73,7 @@ export default async function RootLayout({
                 customCities={marketingConfig.fakeSalesCities}
                 customNames={marketingConfig.fakeSalesNames}
               />
-              <div className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-40">
+              <div className="fixed bottom-20 right-4 md:bottom-6 md:right-6 z-[9999]">
                 <VisitorCounter
                   enabled={marketingConfig.fakeViewsEnabled}
                   baseCount={marketingConfig.baseViews}
