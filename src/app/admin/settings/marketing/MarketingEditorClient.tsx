@@ -6,14 +6,14 @@ import { useRouter } from "next/navigation";
 import { Save, BellRing, Eye, Zap } from "lucide-react";
 
 export interface MarketingConfigPayload {
-    fakePopupsEnabled: boolean;
+    fakeSalesEnabled: boolean;
     popupIntervalMin: number;
     popupIntervalMax: number;
     fakeSalesCities: string;
     fakeSalesNames: string;
     fakeViewsEnabled: boolean;
-    baseVisitorCount: number;
-    visitorIncrementRate: number;
+    baseViews: number;
+    viewIncreaseRate: number;
     visitorTickInterval: number;
 }
 
@@ -23,14 +23,14 @@ export default function MarketingEditorClient({ initialConfig }: { initialConfig
 
     // Marketing Config State
     const [form, setForm] = useState<MarketingConfigPayload>({
-        fakePopupsEnabled: initialConfig.fakePopupsEnabled ?? false,
+        fakeSalesEnabled: initialConfig.fakeSalesEnabled ?? false,
         popupIntervalMin: initialConfig.popupIntervalMin ?? 30,
         popupIntervalMax: initialConfig.popupIntervalMax ?? 90,
         fakeSalesCities: initialConfig.fakeSalesCities ?? "北京,上海,广州,深圳,成都,杭州,香港,台北,新加坡,吉隆坡,纽约,多伦多",
         fakeSalesNames: initialConfig.fakeSalesNames ?? "王先生,陈女士,李先生,张女士,刘先生,吴女士,郑先生,黄女士,Jefferson,Alex,Linda",
         fakeViewsEnabled: initialConfig.fakeViewsEnabled ?? false,
-        baseVisitorCount: initialConfig.baseVisitorCount ?? 1250,
-        visitorIncrementRate: initialConfig.visitorIncrementRate ?? 5,
+        baseViews: initialConfig.baseViews ?? 120,
+        viewIncreaseRate: initialConfig.viewIncreaseRate ?? 3,
         visitorTickInterval: initialConfig.visitorTickInterval ?? 12
     });
 
@@ -39,7 +39,7 @@ export default function MarketingEditorClient({ initialConfig }: { initialConfig
         const { name, value, type, checked } = target;
         setForm(prev => ({
             ...prev,
-            [name]: type === 'checkbox' ? checked : (name.includes('Interval') || name.includes('Rate') || name.includes('Count') || name.includes('visitor')) ? Number(value) : value
+            [name]: type === 'checkbox' ? checked : (name.includes('Interval') || name.includes('Rate') || name.includes('Views')) ? Number(value) : value
         }));
     };
 
@@ -81,21 +81,21 @@ export default function MarketingEditorClient({ initialConfig }: { initialConfig
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pl-[3.25rem]">
                     <label className="flex items-center gap-4 cursor-pointer group">
                         <div className={`w-6 h-6 flex items-center justify-center border rounded transition-colors
-                            ${form.fakePopupsEnabled ? "bg-[#c4a265] border-[#c4a265]" : "bg-black/50 border-[#a39783]/40 group-hover:border-[#c4a265]/50"}
+                            ${form.fakeSalesEnabled ? "bg-[#c4a265] border-[#c4a265]" : "bg-black/50 border-[#a39783]/40 group-hover:border-[#c4a265]/50"}
                         `}>
-                            {form.fakePopupsEnabled && <div className="w-3 h-3 bg-black rounded-sm" />}
+                            {form.fakeSalesEnabled && <div className="w-3 h-3 bg-black rounded-sm" />}
                         </div>
-                        <span className={`font-medium ${form.fakePopupsEnabled ? "text-[#f5ebd7]" : "text-[#a39783]"}`}>
+                        <span className={`font-medium ${form.fakeSalesEnabled ? "text-[#f5ebd7]" : "text-[#a39783]"}`}>
                             Enable Fake Sales Popups
                         </span>
                         <input
-                            type="checkbox" name="fakePopupsEnabled"
-                            checked={form.fakePopupsEnabled} onChange={handleChange}
+                            type="checkbox" name="fakeSalesEnabled"
+                            checked={form.fakeSalesEnabled} onChange={handleChange}
                             className="hidden"
                         />
                     </label>
 
-                    {form.fakePopupsEnabled && (
+                    {form.fakeSalesEnabled && (
                         <div className="space-y-4 animate-in fade-in">
                             <div>
                                 <label className="block text-sm text-[#c4a265] mb-2 uppercase">Min Interval (Seconds)</label>
@@ -157,12 +157,12 @@ export default function MarketingEditorClient({ initialConfig }: { initialConfig
                         <div className="space-y-4 animate-in fade-in">
                             <div>
                                 <label className="block text-sm text-[#c4a265] mb-2 uppercase">Base Baseline Viewers</label>
-                                <input type="number" name="baseVisitorCount" value={form.baseVisitorCount} onChange={handleChange}
+                                <input type="number" name="baseViews" value={form.baseViews} onChange={handleChange}
                                     className="w-full bg-[#0d0c0b] border border-[#c4a265]/30 rounded-lg px-4 py-2 text-[#f5ebd7] focus:outline-none" />
                             </div>
                             <div>
                                 <label className="block text-sm text-[#c4a265] mb-2 uppercase">Incremental Rate (Per tick offset)</label>
-                                <input type="number" name="visitorIncrementRate" value={form.visitorIncrementRate} onChange={handleChange}
+                                <input type="number" name="viewIncreaseRate" value={form.viewIncreaseRate} onChange={handleChange}
                                     className="w-full bg-[#0d0c0b] border border-[#c4a265]/30 rounded-lg px-4 py-2 text-[#f5ebd7] focus:outline-none" />
                             </div>
                             <div className="col-span-1 md:col-span-2 pt-2 border-t border-[#c4a265]/10">

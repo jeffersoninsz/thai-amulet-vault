@@ -225,28 +225,28 @@ export async function getMarketingConfig() {
 
     return {
       id: rawConfig.id,
-      fakePopupsEnabled: Boolean(rawConfig.fakePopupsEnabled),
+      fakeSalesEnabled: Boolean(rawConfig.fakePopupsEnabled),
       popupIntervalMin: Number(rawConfig.popupIntervalMin),
       popupIntervalMax: Number(rawConfig.popupIntervalMax),
       fakeSalesCities: String(rawConfig.fakeSalesCities || "北京,上海,广州,深圳,成都,杭州,香港,台北,新加坡,吉隆坡,纽约,多伦多"),
       fakeSalesNames: String(rawConfig.fakeSalesNames || "王先生,陈女士,李先生,张女士,刘先生,吴女士,郑先生,黄女士,Jefferson,Alex,Linda"),
       fakeViewsEnabled: Boolean(rawConfig.fakeViewsEnabled),
-      baseVisitorCount: Number(rawConfig.baseVisitorCount || 1250),
-      visitorIncrementRate: Number(rawConfig.visitorIncrementRate || 5),
+      baseViews: Number(rawConfig.baseVisitorCount || 1250),
+      viewIncreaseRate: Number(rawConfig.visitorIncrementRate || 5),
       visitorTickInterval: Number(rawConfig.visitorTickInterval || 12),
       updatedAt: rawConfig.updatedAt
     };
   } catch (error) {
     return {
       id: "global",
-      fakePopupsEnabled: false,
+      fakeSalesEnabled: false,
       popupIntervalMin: 30,
       popupIntervalMax: 90,
       fakeSalesCities: "北京,上海,广州,深圳,成都,杭州,香港,台北,新加坡,吉隆坡,纽约,多伦多",
       fakeSalesNames: "王先生,陈女士,李先生,张女士,刘先生,吴女士,郑先生,黄女士,Jefferson,Alex,Linda",
       fakeViewsEnabled: false,
-      baseVisitorCount: 1250,
-      visitorIncrementRate: 5,
+      baseViews: 1250,
+      viewIncreaseRate: 5,
       visitorTickInterval: 12,
       updatedAt: new Date()
     };

@@ -19,14 +19,14 @@ export async function POST(req: Request) {
         const body = await req.json();
 
         const payload = {
-            fakePopupsEnabled: Boolean(body.fakePopupsEnabled),
+            fakePopupsEnabled: Boolean(body.fakeSalesEnabled),
             popupIntervalMin: Number(body.popupIntervalMin),
             popupIntervalMax: Number(body.popupIntervalMax),
             fakeSalesCities: body.fakeSalesCities ? String(body.fakeSalesCities) : undefined,
             fakeSalesNames: body.fakeSalesNames ? String(body.fakeSalesNames) : undefined,
             fakeViewsEnabled: Boolean(body.fakeViewsEnabled),
-            baseVisitorCount: Number(body.baseVisitorCount),
-            visitorIncrementRate: Number(body.visitorIncrementRate),
+            baseVisitorCount: Number(body.baseViews),
+            visitorIncrementRate: Number(body.viewIncreaseRate),
             visitorTickInterval: Number(body.visitorTickInterval) || 12
         };
 
