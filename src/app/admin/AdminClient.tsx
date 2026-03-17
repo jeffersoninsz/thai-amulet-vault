@@ -365,7 +365,8 @@ function RenderEditForm({
       action={handleSave}
       className="space-y-5 bg-[#0d0c0b] p-4 sm:p-6 rounded-lg border border-[#c4a265]/30 w-full text-sm"
     >
-      <input type="hidden" name="imageUrl" value={currentImgUrl} />
+      {/* key 强制在图片URL变更时重新挂载，确保 FormData 始终包含最新值 */}
+      <input type="hidden" name="imageUrl" value={currentImgUrl} key={`img-${currentImgUrl}`} />
       <input type="hidden" name="employee" value={employee} />
 
       <div className="flex flex-col sm:flex-row gap-5">

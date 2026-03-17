@@ -1,7 +1,7 @@
 # 🎯 暹罗御藏 (Siam Treasures) 项目元数据中心
 
 > **Status**: 生产准备就绪 (Production Ready)
-> **最后同步**: 2026-03-14
+> **最后同步**: 2026-03-17
 > **维护规约**: 任何 AI Agent 接入本项目，必须首先读取本文件与下方链接的 SSOT 文档。
 
 ---
@@ -17,6 +17,12 @@
 | **TDD.md** | `./docs/superpowers/specs/TDD.md` | 技术设计文档 |
 | **ARCHITECTURE.md** | `./docs/superpowers/specs/ARCHITECTURE.md` | 架构图与系统拓扑 |
 | **UI_ASSETS_MAPPING.md** | `./docs/superpowers/specs/UI_ASSETS_MAPPING.md` | 视觉资产分布与上云规范 |
+
+---
+
+## 1.5. 核心功能 (Core Features)
+
+- **管理员控制台**: 实时库存管理、订单追踪、信众档案管理（支持角色调整与帐号注销）、系统日志审计、性能监控与自动化维护。
 
 ---
 
@@ -78,6 +84,9 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 | Next.js Image 400 错误 | 本地路径图片未被 `remotePatterns` 覆盖 | 全量迁移至 Cloudinary | 2026-03-13 |
 | 网页跳转缓慢 | 数据库位于 AWS us-east-1 导致高 RTT | 实施 SiteConfig 内存缓存 + Promise.all 并行化 | 2026-03-15 |
 | 根目录太乱 | 临时测试脚本堆积 | 整合为 `scripts/maintain.py` 并清理冗余 | 2026-03-15 |
+| 用户删除功能缺失 | 初始版本未包含此管理能力 | 在后端 Actions 与 UI 层实现全链路注销逻辑 | 2026-03-15 |
+| 构建脚本路径报错 | 清理文件后残存旧路径引用 | 清理 `.next` 缓存并补齐必要路由占位文件 | 2026-03-15 |
+| 后台图片上传保存失败 | `actions.ts` RBAC 只检查 `ADMIN`/`STAFF`，不识别 `SUPER_ADMIN` | 新增 `isAdminOrStaff()` 辅助函数统一 6 处角色校验 + hidden input 添加 `key` 强制同步 | 2026-03-17 |
 
 ---
 
@@ -89,4 +98,4 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 4. **Git 准则**: 确保每次重大优化后都强制推送到 GitHub 以保证 SSOT 同步。
 
 ---
-*SSOT Last Updated: 2026-03-15T19:40+08:00*
+*SSOT Last Updated: 2026-03-17T08:40+08:00 (Image Upload RBAC Fix Verified)*

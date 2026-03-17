@@ -5,9 +5,21 @@ import { revalidatePath } from "next/cache";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 
+// ── 统一 RBAC 辅助函数 ──────────────────────────────────────
+const ADMIN_ROLES = ["ADMIN", "SUPER_ADMIN", "STAFF"];
+const SUPER_ROLES = ["ADMIN", "SUPER_ADMIN"];
+
+function isAdminOrStaff(role: string | undefined): boolean {
+    return !!role && ADMIN_ROLES.includes(role);
+}
+
+function isSuperAdmin(role: string | undefined): boolean {
+    return !!role && SUPER_ROLES.includes(role);
+}
+
 export async function updateAmuletAction(id: string, formData: FormData) {
     const session = await getServerSession(authOptions);
-    if (!session || (session.user.role !== "ADMIN" && session.user.role !== "STAFF")) {
+    if (!session || !isAdminOrStaff(session.user.role)) {
         throw new Error("Unauthorized");
     }
 
@@ -58,7 +70,7 @@ export async function updateAmuletAction(id: string, formData: FormData) {
 
 export async function createAmuletAction(formData: FormData) {
     const session = await getServerSession(authOptions);
-    if (!session || (session.user.role !== "ADMIN" && session.user.role !== "STAFF")) {
+    if (!session || !isAdminOrStaff(session.user.role)) {
         throw new Error("Unauthorized");
     }
 
@@ -161,7 +173,7 @@ import { prisma } from "@/api/db";
 
 export async function updateSiteSettingsAction(formData: FormData) {
     const session = await getServerSession(authOptions);
-    if (!session || session.user.role !== "ADMIN") {
+    if (!session || !isSuperAdmin(session.user.role)) {
         throw new Error("Unauthorized");
     }
 
@@ -194,7 +206,7 @@ export async function updateSiteSettingsAction(formData: FormData) {
 
 export async function updateUserRoleAction(userId: string, newRole: string, formData?: FormData) {
     const session = await getServerSession(authOptions);
-    if (!session || (session.user.role !== "ADMIN" && session.user.role !== "STAFF")) {
+    if (!session || !isAdminOrStaff(session.user.role)) {
         throw new Error("Unauthorized");
     }
 
@@ -418,5 +430,37 @@ export async function deleteNavigationItemAction(id: string) {
     } catch (e) {
         console.error("Delete nav item error", e);
         return { success: false, error: "Delete failed" };
+    }
+}
+
+export async function deleteUserAction(userId: string) {
+    const session = await getServerSession(authOptions);
+    if (!session || !isSuperAdmin(session.user.role)) {
+        throw new Error("Unauthorized: Only ADMIN can delete users");
+    }
+
+    if (session.user.id === userId) {
+        throw new Error("Cannot delete yourself");
+    }
+
+    try {
+        await prisma.user.delete({
+            where: { id: userId }
+        });
+
+        const { appendLog } = await import("@/api/logger");
+        await appendLog(
+            session.user.name || session.user.email || "Unknown User",
+            "删除用户记录",
+            userId,
+            `永久删除了用户帐号`,
+            "WRITE"
+        );
+
+        revalidatePath("/admin/users");
+        return { success: true };
+    } catch (e) {
+        console.error("Failed to delete user", e);
+        return { success: false, error: 'Database error or user not found' };
     }
 }
