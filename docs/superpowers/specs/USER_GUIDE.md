@@ -1,14 +1,14 @@
 # 📖 暹罗御藏 (Siam Treasures) 运营操作手册
 
-> **最后更新**: 2026-03-15
-> **适用版本**: Next.js 16 + Cloudinary + SQLite (Prisma) + 极致性能加速版
+> **最后更新**: 2026-03-17  
+> **适用版本**: Next.js 16 + Cloudinary + SQLite (Prisma) + 局域网智能适配版  
 
 ---
 
 ## 🚀 一、启动与运行
 
 ### 日常启动
-在项目根目录找到 **`start-dev.bat`**，**双击即可**。脚本会自动清理残留端口并启动服务。
+在项目根目录找到 **`start-dev.bat`**，**双击即可**。该脚本集成了智能网络嗅探，会自动获取物理 IP 并配置环境变量，确保局域网（包括手机端）可直接访问。
 
 启动成功后，浏览器访问：
 - **前台商城**: `http://localhost:3000`
@@ -32,12 +32,13 @@ npm run dev
 
 | 角色 | 邮箱 | 默认密码 | 权限范围 |
 | :--- | :--- | :--- | :--- |
-| **超级管理员** | `super@siamtreasures.com` | `password123` | 全部权限：用户管理、系统配置、内容管理 |
-| **运营员工** | `staff@siamtreasures.com` | `password123` | 内容管理、订单处理 |
-| **VIP 批发商** | `vip@siamtreasures.com` | `password123` | 浏览批发专属价格、大宗下单 |
-| **普通用户** | `user@siamtreasures.com` | `password123` | 浏览商城、零售下单 |
+| **超级管理员** | `super@siamtreasures.com` | `password123` | 最高权限：用户/角色/系统配置/全站功能 |
+| **运营员工** | `staff@siamtreasures.com` | `password123` | 运营权限：圣物管理、文章编辑、订单处理 |
+| **VIP 批发商** | `vip@siamtreasures.com` | `password123` | 价格权限：可见批发价格、B2B 结账 |
+| **普通用户** | `user@siamtreasures.com` | `password123` | 常规权限：零售下单、基本购物 |
 
-> **重要**: 另有一个通过代码自动创建的管理员账号 `admin@siam.com`（密码为预设 hash，可能无法直接登录）。建议使用上方表格中的账号进行测试。如果表中的账号不存在，请在项目终端中执行：
+> **提示**: 后台还预设了一个 `admin@siam.com` / `admin123` 作为手动备用账户。
+> 若上述账户无法登录，请在终端执行 seed 脚本还原：
 > ```
 > npx tsx scripts/seedAccounts.ts
 > ```
@@ -203,4 +204,4 @@ node scripts/reupload-from-json.js
 
 ---
 
-*Siam Treasures Operation Manual - Generated 2026-03-14*
+*Siam Treasures Operation Manual - Updated 2026-03-17*
