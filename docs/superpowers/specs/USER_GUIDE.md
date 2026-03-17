@@ -28,18 +28,19 @@ npm run dev
 
 系统使用 **邮箱 + 密码** 登录，基于 NextAuth.js 认证。
 
-### 预置系统账户 (SSOT)
+### 预置测试账户
 
 | 角色 | 邮箱 | 默认密码 | 权限范围 |
 | :--- | :--- | :--- | :--- |
-| **超级管理员** | `super@siamtreasures.com` | `password123` | 最高权限：用户/角色管理、系统核心配置 |
-| **运营员工** | `staff@siamtreasures.com` | `password123` | 日常维护：圣物上架/编辑、文章资讯发布 |
-| **VIP 批发商** | `vip@siamtreasures.com` | `password123` | 批发特权：专属 B2B 价格、起订量限制浏览 |
-| **普通零售用户** | `user@siamtreasures.com` | `password123` | 零售购物：收藏、圣物详情浏览、个人订单管理 |
+| **超级管理员** | `super@siamtreasures.com` | `password123` | 全部权限：用户管理、系统配置、内容管理 |
+| **运营员工** | `staff@siamtreasures.com` | `password123` | 内容管理、订单处理 |
+| **VIP 批发商** | `vip@siamtreasures.com` | `password123` | 浏览批发专属价格、大宗下单 |
+| **普通用户** | `user@siamtreasures.com` | `password123` | 浏览商城、零售下单 |
 
-> **⚠️ 注意事项**: 
-> 1. 如果上述账号无法登录，请在终端执行 `npx tsx scripts/seedAccounts.ts` 重置演示数据。
-> 2. 后台所有对用户档案的「注销/删除」操作均具有审计追踪。
+> **重要**: 另有一个通过代码自动创建的管理员账号 `admin@siam.com`（密码为预设 hash，可能无法直接登录）。建议使用上方表格中的账号进行测试。如果表中的账号不存在，请在项目终端中执行：
+> ```
+> npx tsx scripts/seedAccounts.ts
+> ```
 
 ### 权限等级说明
 ```

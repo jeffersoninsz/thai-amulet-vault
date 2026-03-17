@@ -1,135 +1,86 @@
-# 🎯 暹罗御藏 (Siam Treasures) — 项目 SSOT
+# 🎯 暹罗御藏 (Siam Treasures) — 项目核心规约 (v4.0 Diamond Standard)
 
-> **Status**: Production Ready  
-> **最后更新**: 2026-03-17T10:20+08:00  
-> **规约**: 任何 AI Agent 接入本项目，必须首先读取本文件。
-
----
-
-## 1. 文档索引
-
-| 文档 | 路径 | 用途 |
-|:-----|:-----|:-----|
-| **PROJECT.md** | `./PROJECT.md` (本文件) | 项目总纲、技术栈、账户、防失忆规约 |
-| **README.md** | `./README.md` | 快速启动、目录结构 |
-| **PRD.md** | `./docs/superpowers/specs/PRD.md` | 产品需求定义 |
-| **TDD.md** | `./docs/superpowers/specs/TDD.md` | 技术设计文档 |
-| **ARCHITECTURE.md** | `./docs/superpowers/specs/ARCHITECTURE.md` | 系统架构拓扑 |
-| **USER_GUIDE.md** | `./docs/superpowers/specs/USER_GUIDE.md` | 运营操作手册 |
+> **SSOT 声明**: 本文件为项全周期唯一事实来源 (Single Source of Truth)。任何 AI 智能体或开发者进入本项目，必须首先阅读并完全遵守本规约。
+> **最后更新**: 2026-03-17  |  **状态**: 生产运行中 (Production Active)
 
 ---
 
-## 2. 核心功能
+## 🔐 账户与认证体系 (Authentication & Credentials)
 
-| 功能模块 | 说明 |
-|:---------|:-----|
-| **库存管理** | 佛牌 CRUD、分类、价格、库存追踪、搜索过滤 |
-| **订单系统** | 购物车、结账、Stripe 支付（集成中）、订单追踪 |
-| **用户管理** | 三级 RBAC（SUPER_ADMIN / ADMIN / STAFF）、信众档案、账号注销 |
-| **MediaVault 图库** | 每产品最多 5 张图片/视频、后台可视化网格管理、Cloudinary 上传、首张自动设主图 |
-| **动态 Banner** | 后台 Storefront 面板 PC/Mobile 独立上传、类型选择器（图片/视频/HTML·SVG）、实时预览 |
-| **产品 Gallery** | 前端 Swiper 接入真实 MediaVault 数据、支持图片+视频混合展示 |
-| **CRO 营销** | 虚假订单模拟、虚假访客计数器、营销 Pop-up 配置 |
-| **前端陈列 CMS** | Hero 大图块编辑、导航菜单管理、Banner 广告管理 |
-| **系统监控** | 操作日志审计、性能面板（Recharts 图表） |
+这是项目最核心的安全资产信息。请勿随意更改，如需重置请使用 `npx tsx scripts/seedAccounts.ts`。
 
----
+### 1. 管理后台账户 (`/admin`)
+用于管理库存、订单、媒体库及营销配置。
 
-## 3. 技术栈
+| 角色 | 登录邮箱 | 初始密码 | 来源/说明 |
+|:--- |:--- |:--- |:--- |
+| **SUPER_ADMIN** | `super@siamtreasures.com` | `password123` | 系统预置 (Seed)，拥有全量权限 |
+| **ADMIN** | `admin@siam.com` | `admin123` | **常用开发/测试账号** (手动创建) |
+| **STAFF** | `staff@siamtreasures.com` | `password123` | 运营账号，限编辑权限 |
 
-| 层级 | 技术 | 版本 | 备注 |
-|:-----|:-----|:-----|:-----|
-| 框架 | Next.js (App Router) | 16.1.6 | Server Actions |
-| 前端 | React | 19.2.3 | Server + Client Components |
-| UI | Tailwind CSS | v4 | 自定义黑金主题 |
-| 动画 | Framer Motion | 12.x | 页面过渡与微交互 |
-| 图标 | Lucide React | 0.575.0 | — |
-| 轮播 | Swiper | 11.x | 产品 Gallery |
-| 数据库 | SQLite | — | `prisma/dev.db` |
-| ORM | Prisma | 5.22.0 | `prisma/schema.prisma` |
-| 认证 | NextAuth.js v4 | 4.24.13 | JWT + Credentials (bcrypt) |
-| 图床 | Cloudinary | — | `next-cloudinary` v6.17.5 |
-| 支付 | Stripe | 20.4.0 | 集成中 |
-| 图表 | Recharts | 3.7.0 | 后台数据面板 |
-| 通知 | react-hot-toast | 2.6.0 | 全局 Toast |
+### 2. 前台客户账户 (`/login`)
+用于 C 端购买、订单追踪及 VIP 批发。
+
+| 角色 | 登录邮箱 | 初始密码 | 说明 |
+|:--- |:--- |:--- |:--- |
+| **VIP_USER** | `vip@siamtreasures.com` | `password123` | 批发商/大客户，享受专属折扣 |
+| **USER** | `user@siamtreasures.com` | `password123` | 普通信众/个人买家 |
+| **WHOLESALE**| `customer@siamtreasures.com`| `password123` | 备用批发测试账号 |
 
 ---
 
-## 4. 环境变量
+## 🚀 生产运维手册 (Vercel & Production)
 
-```env
-# .env.local
-DATABASE_URL="file:./dev.db"
-NEXTAUTH_SECRET="your_secret_key"
-NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="dsvgbvi4y"
-NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET="siam_amulet_preset"
-CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
-```
+### 常用 Vercel 指令
+若生产环境配置未生效，请按顺序执行以下检查：
 
----
-
-## 5. 系统账户（数据库实际状态）
-
-### 管理员账号（可登录后台 `/admin`）
-
-| 角色 | 邮箱 | 密码 | 来源 |
-|:-----|:-----|:-----|:-----|
-| **ADMIN** | `admin@siam.com` | `admin123` | 手动创建 |
-| **SUPER_ADMIN** | `super@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
-| **STAFF** | `staff@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
-
-### 前台用户账号
-
-| 角色 | 邮箱 | 密码 | 来源 |
-|:-----|:-----|:-----|:-----|
-| **VIP_USER** | `vip@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
-| **USER** | `user@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
-| **WHOLESALE** | `customer@siamtreasures.com` | `password123` | `scripts/seedAccounts.ts` |
-
-> **重置账户**: 运行 `npx tsx scripts/seedAccounts.ts` 可恢复 seed 账户。  
-> **认证机制**: NextAuth.js Credentials Provider + bcrypt 密码哈希 + JWT Session。  
-> **RBAC 权限**: `SUPER_ADMIN` / `ADMIN` / `STAFF` 可访问后台，其余角色仅限前台。
+1. **环境同步**: `vercel env pull .env.prod --environment production` (拉取生产环境变量)
+2. **强制部署**: `vercel --prod` (直接推送到生产分支，跳过预览)
+3. **日志监控**: `vercel logs siam-treasures.com` (查看实时生产报错)
+4. **重新部署**: 若代码修改后网站未变化，请确保执行了 `git push` 或 `vercel --prod`。
 
 ---
 
-## 6. 关键 API 路由
+## 🛠️ 技术栈与架构 (Tech Stack)
 
-| 路由 | 方法 | 说明 |
-|:-----|:-----|:-----|
-| `/api/admin/media` | GET/POST/DELETE | MediaVault CRUD（产品多图管理） |
-| `/api/admin/settings/config` | GET/POST | SiteConfig 配置读写（含 Banner） |
-| `/api/admin/settings/site` | GET/POST | 站点参数读写 |
-| `/api/admin/amulets` | GET/POST/PUT/DELETE | 佛牌产品 CRUD |
-| `/api/auth/[...nextauth]` | — | NextAuth 认证端点 |
-
----
-
-## 7. 排雷记录
-
-| 问题 | 解决方案 | 日期 |
-|:-----|:---------|:-----|
-| Cloudinary 图片加载失败 | `next.config.ts` 设置 `images.unoptimized: true` | 03-14 |
-| BAT 脚本秒退 | 重写为纯英文脚本 | 03-14 |
-| 图片上传无反馈 | `AdminClient.tsx` 添加 try-catch + toast | 03-14 |
-| Next.js Image 400 | 全量迁移至 Cloudinary | 03-13 |
-| 页面跳转缓慢 | SiteConfig 内存缓存 + Promise.all 并行化 | 03-15 |
-| 用户删除功能缺失 | 后端 Actions + UI 全链路注销逻辑 | 03-15 |
-| RBAC 不识别 SUPER_ADMIN | `isAdminOrStaff()` 统一 6 处角色校验 | 03-17 |
-| 移动端无访客计数器 | 移除 `hidden md:block`，改为响应式 fixed 定位 | 03-17 |
-| 虚假订单设置重复 | 移除 Config 端重复区块，统一至 CRO 营销页 | 03-17 |
-| Prisma generate EPERM | 先停 Node 进程再 `prisma generate` | 03-17 |
+| 维度 | 组件 | 备注 |
+|:--- |:--- |:--- |
+| **核心框架** | Next.js 16.x (App Router) | 高度依赖 Server Actions |
+| **数据库** | PostgreSQL (Neon.tech) | 生产环境；本地开发使用 SQLite |
+| **ORM** | Prisma 5.22.0 | 每次 Schema 变更后需执行 `prisma generate` |
+| **认证组件** | NextAuth.js v4 | JWT 策略 + Credentials Provider |
+| **样式/UI** | Tailwind CSS v4 + Lucide Icons | 自定义黑金视觉系统 |
+| **媒体存储** | Cloudinary | `NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME="dsvgbvi4y"` |
 
 ---
 
-## 8. AI Agent 执行规约
+## 📈 CRO 营销配置说明
 
-1. **读取优先**: 接入项目前必须先读本文件，理解技术栈和账户体系。
-2. **缓存同步**: 修改 `SiteConfig` 后需调用 `clearSiteConfigCache()` 或等 TTL 过期。
-3. **路径锁定**: 严禁在根目录创建临时文件，诊断工具写入 `scripts/` 目录。
-4. **Prisma 注意**: Windows 环境下 `prisma generate` 前必须停止 dev server。
-5. **Git 规范**: 重大变更后必须 `git push origin main --force` 保持 SSOT 同步。
-6. **编码强制**: 所有 Python 脚本输出中文必须加 UTF-8 流重置补丁。
+在后台 **Storefront** 面板中，可动态控制以下功能：
+
+- **访客计数器 (Live Views)**:
+  - **开关**: `fakeViewsEnabled` (必须为 TRUE 才会显示)
+  - **位置**: 移动端右下角 (`fixed bottom-20`), PC 端右下角。
+- **虚拟订单弹窗 (Fake Orders)**:
+  - **频率**: 可调间隔 (30s - 120s)。
+  - **数据**: 使用系统预设城市与昵称。
 
 ---
 
-*SSOT Last Updated: 2026-03-17T10:20+08:00*
+## 📜 关键变更日志 (Audit Log)
+
+| 日期 | 变更内容 | 状态 |
+|:--- |:--- |:--- |
+| 03-17 | **修复移动端访客计数器**: 提升 z-index 至 9999，动态间距避让底部按钮。 | ✅ 已上线 |
+| 03-17 | **权限修复**: 解决 SUPER_ADMIN 不被 `isAdminOrStaff` 识别的逻辑漏洞。 | ✅ 已完成 |
+| 03-17 | **系统规约重构**: 重写 `PROJECT.md` 账户与运维章节，统一 SSOT。 | ✅ 最新 |
+
+---
+
+## ⚠️ 开发者红线
+1. 修改 `SiteConfig` 后，由于有内存缓存，可能需要等待 60s 或手动清除。
+2. Windows 下执行 `npx prisma generate` 必须先关闭 `npm run dev` 所在的终端，否则会报 `EPERM`。
+3. **强制合并主分支**: 任何修复完成后，必须执行 `git push origin main --force` 确保本地与 GitHub、Vercel 三方对齐。
+
+---
+*Last Validated: 2026-03-17 11:30*

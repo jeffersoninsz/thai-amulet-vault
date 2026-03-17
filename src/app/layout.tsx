@@ -67,7 +67,7 @@ export default async function RootLayout({
               />
               <FakeOrderToast
                 amulets={simplifiedAmulets}
-                enabled={marketingConfig.fakeSalesEnabled}
+                enabled={marketingConfig.fakePopupsEnabled}
                 minInterval={marketingConfig.popupIntervalMin}
                 maxInterval={marketingConfig.popupIntervalMax}
                 customCities={marketingConfig.fakeSalesCities}
@@ -76,8 +76,8 @@ export default async function RootLayout({
               <div className="fixed bottom-20 right-4 md:bottom-6 md:right-6 z-[9999]">
                 <VisitorCounter
                   enabled={marketingConfig.fakeViewsEnabled}
-                  baseCount={marketingConfig.baseViews}
-                  incrementRate={marketingConfig.viewIncreaseRate}
+                  baseCount={marketingConfig.baseVisitorCount}
+                  incrementRate={marketingConfig.visitorIncrementRate}
                   tickInterval={marketingConfig.visitorTickInterval}
                 />
               </div>
