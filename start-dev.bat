@@ -1,16 +1,30 @@
 @echo off
+setlocal enabledelayedexpansion
 cd /d "%~dp0"
 
-echo [1/2] Checking for processes on port 3000...
+echo ======================================================
+echo          Siam Treasures - Dev Server Tool
+echo ======================================================
+
+echo [1/3] Checking for processes on port 3000...
 for /f "tokens=5" %%a in ('netstat -aon ^| findstr ":3000" ^| findstr "LISTENING"') do (
-    echo Killing PID %%a
+    echo Killing existing process on port 3000 (PID: %%a)...
     taskkill /f /pid %%a >nul 2>&1
 )
 
-echo.
-echo [2/2] Starting Next.js Dev Server...
-call npm run dev
+echo [2/3] Detecting Local network IP...
+for /f "tokens=*" %%i in ('python scripts/get_ip.py') do set LOCAL_IP=%%i
+
+if "%LOCAL_IP%"=="" set LOCAL_IP=127.0.0.1
 
 echo.
-echo Script finished. Press any key to exit.
+echo ------------------------------------------------------
+echo  - Local:   http://localhost:3000
+echo  - Network: http://%LOCAL_IP%:3000
+echo ------------------------------------------------------
+echo.
+
+echo [3/3] Starting Next.js Dev Server...
+call npm run dev
+
 pause
