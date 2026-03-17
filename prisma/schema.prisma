@@ -343,6 +343,11 @@ model SiteConfig {
   isStripeEnabled Boolean @default(true)
   isOfferEnabled   Boolean @default(true)
 
+  // Banner Management (Dynamic PC + Mobile)
+  bannerPcUrl    String @default("/images/banner_pc.png")
+  bannerMobUrl   String @default("/images/banner_mob.png")
+  bannerType     String @default("IMAGE")  // IMAGE | VIDEO | HTML
+
   updatedAt   DateTime @updatedAt
 }
 

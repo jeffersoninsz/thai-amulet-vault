@@ -23,6 +23,12 @@ export default async function Home() {
   let heroBanner = "/images/bg-gold.webp";
 
   const cAny = config as any;
+
+  // Banner 动态配置（从 SiteConfig 读取）
+  const bannerPcUrl = (cAny?.bannerPcUrl as string) || "/images/banner_pc.png";
+  const bannerMobUrl = (cAny?.bannerMobUrl as string) || "/images/banner_mob.png";
+  const bannerType = (cAny?.bannerType as string) || "IMAGE";
+
   if (cAny?.heroConfig) {
     try {
       const parsed = JSON.parse(cAny.heroConfig);
@@ -53,24 +59,40 @@ export default async function Home() {
 
             {/* 1. PC端长条海报预留位 (MD屏幕及以上显示，默认隐藏) */}
             <div className="hidden md:block w-full h-[400px] lg:h-[600px] xl:h-[700px] relative">
-              <Image
-                src="/images/banner_pc.png"
-                alt="PC 节日/活动海报"
-                fill
-                priority
-                className="object-cover transition-transform duration-[2s] group-hover:scale-[1.03]"
-              />
+              {bannerType === "VIDEO" ? (
+                <video
+                  src={bannerPcUrl}
+                  autoPlay muted loop playsInline
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-[1.03]"
+                />
+              ) : (
+                <Image
+                  src={bannerPcUrl}
+                  alt="PC 节日/活动海报"
+                  fill
+                  priority
+                  className="object-cover transition-transform duration-[2s] group-hover:scale-[1.03]"
+                />
+              )}
             </div>
 
             {/* 2. 无线端竖排海报预留位 (默认显示，MD屏幕及以上隐藏) */}
             <div className="block md:hidden w-full h-[550px] sm:h-[600px] relative">
-              <Image
-                src="/images/banner_mob.png"
-                alt="Mobile 节日/活动海报"
-                fill
-                priority
-                className="object-cover transition-transform duration-[2s] group-hover:scale-[1.03]"
-              />
+              {bannerType === "VIDEO" ? (
+                <video
+                  src={bannerMobUrl}
+                  autoPlay muted loop playsInline
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-[1.03]"
+                />
+              ) : (
+                <Image
+                  src={bannerMobUrl}
+                  alt="Mobile 节日/活动海报"
+                  fill
+                  priority
+                  className="object-cover transition-transform duration-[2s] group-hover:scale-[1.03]"
+                />
+              )}
             </div>
 
             {/* 3. 海报覆盖层文本 (Desktop Only) */}

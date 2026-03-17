@@ -4,6 +4,7 @@ import { Amulet } from "@/types/amulet";
 import { useState, useTransition } from "react";
 import { updateAmuletAction, createAmuletAction, deleteAmuletAction } from "@/app/actions";
 import { CloudinaryUploader } from "@/components/admin/CloudinaryUploader";
+import { MediaGalleryManager } from "@/components/admin/MediaGalleryManager";
 import Image from "next/image";
 import { toast } from "react-hot-toast";
 
@@ -374,7 +375,12 @@ function RenderEditForm({
           <CloudinaryUploader 
             currentImageUrl={currentImgUrl}
             onUploadSuccess={handleFileUpload}
-            label="佛牌高清实拍图"
+            label="佛牌高清实拍图（主图）"
+          />
+          {/* Multi-media Gallery Manager */}
+          <MediaGalleryManager
+            amuletId={amulet.id}
+            onPrimaryChange={handleFileUpload}
           />
         </div>
 

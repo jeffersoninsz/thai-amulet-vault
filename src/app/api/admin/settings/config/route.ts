@@ -32,6 +32,10 @@ export async function POST(req: Request) {
                 announcementBarEn: data.announcementBarEn || null,
                 isStripeEnabled: Boolean(data.isStripeEnabled),
                 isOfferEnabled: Boolean(data.isOfferEnabled),
+                // Banner Management
+                ...(data.bannerPcUrl !== undefined && { bannerPcUrl: data.bannerPcUrl }),
+                ...(data.bannerMobUrl !== undefined && { bannerMobUrl: data.bannerMobUrl }),
+                ...(data.bannerType !== undefined && { bannerType: data.bannerType }),
             }
         });
 

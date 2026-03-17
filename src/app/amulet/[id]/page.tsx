@@ -1,4 +1,4 @@
-import { getAmulets, getAmuletById, getAdminReviewComments } from "@/api/db";
+import { getAmulets, getAmuletById, getAdminReviewComments, prisma } from "@/api/db";
 import { Metadata } from "next";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
@@ -62,6 +62,18 @@ export default async function AmuletDetailPage({
   const userRole = session?.user?.role || "CUSTOMER";
   const adminComments = await getAdminReviewComments();
 
+  // Query MediaVault for this product
+  let mediaItems: { id: string; url: string; mediaType: string }[] = [];
+  try {
+    mediaItems = await prisma.mediaVault.findMany({
+      where: { amuletId: id },
+      orderBy: { createdAt: "asc" },
+      select: { id: true, url: true, mediaType: true },
+    });
+  } catch (e) {
+    // MediaVault query fails silently - fallback to single imageUrl
+  }
+
   if (!amulet) {
     return (
       <div className="min-h-screen flex flex-col bg-[#0d0c0b] text-[#c4a265]">
@@ -98,7 +110,7 @@ export default async function AmuletDetailPage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <AmuletDetailClient amulet={amulet} userRole={userRole} adminComments={adminComments} />
+      <AmuletDetailClient amulet={amulet} userRole={userRole} adminComments={adminComments} media={mediaItems} />
     </>
   );
 }

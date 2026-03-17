@@ -41,6 +41,13 @@ export default async function AdminStorefrontConfigPage() {
         } catch (e) { }
     }
 
+    // Banner 动态配置
+    const bannerConfig = {
+        bannerPcUrl: (cAny?.bannerPcUrl as string) || "/images/banner_pc.png",
+        bannerMobUrl: (cAny?.bannerMobUrl as string) || "/images/banner_mob.png",
+        bannerType: (cAny?.bannerType as string) || "IMAGE",
+    };
+
     return (
         <div className="p-8 animate-in fade-in zoom-in-95 duration-500">
             <div className="mb-8 border-b border-[#c4a265]/20 pb-6">
@@ -53,7 +60,7 @@ export default async function AdminStorefrontConfigPage() {
                 </p>
             </div>
 
-            <StorefrontEditorClient initialHero={heroConfig} />
+            <StorefrontEditorClient initialHero={heroConfig} initialBanner={bannerConfig} />
         </div>
     );
 }

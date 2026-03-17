@@ -24,18 +24,15 @@ import Image from "next/image";
 
 import { useRouter } from "next/navigation";
 
-export default function AmuletDetailClient({ amulet, userRole, adminComments }: { amulet: Amulet, userRole?: string, adminComments?: any[] }) {
+export default function AmuletDetailClient({ amulet, userRole, adminComments, media }: { amulet: Amulet, userRole?: string, adminComments?: any[], media?: { id: string; url: string; mediaType: string }[] }) {
   const { lang, t } = useLanguage();
   const { addToCart } = useCart();
   const router = useRouter();
 
-  // Create an array of up to 5 images, using the primary image as the first, and duplicating or adding placeholders for demo purposes 
-  // since the db schema currently only holds one main imageUrl per Amulet. In production, this would use amulet.images[]
-  const amuletImages = [
-    amulet.imageUrl,
-    amulet.imageUrl.replace('.webp', '-2.webp').replace('.png', '-2.png'), // simulated 2nd image
-    amulet.imageUrl.replace('.webp', '-3.webp').replace('.png', '-3.png'), // simulated 3rd image
-  ].filter(Boolean);
+  // Use real MediaVault data if available, otherwise fall back to primary imageUrl
+  const amuletMedia = (media && media.length > 0)
+    ? media
+    : [{ id: "primary", url: amulet.imageUrl, mediaType: "IMAGE" }];
 
   return (
     <main className="min-h-screen bg-[#0d0c0b] text-[#d4c5b0] pb-24">
@@ -51,15 +48,23 @@ export default function AmuletDetailClient({ amulet, userRole, adminComments }: 
             modules={[Pagination, Navigation]}
             className="w-full h-full amulet-swiper"
           >
-            {amuletImages.map((img, idx) => (
-              <SwiperSlide key={idx} className="bg-[#1a1814] flex items-center justify-center relative min-h-[400px] md:min-h-[600px]">
-                <Image
-                  src={img || "/images/placeholder-amulet.png"}
-                  alt={lang === "zh" ? `${amulet.nameZh} / 细节图 ${idx + 1}` : `${amulet.nameEn} / Detail ${idx + 1}`}
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-contain md:object-cover aspect-square md:aspect-auto hover:scale-105 transition-transform duration-[1.5s] ease-out"
-                />
+            {amuletMedia.map((item, idx) => (
+              <SwiperSlide key={item.id} className="bg-[#1a1814] flex items-center justify-center relative min-h-[400px] md:min-h-[600px]">
+                {item.mediaType === "VIDEO" ? (
+                  <video
+                    src={item.url}
+                    autoPlay muted loop playsInline
+                    className="absolute inset-0 w-full h-full object-contain md:object-cover"
+                  />
+                ) : (
+                  <Image
+                    src={item.url || "/images/placeholder-amulet.png"}
+                    alt={lang === "zh" ? `${amulet.nameZh} / 细节图 ${idx + 1}` : `${amulet.nameEn} / Detail ${idx + 1}`}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    className="object-contain md:object-cover aspect-square md:aspect-auto hover:scale-105 transition-transform duration-[1.5s] ease-out"
+                  />
+                )}
               </SwiperSlide>
             ))}
           </Swiper>
