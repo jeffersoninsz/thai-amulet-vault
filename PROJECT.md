@@ -23,8 +23,10 @@
 ## 1.5. 核心功能 (Core Features)
 
 - **管理员控制台**: 实时库存管理、订单追踪、信众档案管理（支持角色调整与帐号注销）、系统日志审计、性能监控与自动化维护。
+- **MediaVault 媒体图库**: 每产品支持最多 5 张图片/视频，后台可视化网格管理，Cloudinary 上传，首张自动设为主图。API 路由 `api/admin/media`。
+- **动态 Banner 管理**: 后台 Storefront 面板支持 PC/Mobile 独立 Banner 上传，类型选择器（静态图片/视频循环/HTML·SVG），实时预览。首页 `page.tsx` 根据 `bannerType` 动态渲染。
+- **产品详情 Gallery**: `AmuletDetailClient` Swiper 接入真实 MediaVault 数据，支持图片和视频混合展示。
 
----
 
 ## 2. 技术栈锁定 (Tech Stack - Ground Truth)
 
@@ -89,6 +91,8 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 | 后台图片上传保存失败 | `actions.ts` RBAC 只检查 `ADMIN`/`STAFF`，不识别 `SUPER_ADMIN` | 新增 `isAdminOrStaff()` 辅助函数统一 6 处角色校验 + hidden input 添加 `key` 强制同步 | 2026-03-17 |
 | 移动端无访客计数器 | `layout.tsx` 中 `hidden md:block` 导致 `<768px` 设备隐藏 | 移除 `hidden md:block`，改为 `fixed bottom-4 right-4 md:bottom-6 md:right-6 z-40` | 2026-03-17 |
 | 虚假订单/访客设置后台重复 | `SiteSettingsForm` 和 `MarketingEditorClient` 各有一套 | 移除 Config 端重复区块，统一至 CRO 营销页面管理 | 2026-03-17 |
+| Prisma generate EPERM | dev server 锁定 `query_engine-windows.dll.node` | 先 `Stop-Process` 停 Node 进程再 `prisma generate` | 2026-03-17 |
+| Playwright EOF 浏览器崩溃 | Antigravity Browser 组件 EOF 导致 `open_browser_url` 失败 | 重启 IDE 环境后恢复 | 2026-03-17 |
 
 ---
 
@@ -98,6 +102,7 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 2. **强制精简**: 严禁在根目录创建 `test.php`, `tmp.txt` 等临时文件。所有诊断应写为 `scripts/` 下的标准化工具。
 3. **维护脚本**: 任何重大变更后，应运行 `python scripts/maintain.py` 进行健康检查。
 4. **Git 准则**: 确保每次重大优化后都强制推送到 GitHub 以保证 SSOT 同步。
+5. **Prisma 注意**: 执行 `prisma generate` 前必须确保 dev server 已停止，否则 Windows 上会出现 EPERM。
 
 ---
-*SSOT Last Updated: 2026-03-17T09:05+08:00 (Mobile VisitorCounter + Marketing Settings Dedup)*
+*SSOT Last Updated: 2026-03-17T10:10+08:00 (Phase B: MediaVault + Gallery + Dynamic Banner)*
