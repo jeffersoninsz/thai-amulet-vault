@@ -5,34 +5,46 @@ import io
 # 强制 UTF-8 输出
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
-def get_local_ip():
+def get_real_local_ip():
+    """
+    通过模拟连接外部地址，让操作系统根据路由表自动选出最合适的物理网卡 IP。
+    这能有效穿透 Clash、VMware 等虚拟网卡。
+    """
     try:
-        # 获取所有可能的 IPv4 地址
-        hostname = socket.gethostname()
-        _, _, ip_list = socket.gethostbyname_ex(hostname)
+        # 使用 UDP 协议，不需要实际联网，只需 OS 路由表生效即可
+        s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+        s.settimeout(0.5)
+        # 这里使用一个公网地址（无需真正连接成功）
+        s.connect(('8.8.8.8', 80))
+        ip = s.getsockname()[0]
+        s.close()
         
-        # 定义局域网常见私有网段
-        lan_prefixes = ('192.168.', '10.', '172.16.', '172.17.', '172.18.', '172.19.', '172.20.', '172.21.', '172.22.', '172.23.', '172.24.', '172.25.', '172.26.', '172.27.', '172.28.', '172.29.', '172.30.', '172.31.')
-        # 需要排除的网段（Clash 常用 198.18, 还有环回地址 127）
-        exclude_prefixes = ('127.', '198.18.', '169.254.')
-        
-        suitable_ips = []
-        for ip in ip_list:
-            if any(ip.startswith(pre) for pre in lan_prefixes):
-                suitable_ips.append(ip)
-        
-        # 如果找到了私有网段 IP，返回第一个（通常是真正的物理网卡）
-        if suitable_ips:
-            return suitable_ips[0]
+        # 最后的防守：如果返回的是 Clash 常见的 198.18 网段，尝试回退到 hostname 查找
+        if ip.startswith('198.18.'):
+            raise Exception("Clash tunnel detected")
             
-        # 如果没找到标准私有网段，但有非排除网段的 IP，也作为备选
-        other_ips = [ip for ip in ip_list if not any(ip.startswith(pre) for pre in exclude_prefixes)]
-        if other_ips:
-            return other_ips[0]
-            
-        return "127.0.0.1"
+        return ip
     except Exception:
-        return "127.0.0.1"
+        try:
+            # 回退方案：获取主机名对应的所有 IP
+            hostname = socket.gethostname()
+            _, _, ips = socket.gethostbyname_ex(hostname)
+            
+            # 过滤排除名单
+            excludes = ('127.', '198.18.', '169.254.')
+            # 优先选择常用局域网段
+            lan_prefixes = ('192.168.', '10.', '172.16.')
+            
+            suitable = [ip for ip in ips if not any(ip.startswith(ex) for ex in excludes)]
+            
+            # 筛选私有网段
+            lan_only = [ip for ip in suitable if any(ip.startswith(lan) for lan in lan_prefixes)]
+            
+            if lan_only: return lan_only[0]
+            if suitable: return suitable[0]
+            return "127.0.0.1"
+        except:
+            return "127.0.0.1"
 
 if __name__ == "__main__":
-    print(get_local_ip())
+    print(get_real_local_ip())

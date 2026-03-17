@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 >nul
 setlocal enabledelayedexpansion
 cd /d "%~dp0"
 
@@ -6,16 +7,15 @@ echo ========================================================
 echo  🚀 Siam Treasures 正在启动 (幻X 2025 专属优化版)
 echo ========================================================
 
-echo [1/3] Checking for processes on port 3000...
+echo [1/3] 正在检查端口 3000 是否被占用...
 for /f "tokens=5" %%a in ('netstat -aon ^| findstr ":3000" ^| findstr "LISTENING"') do (
-    echo Killing existing process on port 3000 (PID: %%a)...
+    echo 正在清理端口 3000 上的旧进程 (PID: %%a)...
     taskkill /f /pid %%a >nul 2>&1
 )
 
-echo [2/3] Detecting Local network IP...
+echo [2/3] 智能检测局域网访问地址...
+set LOCAL_IP=127.0.0.1
 for /f "tokens=*" %%i in ('python scripts/get_ip.py') do set LOCAL_IP=%%i
-
-if "%LOCAL_IP%"=="" set LOCAL_IP=127.0.0.1
 
 echo ========================================================
 echo  📌 你自己的本机访问: http://127.0.0.1:3000
@@ -27,7 +27,7 @@ echo  - 无论路由器如何分配 IP，上方的局域网地址都会保持最
 echo ========================================================
 echo.
 
-echo [3/3] Starting Next.js Dev Server...
+echo [3/3] 正在启动 Next.js 开发服务器...
 call npm run dev
 
 pause
