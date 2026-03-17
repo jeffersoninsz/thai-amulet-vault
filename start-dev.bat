@@ -14,8 +14,10 @@ for /f "tokens=5" %%a in ('netstat -aon ^| findstr ":3000" ^| findstr "LISTENING
 )
 
 echo [2/3] 智能检测局域网访问地址...
-set LOCAL_IP=127.0.0.1
-for /f "tokens=*" %%i in ('python scripts/get_ip.py') do set LOCAL_IP=%%i
+set "LOCAL_IP=127.0.0.1"
+for /f "usebackq tokens=*" %%A in (`powershell -NoProfile -Command "(Get-NetAdapter | Where-Object { $_.Status -eq 'Up' -and $_.InterfaceDescription -notmatch 'Virtual|VMware|Wintun|Meta|Clash|TAP|Tunnel|Bluetooth' } | Get-NetIPAddress -AddressFamily IPv4 | Select-Object -First 1).IPAddress"`) do (
+    set "LOCAL_IP=%%A"
+)
 
 echo ========================================================
 echo  📌 你自己的本机访问: http://127.0.0.1:3000
