@@ -1,7 +1,7 @@
 # 🎯 暹罗御藏 (Siam Treasures) — 项目 SSOT
 
 > **Status**: Production Ready  
-> **最后更新**: 2026-03-17T10:20+08:00  
+> **最后更新**: 2026-03-17T12:00+08:00  
 > **规约**: 任何 AI Agent 接入本项目，必须首先读取本文件。
 
 ---
@@ -26,7 +26,7 @@
 | **库存管理** | 佛牌 CRUD、分类、价格、库存追踪、搜索过滤 |
 | **订单系统** | 购物车、结账、Stripe 支付（集成中）、订单追踪 |
 | **用户管理** | 三级 RBAC（SUPER_ADMIN / ADMIN / STAFF）、信众档案、账号注销 |
-| **MediaVault 图库** | 每产品最多 5 张图片/视频、后台可视化网格管理、Cloudinary 上传、首张自动设主图 |
+| **MediaVault 图库** | 每产品最多 5 张图片/视频、上下箭头拖拽排序、从 Cloudinary 图库选择已有图片、删除、上传新图片、首张自动设主图 |
 | **动态 Banner** | 后台 Storefront 面板 PC/Mobile 独立上传、类型选择器（图片/视频/HTML·SVG）、实时预览 |
 | **产品 Gallery** | 前端 Swiper 接入真实 MediaVault 数据、支持图片+视频混合展示 |
 | **CRO 营销** | 虚假订单模拟、虚假访客计数器、营销 Pop-up 配置 |
@@ -96,7 +96,7 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 
 | 路由 | 方法 | 说明 |
 |:-----|:-----|:-----|
-| `/api/admin/media` | GET/POST/DELETE | MediaVault CRUD（产品多图管理） |
+| `/api/admin/media` | GET/POST/PUT/DELETE | MediaVault CRUD + 排序（产品多图管理） |
 | `/api/admin/settings/config` | GET/POST | SiteConfig 配置读写（含 Banner） |
 | `/api/admin/settings/site` | GET/POST | 站点参数读写 |
 | `/api/admin/amulets` | GET/POST/PUT/DELETE | 佛牌产品 CRUD |
@@ -118,6 +118,8 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 | 移动端无访客计数器 | 移除 `hidden md:block`，改为响应式 fixed 定位 | 03-17 |
 | 虚假订单设置重复 | 移除 Config 端重复区块，统一至 CRO 营销页 | 03-17 |
 | Prisma generate EPERM | 先停 Node 进程再 `prisma generate` | 03-17 |
+| 图片上传功能失效 | MediaVault schema 加 `sortOrder` 字段，重写 API route（加 PUT 排序），重写 MediaGalleryManager 组件 | 03-17 |
+| DATABASE_URL 协议冲突 | `.env` 从 PostgreSQL Neon URL 改为 `file:./dev.db` 匹配 sqlite provider | 03-17 |
 
 ---
 
@@ -132,4 +134,4 @@ CLOUDINARY_URL="cloudinary://API_KEY:API_SECRET@dsvgbvi4y"
 
 ---
 
-*SSOT Last Updated: 2026-03-17T10:20+08:00*
+*SSOT Last Updated: 2026-03-17T12:00+08:00*
